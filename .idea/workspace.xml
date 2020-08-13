@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4673bead-c76e-4e42-9607-ce6d52a540fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README-all-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/README-all-list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,24 +12,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README-all-list.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="493">
-                <caret line="29" column="108" selection-start-line="29" selection-start-column="108" selection-end-line="29" selection-end-column="108" />
+              <first_editor relative-caret-position="34">
+                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret selection-end-line="1" selection-end-column="15" />
+              <first_editor relative-caret-position="17">
+                <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -59,6 +59,7 @@
       <find>C+</find>
       <find>[Rust](./src-all/Python</find>
       <find>S1498</find>
+      <find>leetcode-repo#</find>
     </findStrings>
     <replaceStrings>
       <replace>/Rust</replace>
@@ -66,6 +67,7 @@
       <replace>[Rust](./Rust</replace>
       <replace>ChingChuan-Chen/leetcode-repo</replace>
       <replace>[Rust](./src-all/Rust</replace>
+      <replace>leetcode-repo/blob/master/README-all-list.md#</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -101,9 +103,9 @@
         <option value="$PROJECT_DIR$/Python/S0008-string-to-integer-atoi.py" />
         <option value="$PROJECT_DIR$/Python/S0010-regular-expression-matching.py" />
         <option value="$PROJECT_DIR$/Python/S0011-container-with-most-water.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/README-2.md" />
         <option value="$PROJECT_DIR$/README-all-list.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -172,12 +174,12 @@
       <option name="presentableId" value="Default" />
       <updated>1597344149447</updated>
       <workItem from="1597344155795" duration="267000" />
-      <workItem from="1597346415555" duration="4905000" />
+      <workItem from="1597346415555" duration="5047000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5172000" />
+    <option name="totallyTimeSpent" value="5314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3847" y="-7" width="2575" height="1455" extended-state="6" />
@@ -429,16 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="1" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README-2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -452,8 +444,18 @@
     <entry file="file://$PROJECT_DIR$/README-all-list.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="493">
-            <caret line="29" column="108" selection-start-line="29" selection-start-column="108" selection-end-line="29" selection-end-column="108" />
+          <first_editor relative-caret-position="34">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>

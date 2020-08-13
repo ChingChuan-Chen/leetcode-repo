@@ -1,8 +1,14 @@
 LeetCode List
-===============
+=============
 
 This list will include the Top Interview Questions list.
 The full list please check [README-all-list.md](./README-all-list.md).
+
+## List
+
+* [Easy](https://github.com/ChingChuan-Chen/leetcode-repo#easy)
+* [Medium](https://github.com/ChingChuan-Chen/leetcode-repo#medium)
+* [Hard](https://github.com/ChingChuan-Chen/leetcode-repo#hard)
 
 #### Easy
 
