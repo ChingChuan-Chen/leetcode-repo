@@ -1,7 +1,8 @@
 LeetCode List
 ===============
 
-## Top Interview Questions
+This list will include the Top Interview Questions list.
+The full list please check [README-all-list.md](./README-all-list.md).
 
 #### Easy
 
