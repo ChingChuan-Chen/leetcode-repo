@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4673bead-c76e-4e42-9607-ce6d52a540fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README-all-list.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README-all-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/README-all-list.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,20 +16,8 @@
         <entry file="file://$PROJECT_DIR$/README-all-list.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="414">
-                <caret line="892" column="287" selection-start-line="892" selection-start-column="287" selection-end-line="892" selection-end-column="287" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README-2.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="187">
-                <caret line="11" column="50" selection-end-line="1528" />
+              <first_editor relative-caret-position="493">
+                <caret line="29" column="108" selection-start-line="29" selection-start-column="108" selection-end-line="29" selection-end-column="108" />
               </first_editor>
               <second_editor />
             </state>
@@ -72,6 +58,7 @@
       <find>C++</find>
       <find>C+</find>
       <find>[Rust](./src-all/Python</find>
+      <find>S1498</find>
     </findStrings>
     <replaceStrings>
       <replace>/Rust</replace>
@@ -185,12 +172,12 @@
       <option name="presentableId" value="Default" />
       <updated>1597344149447</updated>
       <workItem from="1597344155795" duration="267000" />
-      <workItem from="1597346415555" duration="4744000" />
+      <workItem from="1597346415555" duration="4905000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5011000" />
+    <option name="totallyTimeSpent" value="5172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3847" y="-7" width="2575" height="1455" extended-state="6" />
@@ -465,8 +452,8 @@
     <entry file="file://$PROJECT_DIR$/README-all-list.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="414">
-            <caret line="892" column="287" selection-start-line="892" selection-start-column="287" selection-end-line="892" selection-end-column="287" />
+          <first_editor relative-caret-position="493">
+            <caret line="29" column="108" selection-start-line="29" selection-start-column="108" selection-end-line="29" selection-end-column="108" />
           </first_editor>
           <second_editor />
         </state>
