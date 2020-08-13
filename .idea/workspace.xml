@@ -1,7 +1,309 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4673bead-c76e-4e42-9607-ce6d52a540fd" name="Default Changelist" comment="" />
+    <list default="true" id="4673bead-c76e-4e42-9607-ce6d52a540fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/3sum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/4sum-ii.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/add-two-numbers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/alien-dictionary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/best-time-to-buy-and-sell-stock-ii.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/best-time-to-buy-and-sell-stock-with-cooldown.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/best-time-to-buy-and-sell-stock.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/binary-tree-inorder-traversal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/binary-tree-level-order-traversal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/binary-tree-maximum-path-sum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/binary-tree-zigzag-level-order-traversal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/broken-calculator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/burst-balloons.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/climbing-stairs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/coin-change.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/construct-binary-tree-from-preorder-and-inorder-traversal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/container-with-most-water.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/contains-duplicate-iii.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/contains-duplicate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/convert-sorted-array-to-binary-search-tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/copy-list-with-random-pointer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/count-and-say.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/count-of-smaller-numbers-after-self.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/count-primes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/course-schedule-ii.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/course-schedule.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/decode-ways.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/delete-node-in-a-linked-list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/design-tic-tac-toe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/divide-two-integers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/evaluate-reverse-polish-notation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/excel-sheet-column-number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/factorial-trailing-zeroes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/find-median-from-data-stream.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/find-peak-element.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/find-the-celebrity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/find-the-duplicate-number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/first-bad-version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/first-missing-positive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/first-unique-character-in-a-string.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/fizz-buzz.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/flatten-2d-vector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/flatten-nested-list-iterator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/fraction-to-recurring-decimal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/friend-circles.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/game-of-life.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/generate-parentheses.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/group-anagrams.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/hamming-distance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/happy-number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/house-robber.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/implement-strstr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/implement-trie-prefix-tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/increasing-triplet-subsequence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/inorder-successor-in-bst.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/insert-delete-getrandom-o1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/intersection-of-two-arrays-ii.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/intersection-of-two-linked-lists.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/jump-game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/kth-largest-element-in-an-array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/kth-smallest-element-in-a-bst.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/kth-smallest-number-in-multiplication-table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/largest-number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/largest-rectangle-in-histogram.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/letter-combinations-of-a-phone-number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/linked-list-cycle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/longest-common-prefix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/longest-consecutive-sequence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/longest-increasing-path-in-a-matrix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/longest-increasing-subsequence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/longest-palindromic-substring.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/longest-substring-with-at-most-k-distinct-characters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/longest-substring-without-repeating-characters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/lowest-common-ancestor-of-a-binary-tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/lru-cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/majority-element.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/max-points-on-a-line.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/maximum-depth-of-binary-tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/maximum-product-subarray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/maximum-subarray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/median-of-two-sorted-arrays.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/meeting-rooms-ii.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/merge-intervals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/merge-k-sorted-lists.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/merge-sorted-array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/merge-two-sorted-lists.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/minimum-window-substring.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/missing-number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/missing-ranges.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/move-zeroes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/number-of-1-bits.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/odd-even-linked-list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/palindrome-linked-list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/palindrome-partitioning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/pascals-triangle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/perfect-squares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/permutations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/plus-one.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/populating-next-right-pointers-in-each-node.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/power-of-three.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/powx-n.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/product-of-array-except-self.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/queue-reconstruction-by-height.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/range-sum-query-2d-mutable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/regular-expression-matching.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/remove-duplicates-from-sorted-list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/remove-invalid-parentheses.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/remove-nth-node-from-end-of-list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/reverse-bits.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/reverse-integer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/reverse-linked-list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/reverse-string.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/reverse-words-in-a-string.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/roman-to-integer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/rotate-array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/rotate-image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/search-a-2d-matrix-ii.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/search-for-a-range.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/search-in-rotated-sorted-array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/serialize-and-deserialize-binary-tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/set-matrix-zeroes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/shuffle-an-array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/single-number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/sliding-window-maximum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/sort-colors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/sort-list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/spiral-matrix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/sqrtx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/string-to-integer-atoi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/subsets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/sum-of-two-integers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/surrounded-regions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/symmetric-tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/task-scheduler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/the-skyline-problem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/top-k-frequent-elements.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/trapping-rain-water.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/two-sum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/unique-paths.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/valid-anagram.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/valid-palindrome.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/valid-sudoku.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/validate-binary-search-tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/wiggle-sort-ii.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/wildcard-matching.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/word-break-ii.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/word-break.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/word-ladder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/word-search-ii.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/word-search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/3sum.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/4sum-ii.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/add-two-numbers.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/alien-dictionary.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/best-time-to-buy-and-sell-stock-ii.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/best-time-to-buy-and-sell-stock-with-cooldown.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/best-time-to-buy-and-sell-stock.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/binary-tree-inorder-traversal.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/binary-tree-level-order-traversal.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/binary-tree-maximum-path-sum.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/binary-tree-zigzag-level-order-traversal.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/broken-calculator.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/burst-balloons.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/climbing-stairs.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/coin-change.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/construct-binary-tree-from-preorder-and-inorder-traversal.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/container-with-most-water.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/contains-duplicate-iii.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/contains-duplicate.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/convert-sorted-array-to-binary-search-tree.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/copy-list-with-random-pointer.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/count-and-say.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/count-of-smaller-numbers-after-self.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/count-primes.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/course-schedule-ii.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/course-schedule.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/decode-ways.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/delete-node-in-a-linked-list.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/design-tic-tac-toe.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/divide-two-integers.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/evaluate-reverse-polish-notation.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/excel-sheet-column-number.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/factorial-trailing-zeroes.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/find-median-from-data-stream.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/find-peak-element.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/find-the-celebrity.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/find-the-duplicate-number.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/first-bad-version.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/first-missing-positive.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/first-unique-character-in-a-string.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/fizz-buzz.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/flatten-2d-vector.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/flatten-nested-list-iterator.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/fraction-to-recurring-decimal.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/friend-circles.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/game-of-life.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/generate-parentheses.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/group-anagrams.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/hamming-distance.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/happy-number.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/house-robber.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/implement-strstr.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/implement-trie-prefix-tree.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/increasing-triplet-subsequence.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/inorder-successor-in-bst.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/insert-delete-getrandom-o1.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/intersection-of-two-arrays-ii.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/intersection-of-two-linked-lists.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/jump-game.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/kth-largest-element-in-an-array.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/kth-smallest-element-in-a-bst.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/kth-smallest-number-in-multiplication-table.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/largest-number.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/largest-rectangle-in-histogram.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/letter-combinations-of-a-phone-number.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/linked-list-cycle.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/longest-common-prefix.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/longest-consecutive-sequence.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/longest-increasing-path-in-a-matrix.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/longest-increasing-subsequence.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/longest-palindromic-substring.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/longest-substring-with-at-most-k-distinct-characters.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/longest-substring-without-repeating-characters.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/lowest-common-ancestor-of-a-binary-tree.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/lru-cache.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/majority-element.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/max-points-on-a-line.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/maximum-depth-of-binary-tree.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/maximum-product-subarray.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/maximum-subarray.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/median-of-two-sorted-arrays.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/meeting-rooms-ii.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/merge-intervals.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/merge-k-sorted-lists.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/merge-sorted-array.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/merge-two-sorted-lists.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/minimum-window-substring.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/missing-number.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/missing-ranges.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/move-zeroes.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/number-of-1-bits.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/odd-even-linked-list.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/palindrome-linked-list.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/palindrome-partitioning.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/pascals-triangle.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/perfect-squares.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/plus-one.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/populating-next-right-pointers-in-each-node.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/power-of-three.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/powx-n.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/product-of-array-except-self.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/queue-reconstruction-by-height.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/range-sum-query-2d-mutable.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/regular-expression-matching.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/remove-duplicates-from-sorted-list.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/remove-invalid-parentheses.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/remove-nth-node-from-end-of-list.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/reverse-bits.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/reverse-integer.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/reverse-linked-list.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/reverse-string.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/reverse-words-in-a-string.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/roman-to-integer.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/rotate-array.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/rotate-image.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/search-a-2d-matrix-ii.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/search-for-a-range.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/search-in-rotated-sorted-array.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/serialize-and-deserialize-binary-tree.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/set-matrix-zeroes.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/shuffle-an-array.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/single-number.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/sliding-window-maximum.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/sort-colors.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/sort-list.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/spiral-matrix.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/sqrtx.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/string-to-integer-atoi.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/subsets.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/sum-of-two-integers.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/surrounded-regions.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/symmetric-tree.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/task-scheduler.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/the-skyline-problem.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/top-k-frequent-elements.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/trapping-rain-water.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/two-sum.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/valid-anagram.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/valid-palindrome.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/valid-sudoku.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/validate-binary-search-tree.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/wiggle-sort-ii.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/wildcard-matching.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/word-break-ii.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/word-break.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/word-ladder.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/word-search-ii.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rust/word-search.rs" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,14 +312,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="869">
-                <caret line="155" column="139" selection-start-line="155" selection-start-column="133" selection-end-line="155" selection-end-column="139" />
+              <first_editor relative-caret-position="380">
+                <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README-2.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="153">
+                <caret line="9" column="137" lean-forward="true" selection-start-line="9" selection-start-column="137" selection-end-line="9" selection-end-column="137" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python/S0011-container-with-most-water.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/S0005-longest-palindromic-substring.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/S0007-reverse-integer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/S0008-string-to-integer-atoi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1242">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/S0010-regular-expression-matching.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1242">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
             </state>
           </provider>
         </entry>
@@ -29,6 +388,17 @@
       <find>/C++</find>
       <find>.cpp</find>
       <find>[Rust](./Python</find>
+      <find>Two</find>
+      <find>Add Two</find>
+      <find>Longest substring</find>
+      <find>0004</find>
+      <find>0005</find>
+      <find>0007</find>
+      <find>0008</find>
+      <find>0010</find>
+      <find>0011</find>
+      <find>0014</find>
+      <find>0046</find>
     </findStrings>
     <replaceStrings>
       <replace>/Rust</replace>
@@ -36,10 +406,40 @@
       <replace>[Rust](./Rust</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Rust/two-sum.rs" />
+        <option value="$PROJECT_DIR$/Python/two-sum.py" />
+        <option value="$PROJECT_DIR$/Python/add-two-numbers.py" />
+        <option value="$PROJECT_DIR$/Rust/add-two-numbers.rs" />
+        <option value="$PROJECT_DIR$/Python/longest-substring-without-repeating-characters.py" />
+        <option value="$PROJECT_DIR$/Rust/longest-substring-without-repeating-characters.rs" />
+        <option value="$PROJECT_DIR$/Rust/median-of-two-sorted-arrays.rs" />
+        <option value="$PROJECT_DIR$/Python/median-of-two-sorted-arrays.py" />
+        <option value="$PROJECT_DIR$/Python/longest-palindromic-substring.py" />
+        <option value="$PROJECT_DIR$/Rust/longest-palindromic-substring.rs" />
+        <option value="$PROJECT_DIR$/Python/reverse-integer.py" />
+        <option value="$PROJECT_DIR$/Rust/reverse-integer.rs" />
+        <option value="$PROJECT_DIR$/Python/string-to-integer-atoi.py" />
+        <option value="$PROJECT_DIR$/Rust/string-to-integer-atoi.rs" />
+        <option value="$PROJECT_DIR$/Python/regular-expression-matching.py" />
+        <option value="$PROJECT_DIR$/Rust/regular-expression-matching.rs" />
+        <option value="$PROJECT_DIR$/Python/container-with-most-water.py" />
+        <option value="$PROJECT_DIR$/Rust/longest-common-prefix.rs" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Python/S0001-two-sum.py" />
+        <option value="$PROJECT_DIR$/Python/S0002-add-two-numbers.py" />
+        <option value="$PROJECT_DIR$/Python/S0003-longest-substring-without-repeating-characters.py" />
+        <option value="$PROJECT_DIR$/Python/S0004-median-of-two-sorted-arrays.py" />
+        <option value="$PROJECT_DIR$/Python/S0005-longest-palindromic-substring.py" />
+        <option value="$PROJECT_DIR$/Python/S0007-reverse-integer.py" />
+        <option value="$PROJECT_DIR$/Python/S0008-string-to-integer-atoi.py" />
+        <option value="$PROJECT_DIR$/Python/S0010-regular-expression-matching.py" />
+        <option value="$PROJECT_DIR$/Python/S0011-container-with-most-water.py" />
       </list>
     </option>
   </component>
@@ -47,11 +447,12 @@
     <option name="directoryName" value="WrLlnMYG" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="273" />
-    <option name="y" value="63" />
-    <option name="width" value="3720" />
-    <option name="height" value="2172" />
+    <option name="x" value="-3851" />
+    <option name="y" value="-11" />
+    <option name="width" value="3863" />
+    <option name="height" value="2183" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -65,6 +466,11 @@
               <item name="leetcode-repo" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-repo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetcode-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -72,10 +478,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -89,6 +497,9 @@
       </list>
     </option>
   </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -100,18 +511,18 @@
       <option name="presentableId" value="Default" />
       <updated>1597344149447</updated>
       <workItem from="1597344155795" duration="267000" />
-      <workItem from="1597346415555" duration="1537000" />
+      <workItem from="1597346415555" duration="3393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1804000" />
+    <option name="totallyTimeSpent" value="3660000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2481" height="1455" extended-state="6" />
+    <frame x="-3847" y="-7" width="2575" height="1455" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25185797" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25158983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -142,13 +553,230 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Rust/two-sum.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/two-sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/add-two-numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rust/add-two-numbers.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="73" column="1" lean-forward="true" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/longest-substring-without-repeating-characters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rust/longest-substring-without-repeating-characters.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rust/median-of-two-sorted-arrays.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/median-of-two-sorted-arrays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/longest-palindromic-substring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rust/longest-palindromic-substring.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/reverse-integer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rust/reverse-integer.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/string-to-integer-atoi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rust/string-to-integer-atoi.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/regular-expression-matching.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rust/regular-expression-matching.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rust/container-with-most-water.rs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/container-with-most-water.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rust/longest-common-prefix.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0152">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="869">
-            <caret line="155" column="139" selection-start-line="155" selection-start-column="133" selection-end-line="155" selection-end-column="139" />
+          <first_editor relative-caret-position="380">
+            <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rust/S0083-remove-duplicates-from-sorted-list.rs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/S0083-remove-duplicates-from-sorted-list.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rust/S0217-contains-duplicate.rs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/S0217-contains-duplicate.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/S0003-longest-substring-without-repeating-characters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/S0004-median-of-two-sorted-arrays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/S0005-longest-palindromic-substring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/S0007-reverse-integer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/S0008-string-to-integer-atoi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/S0010-regular-expression-matching.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/S0002-add-two-numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/S0001-two-sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README-2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="153">
+            <caret line="9" column="137" lean-forward="true" selection-start-line="9" selection-start-column="137" selection-end-line="9" selection-end-column="137" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/S0011-container-with-most-water.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
