@@ -47,7 +47,7 @@ class Solution:
         return head
 
 if __name__ == '__main__':
-    assert to_list(Solution().deleteDuplicates(from_list([1, 1, 2]))) == [1,2]
+    assert to_list(Solution().deleteDuplicates(from_list([1, 1, 2]))) == [1, 2]
     assert to_list(Solution().deleteDuplicates(from_list([1, 1, 2, 3, 3]))) == [1, 2, 3]
     assert to_list(Solution().deleteDuplicates(from_list([1, 1, 1, 2, 3, 3, 3]))) == [1, 2, 3]
     assert to_list(Solution().deleteDuplicates(from_list([1]))) == [1]

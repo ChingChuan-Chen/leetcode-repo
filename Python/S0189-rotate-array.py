@@ -49,18 +49,18 @@ class Solution:
 
 
 if __name__ == '__main__':
-    nums = [1,2,3,4,5,6,7]
+    nums = [1, 2, 3, 4, 5, 6, 7]
     Solution().rotate(nums, 1)
-    assert nums == [7,1,2,3,4,5,6]
+    assert nums == [7, 1, 2, 3, 4, 5, 6]
 
     nums = [1, 2, 3, 4, 5, 6, 7]
     Solution().rotate(nums, 3)
-    assert nums == [5,6, 7,1,2,3,4]
+    assert nums == [5, 6, 7, 1, 2, 3, 4]
 
     nums = [1, 2, 3, 4, 5, 6, 7]
     Solution().rotate(nums, 10)
-    assert nums == [5,6, 7,1,2,3,4]
+    assert nums == [5, 6, 7, 1, 2, 3, 4]
 
-    nums = [-1,-100,3,99]
+    nums = [-1, -100, 3, 99]
     Solution().rotate(nums, 2)
-    assert nums == [3,99,-1,-100]
+    assert nums == [3, 99, -1, -100]
