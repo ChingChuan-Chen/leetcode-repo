@@ -20,12 +20,33 @@ call isBadVersion(4) -> true
 Then 4 is the first bad version.
 """
 
+def isBadVersion(version):
+    if version >= 12:
+        raise Exception("Must be less than 6")
+    if version >= 4:
+        return True
+    else:
+        return False
+
+
 class Solution:
     def firstBadVersion(self, n) -> bool:
-        pass
+        low, high = 1, n
+        while low < high:
+            i = (low + high) // 2
+            if isBadVersion(i):
+                high = i
+            else:
+                low = i + 1
+        return low
 
 
 if __name__ == '__main__':
-    assert Solution().firstBadVersion(3) == False
-    assert Solution().firstBadVersion(5) == True
-    assert Solution().firstBadVersion(4) == True
+    assert Solution().firstBadVersion(4) == 4
+    assert Solution().firstBadVersion(5) == 4
+    assert Solution().firstBadVersion(6) == 4
+    assert Solution().firstBadVersion(7) == 4
+    assert Solution().firstBadVersion(8) == 4
+    assert Solution().firstBadVersion(9) == 4
+    assert Solution().firstBadVersion(10) == 4
+    assert Solution().firstBadVersion(11) == 4
