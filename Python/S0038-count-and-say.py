@@ -31,10 +31,28 @@ the same way "1" is read as "11", so the answer is the concatenation of "12" and
 """
 class Solution:
     def countAndSay(self, n: int) -> str:
-        
-        pass
-
+        out = "1"
+        if n == 1:
+            return out
+        for i in range(2, n+1):
+            cur = out[0]
+            count = 0
+            pre = out
+            out = ""
+            for j in range(len(pre)):
+                if pre[j] == cur:
+                    count += 1
+                else:
+                    out += f"{count}{cur}"
+                    count = 1
+                    cur = pre[j]
+            out += f"{count}{cur}"
+        return out
 
 if __name__ == '__main__':
-    assert Solution().countAndSay(0) == 0
-
+    assert Solution().countAndSay(1) == "1"
+    assert Solution().countAndSay(2) == "11"
+    assert Solution().countAndSay(3) == "21"
+    assert Solution().countAndSay(4) == "1211"
+    assert Solution().countAndSay(5) == "111221"
+    assert Solution().countAndSay(6) == "312211"
