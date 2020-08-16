@@ -255,6 +255,7 @@ for (i in 1L:nrow(md)) {
     str_replace_all("&lt;", "<") %>>%
     str_replace_all("&nbsp;", " ") %>>%
     str_replace_all("&quot;", '"') %>>%
+    str_replace_all("&#39;", "'") %>>%
     str_replace_all("\r\n", "\n") %>>%
     str_replace_all("(Example \\d+:|Constraints:|Follow up:|Note:)(\n)+", "\\1\n") %>>%
     str_replace_all("(\n){3,}", "\n\n")

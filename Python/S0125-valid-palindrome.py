@@ -19,10 +19,29 @@ Constraints:
 """
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        
-        pass
-
+        low = 0
+        high = len(s)-1
+        while low < high:
+            while low < len(s) and not s[low].isalnum():
+                low += 1
+                if low == len(s):
+                    return True
+            while high > 0 and not s[high].isalnum():
+                high -= 1
+            if s[low].lower() != s[high].lower():
+                return False
+            else:
+                low += 1
+                high -= 1
+        return True
 
 if __name__ == '__main__':
-    assert Solution().isPalindrome(0) == 0
-
+    assert Solution().isPalindrome("A man, a plan, a canal: Panama") == True
+    assert Solution().isPalindrome("race a car") == False
+    assert Solution().isPalindrome("") == True
+    assert Solution().isPalindrome("a") == True
+    assert Solution().isPalindrome("aa") == True
+    assert Solution().isPalindrome("aba") == True
+    assert Solution().isPalindrome(".,") == True
+    assert Solution().isPalindrome("0P") == False
+    assert Solution().isPalindrome("0P0") == True

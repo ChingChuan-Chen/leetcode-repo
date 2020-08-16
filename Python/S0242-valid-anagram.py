@@ -18,10 +18,22 @@ What if the inputs contain unicode characters? How would you adapt your solution
 """
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        
-        pass
+        if len(s) != len(t):
+            return False
+        seen_char = {}
+        for i, char in enumerate(s):
+            seen_char[char] = seen_char.get(char, 0) + 1
 
+        for i, char in enumerate(t):
+            seen_char[char] = seen_char.get(char, 0) - 1
+            if seen_char[char] < 0:
+                return False
+        return True
 
 if __name__ == '__main__':
-    assert Solution().isAnagram(0) == 0
-
+    assert Solution().isAnagram("anagram", "nagaram") == True
+    assert Solution().isAnagram("rat", "car") == False
+    assert Solution().isAnagram("rat", "") == False
+    assert Solution().isAnagram("", "car") == False
+    assert Solution().isAnagram("a", "ab") == False
+    assert Solution().isAnagram("ab", "a") == False
