@@ -16,7 +16,7 @@ Examples:
  
 Constraints:
 	In the case of multiple answers as shown in the second example below, you may return any one of them.
-	Assume length of target string = m, and dictionary size = n. You may assume that m &le; 21, n &le; 1000, and log2(n) + m &le; 20.
+	Assume length of target string = m, and dictionary size = n. You may assume that m <= 21, n <= 1000, and log2(n) + m <= 20.
 
 
 */

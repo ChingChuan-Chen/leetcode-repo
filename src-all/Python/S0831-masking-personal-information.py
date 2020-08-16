@@ -5,7 +5,7 @@ We would like to mask this personal information according to the following rules
 
 1. Email address:
 
-We define a name to be a string of length &ge; 2 consisting of only lowercase letters a-z or uppercase letters A-Z.
+We define a name to be a string of length >= 2 consisting of only lowercase letters a-z or uppercase letters A-Z.
 
 An email address starts with a name, followed by the symbol '@', followed by a name, followed by the dot '.' and followed by a name. 
 

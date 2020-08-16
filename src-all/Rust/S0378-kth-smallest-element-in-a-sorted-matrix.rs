@@ -15,7 +15,7 @@ k = 8,
 return 13.
 
 Note: 
-You may assume k is always valid, 1 &le; k &le; n2.
+You may assume k is always valid, 1 <= k <= n2.
 */
 pub struct Solution {}
 impl Solution {

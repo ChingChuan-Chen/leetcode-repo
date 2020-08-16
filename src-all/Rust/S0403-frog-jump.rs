@@ -6,7 +6,7 @@ Given a list of stones' positions (in units) in sorted ascending order, determin
 If the frog's last jump was k units, then its next jump must be either k - 1, k, or k + 1 units. Note that the frog can only jump in the forward direction.
 
 Note:
-The number of stones is &ge; 2 and is 
+The number of stones is >= 2 and is 
 Each stone's position will be a non-negative integer 31.
 The first stone's position is always 0.
 

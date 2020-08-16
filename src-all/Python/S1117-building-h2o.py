@@ -24,7 +24,7 @@ Explanation: "HOHHHO", "OHHHHO", "HHOHOH", "HOHHOH", "OHHHOH", "HHOOHH", "HOHOHH
 
  
 Constraints:
-	Total length of input string will be 3n, where 1 &le; n &le; 20.
+	Total length of input string will be 3n, where 1 <= n <= 20.
 	Total number of H will be 2n in the input string.
 	Total number of O will be n in the input string.
 

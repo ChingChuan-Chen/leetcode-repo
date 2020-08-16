@@ -20,7 +20,7 @@ sumRegion(2, 1, 4, 3) -> 10
 Note:
 The matrix is only modifiable by the update function.
 You may assume the number of calls to update and sumRegion function is distributed evenly.
-You may assume that row1 &le; row2 and col1 &le; col2.
+You may assume that row1 <= row2 and col1 <= col2.
 
 
 """

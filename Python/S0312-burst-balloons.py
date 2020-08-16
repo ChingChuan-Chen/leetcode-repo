@@ -5,7 +5,7 @@ Find the maximum coins you can collect by bursting the balloons wisely.
 
 Note:
 	You may imagine nums[-1] = nums[n] = 1. They are not real therefore you can not burst them.
-	0 &le; n &le; 500, 0 &le; nums[i] &le; 100
+	0 <= n <= 500, 0 <= nums[i] <= 100
 
 Example:
 

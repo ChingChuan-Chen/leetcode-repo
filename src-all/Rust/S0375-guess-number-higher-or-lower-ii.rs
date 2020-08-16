@@ -19,7 +19,7 @@ Game over. 8 is the number I picked.
 
 You end up paying $5 + $7 + $9 = $21.
 
-Given a particular n &ge; 1, find out how much money you need to have to guarantee a win.
+Given a particular n >= 1, find out how much money you need to have to guarantee a win.
 */
 pub struct Solution {}
 impl Solution {

@@ -23,9 +23,9 @@ Explanation: The movement from index 1 -> 2 -> 1 -> ... is not a cycle, because 
  
 
 Note:
-	-1000 &le; nums[i] &le; 1000
+	-1000 <= nums[i] <= 1000
 	nums[i] &ne; 0
-	1 &le; nums.length &le; 5000
+	1 <= nums.length <= 5000
 
  
 

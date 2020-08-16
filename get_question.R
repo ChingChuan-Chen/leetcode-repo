@@ -253,6 +253,7 @@ for (i in 1L:nrow(md)) {
     relace_all_html_tag %>>% 
     str_replace_all("&gt;", ">") %>>%
     str_replace_all("&lt;", "<") %>>%
+    str_replace_all("&le;", "<=") %>>%
     str_replace_all("&nbsp;", " ") %>>%
     str_replace_all("&quot;", '"') %>>%
     str_replace_all("&#39;", "'") %>>%
