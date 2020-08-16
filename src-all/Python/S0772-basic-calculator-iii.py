@@ -1,1 +1,30 @@
+"""
+Implement a basic calculator to evaluate a simple expression string.
+
+The expression string may contain open ( and closing parentheses ), the plus + or minus sign -, non-negative integers and empty spaces  .
+
+The expression string contains only non-negative integers, +, -, *, / operators , open ( and closing parentheses ) and empty spaces  . The integer division should truncate toward zero.
+
+You may assume that the given expression is always valid. All intermediate results will be in the range of [-2147483648, 2147483647].
+
+Some examples:
+
+&quot;1 + 1&quot; = 2
+&quot; 6-4 / 2 &quot; = 4
+&quot;2*(5+5*2)/3+(6/2+8)&quot; = 21
+&quot;(2+6* 3+5- (3*14/7+2)*5)+3&quot;=-12
+
+ 
+
+Note: Do not use the eval built-in library function.
+
+"""
+class Solution:
+    def calculate(self, s: str) -> int:
+        
+        pass
+
+
+if __name__ == '__main__':
+    assert Solution().calculate(0) == 0
 

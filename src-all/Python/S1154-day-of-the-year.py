@@ -1,1 +1,37 @@
+"""
+Given a string date representing a Gregorian calendar date formatted as YYYY-MM-DD, return the day number of the year.
+
+ 
+Example 1:
+Input: date = &quot;2019-01-09&quot;
+Output: 9
+Explanation: Given date is the 9th day of the year in 2019.
+
+Example 2:
+Input: date = &quot;2019-02-10&quot;
+Output: 41
+
+Example 3:
+Input: date = &quot;2003-03-01&quot;
+Output: 60
+
+Example 4:
+Input: date = &quot;2004-03-01&quot;
+Output: 61
+
+ 
+Constraints:
+	date.length == 10
+	date[4] == date[7] == &#39;-&#39;, and all other date[i]&#39;s are digits
+	date represents a calendar date between Jan 1st, 1900 and Dec 31, 2019.
+
+"""
+class Solution:
+    def dayOfYear(self, date: str) -> int:
+        
+        pass
+
+
+if __name__ == '__main__':
+    assert Solution().dayOfYear(0) == 0
 

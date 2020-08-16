@@ -1,1 +1,31 @@
+/*
+Given a non-empty array of integers, return the k most frequent elements.
 
+Example 1:
+Input: nums = [1,1,1,2,2,3], k = 2
+Output: [1,2]
+
+Example 2:
+Input: nums = [1], k = 1
+Output: [1]
+
+Note: 
+
+	You may assume k is always valid, 1 &le; k &le; number of unique elements.
+	Your algorithm&#39;s time complexity must be better than O(n log n), where n is the array&#39;s size.
+	It&#39;s guaranteed that the answer is unique, in other words the set of the top k frequent elements is unique.
+	You can return the answer in any order.
+
+
+*/
+pub struct Solution {}
+impl Solution {
+    pub fn top_k_frequent(nums: Vec<i32>, k: i32) -> Vec<i32> {
+        
+    }
+}
+
+fn main() {
+  assert_eq!(0, Solution::top_k_frequent(0));
+  println!("Pass test cases!");
+}

@@ -1,1 +1,33 @@
+"""
+Given a string text, you want to use the characters of text to form as many instances of the word &quot;balloon&quot; as possible.
+
+You can use each character in text at most once. Return the maximum number of instances that can be formed.
+
+ 
+Example 1:
+Input: text = &quot;nlaebolko&quot;
+Output: 1
+
+Example 2:
+Input: text = &quot;loonbalxballpoon&quot;
+Output: 2
+
+Example 3:
+Input: text = &quot;leetcode&quot;
+Output: 0
+
+ 
+Constraints:
+	1 <= text.length <= 10^4
+	text consists of lower case English letters only.
+
+"""
+class Solution:
+    def maxNumberOfBalloons(self, text: str) -> int:
+        
+        pass
+
+
+if __name__ == '__main__':
+    assert Solution().maxNumberOfBalloons(0) == 0
 

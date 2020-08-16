@@ -2,8 +2,16 @@ library(pipeR)
 library(stringr)
 library(httr)
 
-md <- readLines("README.md") %>>%
-  str_extract_all("\\(((https|\\./Python|\\./Rust)[^)]+)\\)", simplify = TRUE)
+readme_md_file <- "README-all-list.md"
+if (readme_md_file == "README.md") {
+  md <- readLines(readme_md_file) %>>%
+    str_extract_all("\\(((https|\\./Python|\\./Rust)[^)]+)\\)", simplify = TRUE)
+} else if (readme_md_file == "README-all-list.md") {
+  md <- readLines(readme_md_file) %>>%
+    str_extract_all("\\(((https|\\./src-all/Python|\\./src-all/Rust)[^)]+)\\)", simplify = TRUE)
+} else {
+  stop("no such readme file!")
+}
 
 md <- md[md[,1] != "" & md[,3] != "", 1:3]
 
@@ -227,6 +235,18 @@ class Point(object):
 "
 
 for (i in 1L:nrow(md)) {
+  rsfile <- str_sub(md[i,2], 2L, -2L)
+  if (!file.exists(rsfile)) {
+    write("", rsfile)
+  }
+  pyfile <- str_sub(md[i,3], 2L, -2L)
+  if (!file.exists(pyfile)) {
+    write("", pyfile)
+  }
+  if ((file.size(rsfile) > 2) && (file.size(pyfile) > 2)) {
+    next
+  }
+  
   question_title <- str_extract(md[i, 1], "/([^/]+)/\\)$") %>>% str_sub(2L, -3L)
   response <- get_question(question_title) 
   question_desc <- content(response)$data$question$content %>>% 
@@ -241,17 +261,6 @@ for (i in 1L:nrow(md)) {
     next
   }
   code_snippets <- do.call(rbind, content(response)$data$question$codeSnippets)
-  rsfile <- str_sub(md[i,2], 2L, -2L)
-  if (!file.exists(rsfile)) {
-    write("", rsfile)
-  }
-  pyfile <- str_sub(md[i,3], 2L, -2L)
-  if (!file.exists(pyfile)) {
-    write("", pyfile)
-  }
-  if ((file.size(rsfile) > 2) && (file.size(pyfile) > 2)) {
-    next
-  }
 
   if (file.size(rsfile) == 2) {
     write("/*", rsfile)

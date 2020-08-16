@@ -1,1 +1,46 @@
+"""
+On a single threaded CPU, we execute some functions.  Each function has a unique id between 0 and N-1.
+
+We store logs in timestamp order that describe when a function is entered or exited.
+
+Each log is a string with this format: &quot;{function_id}:{&quot;start&quot; | &quot;end&quot;}:{timestamp}&quot;.  For example, &quot;0:start:3&quot; means the function with id 0 started at the beginning of timestamp 3.  &quot;1:end:2&quot; means the function with id 1 ended at the end of timestamp 2.
+
+A function&#39;s exclusive time is the number of units of time spent in this function.  Note that this does not include any recursive calls to child functions.
+
+The CPU is single threaded which means that only one function is being executed at a given time unit.
+
+Return the exclusive time of each function, sorted by their function id.
+
+ 
+
+Example 1:
+Input:
+n = 2
+logs = [&quot;0:start:0&quot;,&quot;1:start:2&quot;,&quot;1:end:5&quot;,&quot;0:end:6&quot;]
+Output: [3, 4]
+Explanation:
+Function 0 starts at the beginning of time 0, then it executes 2 units of time and reaches the end of time 1.
+Now function 1 starts at the beginning of time 2, executes 4 units of time and ends at time 5.
+Function 0 is running again at the beginning of time 6, and also ends at the end of time 6, thus executing for 1 unit of time. 
+So function 0 spends 2 + 1 = 3 units of total time executing, and function 1 spends 4 units of total time executing.
+
+ 
+
+Note:
+	1 <= n <= 100
+	Two functions won&#39;t start or end at the same time.
+	Functions will always log when they exit.
+
+ 
+
+"""
+from typing import List
+class Solution:
+    def exclusiveTime(self, n: int, logs: List[str]) -> List[int]:
+        
+        pass
+
+
+if __name__ == '__main__':
+    assert Solution().exclusiveTime(0) == 0
 
