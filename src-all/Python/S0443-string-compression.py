@@ -45,7 +45,7 @@ Return 4, and the first 4 characters of the input array should be: ["a","b","1",
 
 Explanation:
 Since the character "a" does not repeat, it is not compressed. "bbbbbbbbbbbb" is replaced by "b12".
-Notice each digit has it&#39;s own entry in the array.
+Notice each digit has it's own entry in the array.
 
  
 

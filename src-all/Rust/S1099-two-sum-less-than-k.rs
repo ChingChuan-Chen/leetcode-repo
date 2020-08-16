@@ -13,7 +13,7 @@ Example 2:
 Input: A = [10,20,30], K = 15
 Output: -1
 Explanation: 
-In this case it&#39;s not possible to get a pair sum less that 15.
+In this case it's not possible to get a pair sum less that 15.
 
  
 

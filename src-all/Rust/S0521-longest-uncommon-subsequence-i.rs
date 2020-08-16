@@ -3,7 +3,7 @@ Given two strings, you need to find the longest uncommon subsequence of this two
 
 A subsequence is a sequence that can be derived from one sequence by deleting some characters without changing the order of the remaining elements. Trivially, any string is a subsequence of itself and an empty string is a subsequence of any string.
 
-The input will be two strings, and the output needs to be the length of the longest uncommon subsequence. If the longest uncommon subsequence doesn&#39;t exist, return -1.
+The input will be two strings, and the output needs to be the length of the longest uncommon subsequence. If the longest uncommon subsequence doesn't exist, return -1.
 
  
 Example 1:
@@ -24,7 +24,7 @@ Output: -1
 
  
 Constraints:
-	Both strings&#39; lengths will be between [1 - 100].
+	Both strings' lengths will be between [1 - 100].
 	Only letters from a ~ z will appear in input strings.
 
 

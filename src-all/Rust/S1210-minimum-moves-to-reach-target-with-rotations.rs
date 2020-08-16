@@ -5,9 +5,9 @@ In one move the snake can:
 
 	Move one cell to the right if there are no blocked cells there. This move keeps the horizontal/vertical position of the snake as it is.
 	Move down one cell if there are no blocked cells there. This move keeps the horizontal/vertical position of the snake as it is.
-	Rotate clockwise if it&#39;s in a horizontal position and the two cells under it are both empty. In that case the snake moves from (r, c) and (r, c+1) to (r, c) and (r+1, c).
+	Rotate clockwise if it's in a horizontal position and the two cells under it are both empty. In that case the snake moves from (r, c) and (r, c+1) to (r, c) and (r+1, c).
 	
-	Rotate counterclockwise if it&#39;s in a vertical position and the two cells to its right are both empty. In that case the snake moves from (r, c) and (r+1, c) to (r, c) and (r, c+1).
+	Rotate counterclockwise if it's in a vertical position and the two cells to its right are both empty. In that case the snake moves from (r, c) and (r+1, c) to (r, c) and (r, c+1).
 	
 
 Return the minimum number of moves to reach the target.

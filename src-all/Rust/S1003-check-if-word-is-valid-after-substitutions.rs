@@ -35,7 +35,7 @@ Output: false
 
 Note:
 	1 <= S.length <= 20000
-	S[i] is &#39;a&#39;, &#39;b&#39;, or &#39;c&#39;
+	S[i] is 'a', 'b', or 'c'
 
  
 

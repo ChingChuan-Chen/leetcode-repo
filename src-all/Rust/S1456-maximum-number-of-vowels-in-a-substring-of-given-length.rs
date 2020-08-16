@@ -24,7 +24,7 @@ Explanation: "lee", "eet" and "ode" contain 2 vowels.
 Example 4:
 Input: s = "rhythms", k = 4
 Output: 0
-Explanation: We can see that s doesn&#39;t have any vowel letters.
+Explanation: We can see that s doesn't have any vowel letters.
 
 Example 5:
 Input: s = "tryhard", k = 4

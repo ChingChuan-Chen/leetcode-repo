@@ -13,7 +13,7 @@ Explanation: Flip A[0], then flip A[2].
 Example 2:
 Input: A = [1,1,0], K = 2
 Output: -1
-Explanation: No matter how we flip subarrays of size 2, we can&#39;t make the array become [1,1,1].
+Explanation: No matter how we flip subarrays of size 2, we can't make the array become [1,1,1].
 
 Example 3:
 Input: A = [0,0,0,1,0,1,1,0], K = 3

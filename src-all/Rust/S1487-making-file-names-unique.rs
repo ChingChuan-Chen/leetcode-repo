@@ -9,7 +9,7 @@ Return an array of strings of length n where ans[i] is the actual name the syste
 Example 1:
 Input: names = ["pes","fifa","gta","pes(2019)"]
 Output: ["pes","fifa","gta","pes(2019)"]
-Explanation: Let&#39;s see how the file system creates folder names:
+Explanation: Let's see how the file system creates folder names:
 "pes" --> not assigned before, remains "pes"
 "fifa" --> not assigned before, remains "fifa"
 "gta" --> not assigned before, remains "gta"
@@ -18,7 +18,7 @@ Explanation: Let&#39;s see how the file system creates folder names:
 Example 2:
 Input: names = ["gta","gta(1)","gta","avalon"]
 Output: ["gta","gta(1)","gta(2)","avalon"]
-Explanation: Let&#39;s see how the file system creates folder names:
+Explanation: Let's see how the file system creates folder names:
 "gta" --> not assigned before, remains "gta"
 "gta(1)" --> not assigned before, remains "gta(1)"
 "gta" --> the name is reserved, system adds (k), since "gta(1)" is also reserved, systems put k = 2. it becomes "gta(2)"

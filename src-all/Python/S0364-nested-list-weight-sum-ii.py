@@ -8,7 +8,7 @@ Different from the previous question where weight is increasing from root to lea
 Example 1:
 Input: [[1,1],2,[1,1]]
 Output: 8 
-Explanation: Four 1&#39;s at depth 1, one 2 at depth 2.
+Explanation: Four 1's at depth 1, one 2 at depth 2.
 
 Example 2:
 Input: [1,[4,[6]]]

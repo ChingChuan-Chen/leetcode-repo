@@ -29,7 +29,7 @@ What if the BST is modified (insert/delete operations) often and you need to fin
  
 Constraints:
 	The number of elements of the BST is between 1 to 10^4.
-	You may assume k is always valid, 1 &le; k &le; BST&#39;s total elements.
+	You may assume k is always valid, 1 &le; k &le; BST's total elements.
 
 
 */

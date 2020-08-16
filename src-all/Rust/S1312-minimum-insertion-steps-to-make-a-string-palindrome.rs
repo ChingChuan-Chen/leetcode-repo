@@ -9,7 +9,7 @@ A Palindrome String is one that reads the same backward as well as forward.
 Example 1:
 Input: s = "zzazz"
 Output: 0
-Explanation: The string "zzazz" is already palindrome we don&#39;t need any insertions.
+Explanation: The string "zzazz" is already palindrome we don't need any insertions.
 
 Example 2:
 Input: s = "mbadm"

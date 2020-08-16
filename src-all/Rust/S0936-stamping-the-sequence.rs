@@ -1,7 +1,7 @@
 /*
 You want to form a target string of lowercase letters.
 
-At the beginning, your sequence is target.length &#39;?&#39; marks.  You also have a stamp of lowercase letters.
+At the beginning, your sequence is target.length '?' marks.  You also have a stamp of lowercase letters.
 
 On each turn, you may place the stamp over the sequence, and replace every letter in the sequence with the corresponding letter from the stamp.  You can make up to 10 * target.length turns.
 

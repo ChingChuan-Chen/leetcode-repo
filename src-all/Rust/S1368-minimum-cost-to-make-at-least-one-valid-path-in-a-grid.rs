@@ -8,7 +8,7 @@ Given a m x n grid. Each cell of the grid has a sign pointing to the next cell y
 
 Notice that there could be some invalid signs on the cells of the grid which points outside the grid.
 
-You will initially start at the upper left cell (0,0). A valid path in the grid is a path which starts from the upper left cell (0,0) and ends at the bottom-right cell (m - 1, n - 1) following the signs on the grid. The valid path doesn&#39;t have to be the shortest.
+You will initially start at the upper left cell (0,0). A valid path in the grid is a path which starts from the upper left cell (0,0) and ends at the bottom-right cell (m - 1, n - 1) following the signs on the grid. The valid path doesn't have to be the shortest.
 
 You can modify the sign on a cell with cost = 1. You can modify the sign on a cell one time only.
 

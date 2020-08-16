@@ -24,7 +24,7 @@ Constraints:
 	1 <= words.length <= 100
 	1 <= words[i].length <= 30
 	words[i] contains only lowercase English letters.
-	It&#39;s guaranteed that words[i] will be unique.
+	It's guaranteed that words[i] will be unique.
 
 """
 from typing import List

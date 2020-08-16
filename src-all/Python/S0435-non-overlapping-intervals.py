@@ -16,13 +16,13 @@ Explanation: You need to remove two [1,2] to make the rest of intervals non-over
 Example 3:
 Input: [[1,2],[2,3]]
 Output: 0
-Explanation: You don&#39;t need to remove any of the intervals since they&#39;re already non-overlapping.
+Explanation: You don't need to remove any of the intervals since they're already non-overlapping.
 
  
 
 Note:
-	You may assume the interval&#39;s end point is always bigger than its start point.
-	Intervals like [1,2] and [2,3] have borders "touching" but they don&#39;t overlap each other.
+	You may assume the interval's end point is always bigger than its start point.
+	Intervals like [1,2] and [2,3] have borders "touching" but they don't overlap each other.
 
 
 """

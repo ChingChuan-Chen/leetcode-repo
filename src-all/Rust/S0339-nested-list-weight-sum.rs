@@ -6,7 +6,7 @@ Each element is either an integer, or a list -- whose elements may also be integ
 Example 1:
 Input: [[1,1],2,[1,1]]
 Output: 10 
-Explanation: Four 1&#39;s at depth 2, one 2 at depth 1.
+Explanation: Four 1's at depth 2, one 2 at depth 1.
 
 Example 2:
 Input: [1,[4,[6]]]

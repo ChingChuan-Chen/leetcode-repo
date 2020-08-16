@@ -1,7 +1,7 @@
 /*
 A happy string is a string that:
 
-	consists only of letters of the set [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;].
+	consists only of letters of the set ['a', 'b', 'c'].
 	s[i] != s[i + 1] for all values of i from 1 to s.length - 1 (string is 1-indexed).
 
 For example, strings "abc", "ac", "b" and "abcbabcbcb" are all happy strings and strings "aa", "baa" and "ababbc" are not happy strings.

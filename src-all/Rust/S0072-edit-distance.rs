@@ -11,19 +11,19 @@ Example 1:
 Input: word1 = "horse", word2 = "ros"
 Output: 3
 Explanation: 
-horse -> rorse (replace &#39;h&#39; with &#39;r&#39;)
-rorse -> rose (remove &#39;r&#39;)
-rose -> ros (remove &#39;e&#39;)
+horse -> rorse (replace 'h' with 'r')
+rorse -> rose (remove 'r')
+rose -> ros (remove 'e')
 
 Example 2:
 Input: word1 = "intention", word2 = "execution"
 Output: 5
 Explanation: 
-intention -> inention (remove &#39;t&#39;)
-inention -> enention (replace &#39;i&#39; with &#39;e&#39;)
-enention -> exention (replace &#39;n&#39; with &#39;x&#39;)
-exention -> exection (replace &#39;n&#39; with &#39;c&#39;)
-exection -> execution (insert &#39;u&#39;)
+intention -> inention (remove 't')
+inention -> enention (replace 'i' with 'e')
+enention -> exention (replace 'n' with 'x')
+exention -> exection (replace 'n' with 'c')
+exection -> execution (insert 'u')
 
 
 */

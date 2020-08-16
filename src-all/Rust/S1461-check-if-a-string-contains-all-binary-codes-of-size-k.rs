@@ -21,7 +21,7 @@ Explanation: The binary codes of length 1 are "0" and "1", it is clear that both
 Example 4:
 Input: s = "0110", k = 2
 Output: false
-Explanation: The binary code "00" is of length 2 and doesn&#39;t exist in the array.
+Explanation: The binary code "00" is of length 2 and doesn't exist in the array.
 
 Example 5:
 Input: s = "0000000001011100", k = 4
@@ -30,7 +30,7 @@ Output: false
  
 Constraints:
 	1 <= s.length <= 5 * 10^5
-	s consists of 0&#39;s and 1&#39;s only.
+	s consists of 0's and 1's only.
 	1 <= k <= 20
 
 

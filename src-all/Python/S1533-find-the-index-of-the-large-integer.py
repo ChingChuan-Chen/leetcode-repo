@@ -26,7 +26,7 @@ Input: arr = [7,7,7,7,10,7,7,7]
 Output: 4
 Explanation: The following calls to the API
 reader.compareSub(0, 0, 1, 1) // returns 0 this is a query comparing the sub-array (0, 0) with the sub array (1, 1), (i.e. compares arr[0] with arr[1]).
-Thus we know that arr[0] and arr[1] doesn&#39;t contain the largest element.
+Thus we know that arr[0] and arr[1] doesn't contain the largest element.
 reader.compareSub(2, 2, 3, 3) // returns 0, we can exclude arr[2] and arr[3].
 reader.compareSub(4, 4, 5, 5) // returns 1, thus for sure arr[4] is the largest element in the array.
 Notice that we made only 3 calls, so the answer is valid.

@@ -20,7 +20,7 @@ Explanation: You need three jumps from index 0 --> 4 --> 3 --> 9. Note that inde
 Example 2:
 Input: arr = [7]
 Output: 0
-Explanation: Start index is the last index. You don&#39;t need to jump.
+Explanation: Start index is the last index. You don't need to jump.
 
 Example 3:
 Input: arr = [7,6,9,6,9,6,9,7]

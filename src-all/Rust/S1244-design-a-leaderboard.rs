@@ -1,7 +1,7 @@
 /*
 Design a Leaderboard class, which has 3 functions:
 
-	addScore(playerId, score): Update the leaderboard by adding score to the given player&#39;s score. If there is no player with such id in the leaderboard, add him to the leaderboard with the given score.
+	addScore(playerId, score): Update the leaderboard by adding score to the given player's score. If there is no player with such id in the leaderboard, add him to the leaderboard with the given score.
 	top(K): Return the score sum of the top K players.
 	reset(playerId): Reset the score of the player with the given id to 0 (in other words erase it from the leaderboard). It is guaranteed that the player was added to the leaderboard before calling this function.
 
@@ -31,7 +31,7 @@ leaderboard.top(3);           // returns 141 = 51 + 51 + 39;
  
 Constraints:
 	1 <= playerId, K <= 10000
-	It&#39;s guaranteed that K is less than or equal to the current number of players.
+	It's guaranteed that K is less than or equal to the current number of players.
 	1 <= score <= 100
 	There will be at most 1000 function calls.
 

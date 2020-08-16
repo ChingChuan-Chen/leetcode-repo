@@ -32,7 +32,7 @@ However, in the report "[1,5,6]", the node value of 5 comes first since 5 is sma
 
 Note:
 	The tree will have between 1 and 1000 nodes.
-	Each node&#39;s value will be between 0 and 1000.
+	Each node's value will be between 0 and 1000.
 
  
 

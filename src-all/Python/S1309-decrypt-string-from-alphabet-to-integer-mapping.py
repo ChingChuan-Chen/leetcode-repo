@@ -1,12 +1,12 @@
 """
-Given a string s formed by digits (&#39;0&#39; - &#39;9&#39;) and &#39;#&#39; . We want to map s to English lowercase characters as follows:
+Given a string s formed by digits ('0' - '9') and '#' . We want to map s to English lowercase characters as follows:
 
-	Characters (&#39;a&#39; to &#39;i&#39;) are represented by (&#39;1&#39; to &#39;9&#39;) respectively.
-	Characters (&#39;j&#39; to &#39;z&#39;) are represented by (&#39;10#&#39; to &#39;26#&#39;) respectively. 
+	Characters ('a' to 'i') are represented by ('1' to '9') respectively.
+	Characters ('j' to 'z') are represented by ('10#' to '26#') respectively. 
 
 Return the string formed after mapping.
 
-It&#39;s guaranteed that a unique mapping will always exist.
+It's guaranteed that a unique mapping will always exist.
 
  
 Example 1:
@@ -29,7 +29,7 @@ Output: "abcdefghijklmnopqrstuvwxyz"
  
 Constraints:
 	1 <= s.length <= 1000
-	s[i] only contains digits letters (&#39;0&#39;-&#39;9&#39;) and &#39;#&#39; letter.
+	s[i] only contains digits letters ('0'-'9') and '#' letter.
 	s will be valid string such that mapping is always possible.
 
 """

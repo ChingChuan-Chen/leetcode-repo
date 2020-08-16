@@ -33,7 +33,7 @@ Constraints:
 	S will only contain lowercase letters and digits 2 through 9.
 	S starts with a letter.
 	1 <= K <= 10^9
-	It&#39;s guaranteed that K is less than or equal to the length of the decoded string.
+	It's guaranteed that K is less than or equal to the length of the decoded string.
 	The decoded string is guaranteed to have less than 2^63 letters.
 
 

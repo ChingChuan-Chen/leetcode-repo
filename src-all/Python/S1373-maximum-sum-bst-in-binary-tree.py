@@ -3,8 +3,8 @@ Given a binary tree root, the task is to return the maximum sum of all keys of a
 
 Assume a BST is defined as follows:
 
-	The left subtree of a node contains only nodes with keys less than the node&#39;s key.
-	The right subtree of a node contains only nodes with keys greater than the node&#39;s key.
+	The left subtree of a node contains only nodes with keys less than the node's key.
+	The right subtree of a node contains only nodes with keys greater than the node's key.
 	Both the left and right subtrees must also be binary search trees.
 
  
@@ -34,7 +34,7 @@ Output: 7
  
 Constraints:
 	The given binary tree will have between 1 and 40000 nodes.
-	Each node&#39;s value is between [-4 * 10^4 , 4 * 10^4].
+	Each node's value is between [-4 * 10^4 , 4 * 10^4].
 
 
 """

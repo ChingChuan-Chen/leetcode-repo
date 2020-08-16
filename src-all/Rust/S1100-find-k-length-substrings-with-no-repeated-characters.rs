@@ -7,7 +7,7 @@ Example 1:
 Input: S = "havefunonleetcode", K = 5
 Output: 6
 Explanation: 
-There are 6 substrings they are : &#39;havef&#39;,&#39;avefu&#39;,&#39;vefun&#39;,&#39;efuno&#39;,&#39;etcod&#39;,&#39;tcode&#39;.
+There are 6 substrings they are : 'havef','avefu','vefun','efuno','etcod','tcode'.
 
 Example 2:
 Input: S = "home", K = 5

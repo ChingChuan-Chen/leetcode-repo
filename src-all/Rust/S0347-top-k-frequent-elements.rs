@@ -12,8 +12,8 @@ Output: [1]
 Note: 
 
 	You may assume k is always valid, 1 &le; k &le; number of unique elements.
-	Your algorithm&#39;s time complexity must be better than O(n log n), where n is the array&#39;s size.
-	It&#39;s guaranteed that the answer is unique, in other words the set of the top k frequent elements is unique.
+	Your algorithm's time complexity must be better than O(n log n), where n is the array's size.
+	It's guaranteed that the answer is unique, in other words the set of the top k frequent elements is unique.
 	You can return the answer in any order.
 
 

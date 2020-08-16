@@ -7,12 +7,12 @@ You examine the typed characters of the keyboard.  Return True if it is possible
 Example 1:
 Input: name = "alex", typed = "aaleex"
 Output: true
-Explanation: &#39;a&#39; and &#39;e&#39; in &#39;alex&#39; were long pressed.
+Explanation: 'a' and 'e' in 'alex' were long pressed.
 
 Example 2:
 Input: name = "saeed", typed = "ssaaedd"
 Output: false
-Explanation: &#39;e&#39; must have been pressed twice, but it wasn&#39;t in the typed output.
+Explanation: 'e' must have been pressed twice, but it wasn't in the typed output.
 
 Example 3:
 Input: name = "leelee", typed = "lleeelee"
@@ -21,7 +21,7 @@ Output: true
 Example 4:
 Input: name = "laiden", typed = "laiden"
 Output: true
-Explanation: It&#39;s not necessary to long press any character.
+Explanation: It's not necessary to long press any character.
 
  
 Constraints:

@@ -29,7 +29,7 @@ Output: 0
 Constraints:
 	The Linked List is not empty.
 	Number of nodes will not exceed 30.
-	Each node&#39;s value is either 0 or 1.
+	Each node's value is either 0 or 1.
 
 */
 

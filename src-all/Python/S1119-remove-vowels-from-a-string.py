@@ -1,5 +1,5 @@
 """
-Given a string S, remove the vowels &#39;a&#39;, &#39;e&#39;, &#39;i&#39;, &#39;o&#39;, and &#39;u&#39; from it, and return the new string.
+Given a string S, remove the vowels 'a', 'e', 'i', 'o', and 'u' from it, and return the new string.
 
  
 

@@ -10,7 +10,7 @@ Output: true
 Explanation: The starting player can guarantee a win by flipping the middle "++" to become "+--+".
 
 Follow up:
-Derive your algorithm&#39;s runtime complexity.
+Derive your algorithm's runtime complexity.
 """
 class Solution:
     def canWin(self, s: str) -> bool:

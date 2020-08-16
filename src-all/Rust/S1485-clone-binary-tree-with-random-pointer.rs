@@ -39,7 +39,7 @@ Output: [[1,null],null,[2,null],null,[1,null]]
  
 Constraints:
 	The number of nodes in the tree is in the range [0, 1000].
-	Each node&#39;s value is between [1, 10^6].
+	Each node's value is between [1, 10^6].
 
 
 */

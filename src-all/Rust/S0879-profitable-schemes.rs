@@ -3,9 +3,9 @@ There is a group of G members, and a list of various crimes they could commit.
 
 The ith crime generates a profit[i] and requires group[i] members to participate in it.
 
-If a member participates in one crime, that member can&#39;t participate in another crime.
+If a member participates in one crime, that member can't participate in another crime.
 
-Let&#39;s call a profitable scheme any subset of these crimes that generates at least P profit, and the total number of members participating in that subset of crimes is at most G.
+Let's call a profitable scheme any subset of these crimes that generates at least P profit, and the total number of members participating in that subset of crimes is at most G.
 
 How many schemes can be chosen?  Since the answer may be very large, return it modulo 10^9 + 7.
 

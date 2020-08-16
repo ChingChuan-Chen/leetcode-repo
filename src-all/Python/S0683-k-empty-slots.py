@@ -5,7 +5,7 @@ You are given an array bulbs of length N where bulbs[i] = x means that on the (i
 
 Given an integer K, find out the minimum day number such that there exists two turned on bulbs that have exactly K bulbs between them that are all turned off.
 
-If there isn&#39;t such day, return -1.
+If there isn't such day, return -1.
 
  
 

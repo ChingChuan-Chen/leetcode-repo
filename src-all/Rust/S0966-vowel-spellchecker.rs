@@ -11,7 +11,7 @@ For a given query word, the spell checker handles two categories of spelling mis
 		Example: wordlist = ["yellow"], query = "yellow": correct = "yellow"
 	
 	
-	Vowel Errors: If after replacing the vowels (&#39;a&#39;, &#39;e&#39;, &#39;i&#39;, &#39;o&#39;, &#39;u&#39;) of the query word with any vowel individually, it matches a word in the wordlist (case-insensitive), then the query word is returned with the same case as the match in the wordlist.
+	Vowel Errors: If after replacing the vowels ('a', 'e', 'i', 'o', 'u') of the query word with any vowel individually, it matches a word in the wordlist (case-insensitive), then the query word is returned with the same case as the match in the wordlist.
 	
 		Example: wordlist = ["YellOw"], query = "yollow": correct = "YellOw"
 		Example: wordlist = ["YellOw"], query = "yeellow": correct = "" (no match)

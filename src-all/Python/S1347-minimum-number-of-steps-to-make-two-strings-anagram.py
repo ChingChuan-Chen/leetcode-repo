@@ -9,12 +9,12 @@ An Anagram of a string is a string that contains the same characters with a diff
 Example 1:
 Input: s = "bab", t = "aba"
 Output: 1
-Explanation: Replace the first &#39;a&#39; in t with b, t = "bba" which is anagram of s.
+Explanation: Replace the first 'a' in t with b, t = "bba" which is anagram of s.
 
 Example 2:
 Input: s = "leetcode", t = "practice"
 Output: 5
-Explanation: Replace &#39;p&#39;, &#39;r&#39;, &#39;a&#39;, &#39;i&#39; and &#39;c&#39; from t with proper characters to make t anagram of s.
+Explanation: Replace 'p', 'r', 'a', 'i' and 'c' from t with proper characters to make t anagram of s.
 
 Example 3:
 Input: s = "anagram", t = "mangaar"

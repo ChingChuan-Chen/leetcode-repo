@@ -16,7 +16,7 @@ For example, the above tree is serialized as [1,null,2,3,4,5,null,null,6,7,null,
 
 Custom testing:
 You should provide the serialization of the input tree.
-The Driver code then extracts the nodes from the tree and shuffles them. You shouldn&#39;t care how the extracted nodes are shuffled.
+The Driver code then extracts the nodes from the tree and shuffles them. You shouldn't care how the extracted nodes are shuffled.
 The driver code will provide you with an array of the extracted nodes in random order and you need to find the root of the tree out of these nodes.
 
  

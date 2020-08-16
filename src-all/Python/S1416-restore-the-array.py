@@ -35,7 +35,7 @@ Output: 34
  
 Constraints:
 	1 <= s.length <= 10^5.
-	s consists of only digits and doesn&#39;t contain leading zeros.
+	s consists of only digits and doesn't contain leading zeros.
 	1 <= k <= 10^9.
 
 """

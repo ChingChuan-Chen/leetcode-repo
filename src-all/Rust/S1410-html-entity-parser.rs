@@ -4,7 +4,7 @@ HTML entity parser is the parser that takes HTML code as input and replace all t
 The special characters and their entities for HTML are:
 
 	Quotation Mark: the entity is &amp;quot; and symbol character is ".
-	Single Quote Mark: the entity is &amp;apos; and symbol character is &#39;.
+	Single Quote Mark: the entity is &amp;apos; and symbol character is '.
 	Ampersand: the entity is &amp;amp; and symbol character is &amp;.
 	Greater Than Sign: the entity is &amp;gt; and symbol character is >.
 	Less Than Sign: the entity is &amp;lt; and symbol character is <.

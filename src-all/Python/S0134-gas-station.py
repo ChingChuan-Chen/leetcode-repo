@@ -3,7 +3,7 @@ There are N gas stations along a circular route, where the amount of gas at stat
 
 You have a car with an unlimited gas tank and it costs cost[i] of gas to travel from station i to its next station (i+1). You begin the journey with an empty tank at one of the gas stations.
 
-Return the starting gas station&#39;s index if you can travel around the circuit once in the clockwise direction, otherwise return -1.
+Return the starting gas station's index if you can travel around the circuit once in the clockwise direction, otherwise return -1.
 
 Note:
 	If there exists a solution, it is guaranteed to be unique.
@@ -34,12 +34,12 @@ cost = [3,4,3]
 Output: -1
 
 Explanation:
-You can&#39;t start at station 0 or 1, as there is not enough gas to travel to the next station.
-Let&#39;s start at station 2 and fill up with 4 unit of gas. Your tank = 0 + 4 = 4
+You can't start at station 0 or 1, as there is not enough gas to travel to the next station.
+Let's start at station 2 and fill up with 4 unit of gas. Your tank = 0 + 4 = 4
 Travel to station 0. Your tank = 4 - 3 + 2 = 3
 Travel to station 1. Your tank = 3 - 3 + 3 = 3
 You cannot travel back to station 2, as it requires 4 unit of gas but you only have 3.
-Therefore, you can&#39;t travel around the circuit once no matter where you start.
+Therefore, you can't travel around the circuit once no matter where you start.
 
 
 """

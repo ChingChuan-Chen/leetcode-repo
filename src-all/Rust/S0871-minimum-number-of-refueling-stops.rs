@@ -21,7 +21,7 @@ Explanation: We can reach the target without refueling.
 Example 2:
 Input: target = 100, startFuel = 1, stations = [[10,100]]
 Output: -1
-Explanation: We can&#39;t reach the target (or even the first gas station).
+Explanation: We can't reach the target (or even the first gas station).
 
 Example 3:
 Input: target = 100, startFuel = 10, stations = [[10,60],[20,30],[30,30],[60,40]]

@@ -1,7 +1,7 @@
 """
-A string of &#39;0&#39;s and &#39;1&#39;s is monotone increasing if it consists of some number of &#39;0&#39;s (possibly 0), followed by some number of &#39;1&#39;s (also possibly 0.)
+A string of '0's and '1's is monotone increasing if it consists of some number of '0's (possibly 0), followed by some number of '1's (also possibly 0.)
 
-We are given a string S of &#39;0&#39;s and &#39;1&#39;s, and we may flip any &#39;0&#39; to a &#39;1&#39; or a &#39;1&#39; to a &#39;0&#39;.
+We are given a string S of '0's and '1's, and we may flip any '0' to a '1' or a '1' to a '0'.
 
 Return the minimum number of flips to make S monotone increasing.
 
@@ -26,7 +26,7 @@ Explanation: We flip to get 00000000.
 
 Note:
 	1 <= S.length <= 20000
-	S only consists of &#39;0&#39; and &#39;1&#39; characters.
+	S only consists of '0' and '1' characters.
 
 
 """

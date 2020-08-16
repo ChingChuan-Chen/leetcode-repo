@@ -27,7 +27,7 @@ Explanation: It is better not to apply any change.
  
 Constraints:
 	1 <= num <= 10^4
-	num&#39;s digits are 6 or 9.
+	num's digits are 6 or 9.
 
 """
 class Solution:

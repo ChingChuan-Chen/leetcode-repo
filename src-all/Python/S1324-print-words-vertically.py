@@ -28,7 +28,7 @@ Output: ["CIC","OSO","N M","T I","E N","S G","T"]
 Constraints:
 	1 <= s.length <= 200
 	s contains only upper case English letters.
-	It&#39;s guaranteed that there is only one space between 2 words.
+	It's guaranteed that there is only one space between 2 words.
 
 """
 from typing import List

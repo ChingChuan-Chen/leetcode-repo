@@ -1,7 +1,7 @@
 """
-You have a lock in front of you with 4 circular wheels. Each wheel has 10 slots: &#39;0&#39;, &#39;1&#39;, &#39;2&#39;, &#39;3&#39;, &#39;4&#39;, &#39;5&#39;, &#39;6&#39;, &#39;7&#39;, &#39;8&#39;, &#39;9&#39;. The wheels can rotate freely and wrap around: for example we can turn &#39;9&#39; to be &#39;0&#39;, or &#39;0&#39; to be &#39;9&#39;. Each move consists of turning one wheel one slot.
+You have a lock in front of you with 4 circular wheels. Each wheel has 10 slots: '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'. The wheels can rotate freely and wrap around: for example we can turn '9' to be '0', or '0' to be '9'. Each move consists of turning one wheel one slot.
 
-The lock initially starts at &#39;0000&#39;, a string representing the state of the 4 wheels.
+The lock initially starts at '0000', a string representing the state of the 4 wheels.
 
 You are given a list of deadends dead ends, meaning if the lock displays any of these codes, the wheels of the lock will stop turning and you will be unable to open it.
 
@@ -26,7 +26,7 @@ Example 3:
 Input: deadends = ["8887","8889","8878","8898","8788","8988","7888","9888"], target = "8888"
 Output: -1
 Explanation:
-We can&#39;t reach the target without getting stuck.
+We can't reach the target without getting stuck.
 
 Example 4:
 Input: deadends = ["0000"], target = "8888"

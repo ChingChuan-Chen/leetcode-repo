@@ -20,7 +20,7 @@ The total cost was 20, and this is the minimum possible.
 Example 2:
 Input: stones = [3,2,4,1], K = 3
 Output: -1
-Explanation: After any merge operation, there are 2 piles left, and we can&#39;t merge anymore.  So the task is impossible.
+Explanation: After any merge operation, there are 2 piles left, and we can't merge anymore.  So the task is impossible.
 
 Example 3:
 Input: stones = [3,5,1,2,6], K = 3

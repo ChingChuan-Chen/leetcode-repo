@@ -9,18 +9,18 @@ Implement the StreamChecker class as follows:
 Example:
 
 StreamChecker streamChecker = new StreamChecker(["cd","f","kl"]); // init the dictionary.
-streamChecker.query(&#39;a&#39;);          // return false
-streamChecker.query(&#39;b&#39;);          // return false
-streamChecker.query(&#39;c&#39;);          // return false
-streamChecker.query(&#39;d&#39;);          // return true, because &#39;cd&#39; is in the wordlist
-streamChecker.query(&#39;e&#39;);          // return false
-streamChecker.query(&#39;f&#39;);          // return true, because &#39;f&#39; is in the wordlist
-streamChecker.query(&#39;g&#39;);          // return false
-streamChecker.query(&#39;h&#39;);          // return false
-streamChecker.query(&#39;i&#39;);          // return false
-streamChecker.query(&#39;j&#39;);          // return false
-streamChecker.query(&#39;k&#39;);          // return false
-streamChecker.query(&#39;l&#39;);          // return true, because &#39;kl&#39; is in the wordlist
+streamChecker.query('a');          // return false
+streamChecker.query('b');          // return false
+streamChecker.query('c');          // return false
+streamChecker.query('d');          // return true, because 'cd' is in the wordlist
+streamChecker.query('e');          // return false
+streamChecker.query('f');          // return true, because 'f' is in the wordlist
+streamChecker.query('g');          // return false
+streamChecker.query('h');          // return false
+streamChecker.query('i');          // return false
+streamChecker.query('j');          // return false
+streamChecker.query('k');          // return false
+streamChecker.query('l');          // return true, because 'kl' is in the wordlist
 
  
 

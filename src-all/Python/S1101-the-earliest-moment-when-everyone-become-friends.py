@@ -5,7 +5,7 @@ We have a list of logs, where each logs[i] = [timestamp, id_A, id_B] contains a 
 
 Each log represents the time in which two different people became friends.  Friendship is symmetric: if A is friends with B, then B is friends with A.
 
-Let&#39;s say that person A is acquainted with person B if A is friends with B, or A is a friend of someone acquainted with B.
+Let's say that person A is acquainted with person B if A is friends with B, or A is a friend of someone acquainted with B.
 
 Return the earliest time for which every person became acquainted with every other person. Return -1 if there is no such earliest time.
 
@@ -29,7 +29,7 @@ Note:
 	1 <= logs.length <= 10^4
 	0 <= logs[i][0] <= 10^9
 	0 <= logs[i][1], logs[i][2] <= N - 1
-	It&#39;s guaranteed that all timestamps in logs[i][0] are different.
+	It's guaranteed that all timestamps in logs[i][0] are different.
 	logs are not necessarily ordered by some criteria.
 	logs[i][1] != logs[i][2]
 

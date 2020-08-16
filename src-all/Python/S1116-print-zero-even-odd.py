@@ -3,14 +3,14 @@ Suppose you are given the following code:
 
 class ZeroEvenOdd {
   public ZeroEvenOdd(int n) { ... }      // constructor
-  public void zero(printNumber) { ... }  // only output 0&#39;s
+  public void zero(printNumber) { ... }  // only output 0's
   public void even(printNumber) { ... }  // only output even numbers
   public void odd(printNumber) { ... }   // only output odd numbers
 }
 
 The same instance of ZeroEvenOdd will be passed to three different threads:
 
-	Thread A will call zero() which should only output 0&#39;s.
+	Thread A will call zero() which should only output 0's.
 	Thread B will call even() which should only ouput even numbers.
 	Thread C will call odd() which should only output odd numbers.
 

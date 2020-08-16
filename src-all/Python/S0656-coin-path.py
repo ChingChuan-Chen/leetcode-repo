@@ -5,7 +5,7 @@ Now, you start from the place indexed 1 in the array A, and your aim is to reach
 
 If there are multiple paths with the same cost, return the lexicographically smallest such path.
 
-If it&#39;s not possible to reach the place indexed N then you need to return an empty array.
+If it's not possible to reach the place indexed N then you need to return an empty array.
 
 Example 1:
 Input: [1,2,4,-1,2], 2

@@ -1,5 +1,5 @@
 /*
-Given a rectangular pizza represented as a rows x cols matrix containing the following characters: &#39;A&#39; (an apple) and &#39;.&#39; (empty cell) and given the integer k. You have to cut the pizza into k pieces using k-1 cuts. 
+Given a rectangular pizza represented as a rows x cols matrix containing the following characters: 'A' (an apple) and '.' (empty cell) and given the integer k. You have to cut the pizza into k pieces using k-1 cuts. 
 
 For each cut you choose the direction: vertical or horizontal, then you choose a cut position at the cell boundary and cut the pizza into two pieces. If you cut the pizza vertically, give the left part of the pizza to a person. If you cut the pizza horizontally, give the upper part of the pizza to a person. Give the last piece of pizza to the last person.
 
@@ -25,7 +25,7 @@ Constraints:
 	rows == pizza.length
 	cols == pizza[i].length
 	1 <= k <= 10
-	pizza consists of characters &#39;A&#39; and &#39;.&#39; only.
+	pizza consists of characters 'A' and '.' only.
 
 */
 pub struct Solution {}

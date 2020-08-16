@@ -11,9 +11,9 @@ You may recall that an array A is a mountain array if and only if:
 	
 	
 
-Given a mountain array mountainArr, return the minimum index such that mountainArr.get(index) == target.  If such an index doesn&#39;t exist, return -1.
+Given a mountain array mountainArr, return the minimum index such that mountainArr.get(index) == target.  If such an index doesn't exist, return -1.
 
-You can&#39;t access the mountain array directly.  You may only access the array using a MountainArray interface:
+You can't access the mountain array directly.  You may only access the array using a MountainArray interface:
 
 	MountainArray.get(k) returns the element of the array at index k (0-indexed).
 	MountainArray.length() returns the length of the array.

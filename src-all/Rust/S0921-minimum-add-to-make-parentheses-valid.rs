@@ -1,5 +1,5 @@
 /*
-Given a string S of &#39;(&#39; and &#39;)&#39; parentheses, we add the minimum number of parentheses ( &#39;(&#39; or &#39;)&#39;, and in any positions ) so that the resulting parentheses string is valid.
+Given a string S of '(' and ')' parentheses, we add the minimum number of parentheses ( '(' or ')', and in any positions ) so that the resulting parentheses string is valid.
 
 Formally, a parentheses string is valid if and only if:
 
@@ -31,7 +31,7 @@ Output: 4
 
 Note:
 	S.length <= 1000
-	S only consists of &#39;(&#39; and &#39;)&#39; characters.
+	S only consists of '(' and ')' characters.
 
  
 

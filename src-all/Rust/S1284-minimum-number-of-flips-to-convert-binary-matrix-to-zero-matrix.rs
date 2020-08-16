@@ -16,7 +16,7 @@ Explanation: One possible solution is to flip (1, 0) then (0, 1) and finally (1,
 Example 2:
 Input: mat = [[0]]
 Output: 0
-Explanation: Given matrix is a zero matrix. We don&#39;t need to change it.
+Explanation: Given matrix is a zero matrix. We don't need to change it.
 
 Example 3:
 Input: mat = [[1,1,1],[1,0,1],[0,0,0]]
@@ -25,7 +25,7 @@ Output: 6
 Example 4:
 Input: mat = [[1,0,0],[1,0,0]]
 Output: -1
-Explanation: Given matrix can&#39;t be a zero matrix
+Explanation: Given matrix can't be a zero matrix
 
  
 Constraints:

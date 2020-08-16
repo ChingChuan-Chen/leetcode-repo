@@ -22,7 +22,7 @@ iterator.hasNext(); // returns false
 Constraints:
 	1 <= combinationLength <= characters.length <= 15
 	There will be at most 10^4 function calls per test.
-	It&#39;s guaranteed that all calls of the function next are valid.
+	It's guaranteed that all calls of the function next are valid.
 
 
 """

@@ -1,9 +1,9 @@
 /*
 We have a string S of lowercase letters, and an integer array shifts.
 
-Call the shift of a letter, the next letter in the alphabet, (wrapping around so that &#39;z&#39; becomes &#39;a&#39;). 
+Call the shift of a letter, the next letter in the alphabet, (wrapping around so that 'z' becomes 'a'). 
 
-For example, shift(&#39;a&#39;) = &#39;b&#39;, shift(&#39;t&#39;) = &#39;u&#39;, and shift(&#39;z&#39;) = &#39;a&#39;.
+For example, shift('a') = 'b', shift('t') = 'u', and shift('z') = 'a'.
 
 Now for each shifts[i] = x, we want to shift the first i+1 letters of S, x times.
 

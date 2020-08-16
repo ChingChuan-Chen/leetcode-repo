@@ -15,7 +15,7 @@ kthLargest.add(9);   // returns 8
 kthLargest.add(4);   // returns 8
 
 Note: 
-You may assume that nums&#39; length &ge; k-1 and k &ge; 1.
+You may assume that nums' length &ge; k-1 and k &ge; 1.
 
 */
 pub struct Solution {}

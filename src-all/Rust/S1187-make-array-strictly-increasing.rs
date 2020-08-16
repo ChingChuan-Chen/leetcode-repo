@@ -19,7 +19,7 @@ Explanation: Replace 5 with 3 and then replace 3 with 4. arr1 = [1, 3, 4, 6, 7].
 Example 3:
 Input: arr1 = [1,5,3,6,7], arr2 = [1,6,3,3]
 Output: -1
-Explanation: You can&#39;t make arr1 strictly increasing.
+Explanation: You can't make arr1 strictly increasing.
 
  
 Constraints:

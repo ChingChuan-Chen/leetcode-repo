@@ -1,5 +1,5 @@
 /*
-Given an array of integers target. From a starting array, A consisting of all 1&#39;s, you may perform the following procedure :
+Given an array of integers target. From a starting array, A consisting of all 1's, you may perform the following procedure :
 
 	let x be the sum of all elements currently in your array.
 	choose index i, such that 0 <= i < target.size and set the value of A at index i to x.

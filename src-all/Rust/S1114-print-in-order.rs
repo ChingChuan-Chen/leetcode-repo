@@ -24,6 +24,6 @@ Explanation: The input [1,3,2] means thread A calls first(), thread B calls thir
  
 
 Note:
-We do not know how the threads will be scheduled in the operating system, even though the numbers in the input seems to imply the ordering. The input format you see is mainly to ensure our tests&#39; comprehensiveness.
+We do not know how the threads will be scheduled in the operating system, even though the numbers in the input seems to imply the ordering. The input format you see is mainly to ensure our tests' comprehensiveness.
 
 */

@@ -7,7 +7,7 @@ This year, there will be a big event in the capital (city 0), and many people wa
 
 Your task consists of reorienting some roads such that each city can visit the city 0. Return the minimum number of edges changed.
 
-It&#39;s guaranteed that each city can reach the city 0 after reorder.
+It's guaranteed that each city can reach the city 0 after reorder.
 
  
 Example 1:

@@ -1,7 +1,7 @@
 /*
 There are n engineers numbered from 1 to n and two arrays: speed and efficiency, where speed[i] and efficiency[i] represent the speed and efficiency for the i-th engineer respectively. Return the maximum performance of a team composed of at most k engineers, since the answer can be a huge number, return this modulo 10^9 + 7.
 
-The performance of a team is the sum of their engineers&#39; speeds multiplied by the minimum efficiency among their engineers. 
+The performance of a team is the sum of their engineers' speeds multiplied by the minimum efficiency among their engineers. 
 
  
 Example 1:

@@ -17,13 +17,13 @@ class Node {
  
 
 Follow up:
-Could you solve it without looking up any of the node&#39;s values?
+Could you solve it without looking up any of the node's values?
 
  
 Example 1:
 Input: tree = [2,1,3], node = 1
 Output: 2
-Explanation: 1&#39;s in-order successor node is 2. Note that both the node and the return value is of Node type.
+Explanation: 1's in-order successor node is 2. Note that both the node and the return value is of Node type.
 
 Example 2:
 Input: tree = [5,3,6,2,4,null,null,1], node = 6

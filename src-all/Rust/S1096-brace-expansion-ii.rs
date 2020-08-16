@@ -1,5 +1,5 @@
 /*
-Under a grammar given below, strings can represent a set of lowercase words.  Let&#39;s use R(expr) to denote the set of words the expression represents.
+Under a grammar given below, strings can represent a set of lowercase words.  Let's use R(expr) to denote the set of words the expression represents.
 
 Grammar can best be understood through simple examples:
 
@@ -45,7 +45,7 @@ Explanation: Each distinct word is written only once in the final answer.
 
 Constraints:
 	1 <= expression.length <= 60
-	expression[i] consists of &#39;{&#39;, &#39;}&#39;, &#39;,&#39;or lowercase English letters.
+	expression[i] consists of '{', '}', ','or lowercase English letters.
 	The given expression represents a set of words based on the grammar given in the description.
 
 

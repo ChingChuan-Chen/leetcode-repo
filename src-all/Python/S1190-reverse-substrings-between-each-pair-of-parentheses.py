@@ -28,7 +28,7 @@ Output: "apmnolkjihgfedcbq"
 Constraints:
 	0 <= s.length <= 2000
 	s only contains lower case English characters and parentheses.
-	It&#39;s guaranteed that all parentheses are balanced.
+	It's guaranteed that all parentheses are balanced.
 
 
 """

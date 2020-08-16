@@ -11,7 +11,7 @@ The problem statement and the image above are taken from wikipedia.org
 
  
 
-The philosophers&#39; ids are numbered from 0 to 4 in a clockwise order. Implement the function void wantsToEat(philosopher, pickLeftFork, pickRightFork, eat, putLeftFork, putRightFork) where:
+The philosophers' ids are numbered from 0 to 4 in a clockwise order. Implement the function void wantsToEat(philosopher, pickLeftFork, pickRightFork, eat, putLeftFork, putRightFork) where:
 
 	philosopher is the id of the philosopher who wants to eat.
 	pickLeftFork and pickRightFork are functions you can call to pick the corresponding forks of that philosopher.

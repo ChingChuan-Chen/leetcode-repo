@@ -19,7 +19,7 @@ Output:
  
 
 Constraints:
-	The given dict won&#39;t contain duplicates, and its length won&#39;t exceed 100.
+	The given dict won't contain duplicates, and its length won't exceed 100.
 	All the strings in input have length in range [1, 1000].
 
 Note: This question is the same as 758: https://leetcode.com/problems/bold-words-in-string/

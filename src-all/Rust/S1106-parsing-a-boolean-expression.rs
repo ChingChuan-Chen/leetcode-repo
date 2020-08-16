@@ -29,7 +29,7 @@ Output: false
  
 Constraints:
 	1 <= expression.length <= 20000
-	expression[i] consists of characters in {&#39;(&#39;, &#39;)&#39;, &#39;&amp;&#39;, &#39;|&#39;, &#39;!&#39;, &#39;t&#39;, &#39;f&#39;, &#39;,&#39;}.
+	expression[i] consists of characters in {'(', ')', '&amp;', '|', '!', 't', 'f', ','}.
 	expression is a valid expression representing a boolean, as given in the description.
 
 

@@ -16,7 +16,7 @@ words = ["hello", "hi", "helo"]
 Output: 1
 Explanation: 
 We can extend "e" and "o" in the word "hello" to get "heeellooo".
-We can&#39;t extend "helo" to get "heeellooo" because the group "ll" is not size 3 or more.
+We can't extend "helo" to get "heeellooo" because the group "ll" is not size 3 or more.
 
  
 Constraints:

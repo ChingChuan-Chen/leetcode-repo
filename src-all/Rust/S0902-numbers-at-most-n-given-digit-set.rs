@@ -1,7 +1,7 @@
 /*
-We have a sorted set of digits D, a non-empty subset of {&#39;1&#39;,&#39;2&#39;,&#39;3&#39;,&#39;4&#39;,&#39;5&#39;,&#39;6&#39;,&#39;7&#39;,&#39;8&#39;,&#39;9&#39;}.  (Note that &#39;0&#39; is not included.)
+We have a sorted set of digits D, a non-empty subset of {'1','2','3','4','5','6','7','8','9'}.  (Note that '0' is not included.)
 
-Now, we write numbers using these digits, using each digit as many times as we want.  For example, if D = {&#39;1&#39;,&#39;3&#39;,&#39;5&#39;}, we may write numbers such as &#39;13&#39;, &#39;551&#39;, &#39;1351315&#39;.
+Now, we write numbers using these digits, using each digit as many times as we want.  For example, if D = {'1','3','5'}, we may write numbers such as '13', '551', '1351315'.
 
 Return the number of positive integers that can be written (using the digits of D) that are less than or equal to N.
 
@@ -26,7 +26,7 @@ In total, this is 29523 integers that can be written using the digits of D.
  
 
 Note:
-	D is a subset of digits &#39;1&#39;-&#39;9&#39; in sorted order.
+	D is a subset of digits '1'-'9' in sorted order.
 	1 <= N <= 10^9
 
 

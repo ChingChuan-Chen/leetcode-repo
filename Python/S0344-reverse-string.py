@@ -15,19 +15,19 @@ Output: ["o","l","l","e","h"]
 Example 2:
 Input: ["H","a","n","n","a","h"]
 Output: ["h","a","n","n","a","H"]
-
-
 """
 from typing import List
 class Solution:
     def reverseString(self, s: List[str]) -> None:
-        """
-        Do not return anything, modify s in-place instead.
-        """
-        
-        pass
+        for j in range(len(s)//2):
+            s[j], s[len(s)-j-1] = s[len(s)-j-1], s[j]
 
 
 if __name__ == '__main__':
-    assert Solution().reverseString(0) == 0
+    s = ["h","e","l","l","o"]
+    Solution().reverseString(s)
+    assert s == ["o","l","l","e","h"]
 
+    s = ["H","a","n","n","a","h"]
+    Solution().reverseString(s)
+    assert s == ["h","a","n","n","a","H"]

@@ -23,7 +23,7 @@ Example 2:
 Input: ["xc","yb","za"]
 Output: 0
 Explanation: 
-A is already in lexicographic order, so we don&#39;t need to delete anything.
+A is already in lexicographic order, so we don't need to delete anything.
 Note that the rows of A are not necessarily in lexicographic order:
 ie. it is NOT necessarily true that (A[0][0] <= A[0][1] <= ...)
 

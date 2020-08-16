@@ -27,7 +27,7 @@ Output: 3
  
 Constraints:
 	2 <= s.length <= 500
-	The string s consists of characters &#39;0&#39; and &#39;1&#39; only.
+	The string s consists of characters '0' and '1' only.
 
 
 */

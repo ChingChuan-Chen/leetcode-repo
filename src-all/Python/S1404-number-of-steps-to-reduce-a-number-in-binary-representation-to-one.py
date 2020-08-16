@@ -8,7 +8,7 @@ Given a number s in their binary representation. Return the number of steps to r
 	If the current number is odd, you have to add 1 to it.
 	
 
-It&#39;s guaranteed that you can always reach to one for all testcases.
+It's guaranteed that you can always reach to one for all testcases.
 
  
 Example 1:
@@ -35,8 +35,8 @@ Output: 0
  
 Constraints:
 	1 <= s.length <= 500
-	s consists of characters &#39;0&#39; or &#39;1&#39;
-	s[0] == &#39;1&#39;
+	s consists of characters '0' or '1'
+	s[0] == '1'
 
 
 """

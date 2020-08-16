@@ -11,7 +11,7 @@ Example 1:
 Input: [[0,0,0,0],[1,0,1,0],[0,1,1,0],[0,0,0,0]]
 Output: 3
 Explanation: 
-There are three 1s that are enclosed by 0s, and one 1 that isn&#39;t enclosed because its on the boundary.
+There are three 1s that are enclosed by 0s, and one 1 that isn't enclosed because its on the boundary.
 
 Example 2:
 Input: [[0,1,1,0],[0,0,1,0],[0,0,1,0],[0,0,0,0]]

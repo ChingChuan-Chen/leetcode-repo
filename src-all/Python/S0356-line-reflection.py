@@ -15,7 +15,7 @@ Explanation: We can choose the line x = 0.
 Example 2:
 Input: points = [[1,1],[-1,-1]]
 Output: false
-Explanation: We can&#39;t choose a line.
+Explanation: We can't choose a line.
 
  
 Constraints:

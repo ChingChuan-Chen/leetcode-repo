@@ -22,7 +22,7 @@ interface HtmlParser {
 
 Note that getUrls(String url) simulates performing a HTTP request. You can treat it as a blocking function call which waits for a HTTP request to finish. It is guaranteed that getUrls(String url) will return the urls within 15ms.  Single-threaded solutions will exceed the time limit so, can your multi-threaded web crawler do better?
 
-Below are two examples explaining the functionality of the problem, for custom testing purposes you&#39;ll have three variables urls, edges and startUrl. Notice that you will only have access to startUrl in your code, while urls and edges are not directly accessible to you in code.
+Below are two examples explaining the functionality of the problem, for custom testing purposes you'll have three variables urls, edges and startUrl. Notice that you will only have access to startUrl in your code, while urls and edges are not directly accessible to you in code.
 
  
 
@@ -68,10 +68,10 @@ Constraints:
 	1 <= urls.length <= 1000
 	1 <= urls[i].length <= 300
 	startUrl is one of the urls.
-	Hostname label must be from 1 to 63 characters long, including the dots, may contain only the ASCII letters from &#39;a&#39; to &#39;z&#39;, digits from &#39;0&#39; to &#39;9&#39; and the hyphen-minus character (&#39;-&#39;).
-	The hostname may not start or end with the hyphen-minus character (&#39;-&#39;). 
+	Hostname label must be from 1 to 63 characters long, including the dots, may contain only the ASCII letters from 'a' to 'z', digits from '0' to '9' and the hyphen-minus character ('-').
+	The hostname may not start or end with the hyphen-minus character ('-'). 
 	See:  https://en.wikipedia.org/wiki/Hostname#Restrictions_on_valid_hostnames
-	You may assume there&#39;re no duplicates in url library.
+	You may assume there're no duplicates in url library.
 
 
 """

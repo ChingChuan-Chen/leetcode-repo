@@ -25,7 +25,7 @@ Explanation: The longest repeating substring is "aaaa", which occurs twice.
 
  
 Constraints:
-	The string S consists of only lowercase English letters from &#39;a&#39; - &#39;z&#39;.
+	The string S consists of only lowercase English letters from 'a' - 'z'.
 	1 <= S.length <= 1500
 
 

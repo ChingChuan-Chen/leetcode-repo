@@ -1,10 +1,10 @@
 /*
 A message containing letters from A-Z is being encoded to numbers using the following mapping:
 
-&#39;A&#39; -> 1
-&#39;B&#39; -> 2
+'A' -> 1
+'B' -> 2
 ...
-&#39;Z&#39; -> 26
+'Z' -> 26
 
 Given a non-empty string containing only digits, determine the total number of ways to decode it.
 

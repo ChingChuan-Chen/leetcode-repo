@@ -3,7 +3,7 @@ You are given an immutable linked list, print out all values of each node in rev
 
 	ImmutableListNode: An interface of immutable linked list, you are given the head of the list.
 
-You need to use the following functions to access the linked list (you can&#39;t access the ImmutableListNode directly):
+You need to use the following functions to access the linked list (you can't access the ImmutableListNode directly):
 
 	ImmutableListNode.printValue(): Print value of the current node.
 	ImmutableListNode.getNext(): Return the next node.

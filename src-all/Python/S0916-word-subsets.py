@@ -35,7 +35,7 @@ Note:
 	1 <= A.length, B.length <= 10000
 	1 <= A[i].length, B[i].length <= 10
 	A[i] and B[i] consist only of lowercase letters.
-	All words in A[i] are unique: there isn&#39;t i != j with A[i] == A[j].
+	All words in A[i] are unique: there isn't i != j with A[i] == A[j].
 
 
 """

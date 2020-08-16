@@ -10,7 +10,7 @@ Input: arr = [5,4,3,2,1]
 Output: 1
 Explanation:
 Splitting into two or more chunks will not return the required result.
-For example, splitting into [5, 4], [3, 2, 1] will result in [4, 5, 1, 2, 3], which isn&#39;t sorted.
+For example, splitting into [5, 4], [3, 2, 1] will result in [4, 5, 1, 2, 3], which isn't sorted.
 
 Example 2:
 Input: arr = [2,1,3,4,4]

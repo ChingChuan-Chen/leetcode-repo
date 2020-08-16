@@ -21,7 +21,7 @@ Output: 2
 
 Note:
 	1 <= A.length == B.length <= 20
-	A and B contain only lowercase letters from the set {&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;, &#39;e&#39;, &#39;f&#39;}
+	A and B contain only lowercase letters from the set {'a', 'b', 'c', 'd', 'e', 'f'}
 
 
 """

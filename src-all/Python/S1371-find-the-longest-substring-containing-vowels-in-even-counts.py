@@ -1,5 +1,5 @@
 """
-Given the string s, return the size of the longest substring containing each vowel an even number of times. That is, &#39;a&#39;, &#39;e&#39;, &#39;i&#39;, &#39;o&#39;, and &#39;u&#39; must appear an even number of times.
+Given the string s, return the size of the longest substring containing each vowel an even number of times. That is, 'a', 'e', 'i', 'o', and 'u' must appear an even number of times.
 
  
 Example 1:
@@ -10,7 +10,7 @@ Explanation: The longest substring is "leetminicowor" which contains two each of
 Example 2:
 Input: s = "leetcodeisgreat"
 Output: 5
-Explanation: The longest substring is "leetc" which contains two e&#39;s.
+Explanation: The longest substring is "leetc" which contains two e's.
 
 Example 3:
 Input: s = "bcbcbc"

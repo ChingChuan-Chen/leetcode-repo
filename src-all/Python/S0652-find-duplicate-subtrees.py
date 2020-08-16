@@ -23,7 +23,7 @@ and
 
     4
 
-Therefore, you need to return above trees&#39; root in the form of a list.
+Therefore, you need to return above trees' root in the form of a list.
 """
 
 # Definition for a binary tree node.

@@ -27,7 +27,7 @@ Output: 1999999984
 Constraints:
 	1 <= n, a, b, c <= 10^9
 	1 <= a * b * c <= 10^18
-	It&#39;s guaranteed that the result will be in range [1, 2 * 10^9]
+	It's guaranteed that the result will be in range [1, 2 * 10^9]
 
 
 */

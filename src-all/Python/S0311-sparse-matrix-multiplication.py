@@ -1,7 +1,7 @@
 """
 Given two sparse matrices A and B, return the result of AB.
 
-You may assume that A&#39;s column number is equal to B&#39;s row number.
+You may assume that A's column number is equal to B's row number.
 
 Example:
 

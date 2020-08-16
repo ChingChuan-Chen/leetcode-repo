@@ -36,7 +36,7 @@ The stack becomes [5,7].
 
 Note:
 	Calls to FreqStack.push(int x) will be such that 0 <= x <= 10^9.
-	It is guaranteed that FreqStack.pop() won&#39;t be called if the stack has zero elements.
+	It is guaranteed that FreqStack.pop() won't be called if the stack has zero elements.
 	The total number of FreqStack.push calls will not exceed 10000 in a single test case.
 	The total number of FreqStack.pop calls will not exceed 10000 in a single test case.
 	The total number of FreqStack.push and FreqStack.pop calls will not exceed 150000 across all test cases.

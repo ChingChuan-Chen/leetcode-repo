@@ -9,7 +9,7 @@ For each integer in this list:
 
 Given a list of ascending three-digits integers representing a binary tree with the depth smaller than 5, you need to return the sum of all paths from the root towards the leaves.
 
-It&#39;s guaranteed that the given list represents a valid connected binary tree.
+It's guaranteed that the given list represents a valid connected binary tree.
 
 Example 1:
 Input: [113, 215, 221]

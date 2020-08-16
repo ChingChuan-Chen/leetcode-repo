@@ -1,7 +1,7 @@
 /*
 Find the smallest prime palindrome greater than or equal to N.
 
-Recall that a number is prime if it&#39;s only divisors are 1 and itself, and it is greater than 1. 
+Recall that a number is prime if it's only divisors are 1 and itself, and it is greater than 1. 
 
 For example, 2,3,5,7,11 and 13 are primes.
 

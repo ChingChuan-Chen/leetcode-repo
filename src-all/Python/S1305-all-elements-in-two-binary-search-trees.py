@@ -27,7 +27,7 @@ Output: [1,1,8,8]
  
 Constraints:
 	Each tree has at most 5000 nodes.
-	Each node&#39;s value is between [-10^5, 10^5].
+	Each node's value is between [-10^5, 10^5].
 
 
 """

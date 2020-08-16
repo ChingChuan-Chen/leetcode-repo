@@ -6,7 +6,7 @@ Each day, whether the cell is occupied or vacant changes according to the follow
 	If a cell has two adjacent neighbors that are both occupied or both vacant, then the cell becomes occupied.
 	Otherwise, it becomes vacant.
 
-(Note that because the prison is a row, the first and the last cells in the row can&#39;t have two adjacent neighbors.)
+(Note that because the prison is a row, the first and the last cells in the row can't have two adjacent neighbors.)
 
 We describe the current state of the prison in the following way: cells[i] == 1 if the i-th cell is occupied, else cells[i] == 0.
 

@@ -1,5 +1,5 @@
 /*
-Given a non-negative integer c, your task is to decide whether there&#39;re two integers a and b such that a2 + b2 = c.
+Given a non-negative integer c, your task is to decide whether there're two integers a and b such that a2 + b2 = c.
 
 Example 1:
 Input: 5

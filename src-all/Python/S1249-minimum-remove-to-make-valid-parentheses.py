@@ -1,7 +1,7 @@
 """
-Given a string s of &#39;(&#39; , &#39;)&#39; and lowercase English characters. 
+Given a string s of '(' , ')' and lowercase English characters. 
 
-Your task is to remove the minimum number of parentheses ( &#39;(&#39; or &#39;)&#39;, in any positions ) so that the resulting parentheses string is valid and return any valid string.
+Your task is to remove the minimum number of parentheses ( '(' or ')', in any positions ) so that the resulting parentheses string is valid and return any valid string.
 
 Formally, a parentheses string is valid if and only if:
 
@@ -31,7 +31,7 @@ Output: "a(b(c)d)"
  
 Constraints:
 	1 <= s.length <= 10^5
-	s[i] is one of  &#39;(&#39; , &#39;)&#39; and lowercase English letters.
+	s[i] is one of  '(' , ')' and lowercase English letters.
 
 """
 class Solution:

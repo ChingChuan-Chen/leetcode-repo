@@ -24,8 +24,8 @@ Output: ["/a/b/c","/a/b/ca","/a/b/d"]
 Constraints:
 	1 <= folder.length <= 4 * 10^4
 	2 <= folder[i].length <= 100
-	folder[i] contains only lowercase letters and &#39;/&#39;
-	folder[i] always starts with character &#39;/&#39;
+	folder[i] contains only lowercase letters and '/'
+	folder[i] always starts with character '/'
 	Each folder name is unique.
 
 

@@ -15,7 +15,7 @@ Example 2:
 Input: root = [7,1,4,6,null,5,3,null,null,null,null,null,2]
 Output: [6,2]
 Explanation: Light blue nodes are lonely nodes.
-Please remember that order doesn&#39;t matter, [2,6] is also an acceptable answer.
+Please remember that order doesn't matter, [2,6] is also an acceptable answer.
 
 Example 3:
  
@@ -36,7 +36,7 @@ Output: [78,28]
  
 Constraints:
 	The number of nodes in the tree is in the range [1, 1000].
-	Each node&#39;s value is between [1, 10^6].
+	Each node's value is between [1, 10^6].
 
 
 */

@@ -19,7 +19,7 @@ As most of the voters ranked C second, team C is the second team and team B is t
 Example 2:
 Input: votes = ["WXYZ","XYZW"]
 Output: "XWYZ"
-Explanation: X is the winner due to tie-breaking rule. X has same votes as W for the first position but X has one vote as second position while W doesn&#39;t have any votes as second position. 
+Explanation: X is the winner due to tie-breaking rule. X has same votes as W for the first position but X has one vote as second position while W doesn't have any votes as second position. 
 
 Example 3:
 Input: votes = ["ZMNAGUEDSJYLBOPHRQICWFXTVK"]

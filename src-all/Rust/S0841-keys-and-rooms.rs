@@ -21,7 +21,7 @@ We then go to room 3.  Since we were able to go to every room, we return true.
 Example 2:
 Input: [[1,3],[3,0,1],[2],[0]]
 Output: false
-Explanation: We can&#39;t enter the room with number 2.
+Explanation: We can't enter the room with number 2.
 
 Note:
 	1 <= rooms.length <= 1000

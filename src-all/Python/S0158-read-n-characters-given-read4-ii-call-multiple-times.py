@@ -20,9 +20,9 @@ Note: buf4[] is destination not source, the results from read4 will be copied to
 
 Below is a high level example of how read4 works:
 
-File file("abcde"); // File is "abcde", initially file pointer (fp) points to &#39;a&#39;
+File file("abcde"); // File is "abcde", initially file pointer (fp) points to 'a'
 char[] buf = new char[4]; // Create buffer with enough space to store characters
-read4(buf4); // read4 returns 4. Now buf = "abcd", fp points to &#39;e&#39;
+read4(buf4); // read4 returns 4. Now buf = "abcd", fp points to 'e'
 read4(buf4); // read4 returns 1. Now buf = "e", fp points to end of file
 read4(buf4); // read4 returns 0. Now buf = "", fp points to end of file
 

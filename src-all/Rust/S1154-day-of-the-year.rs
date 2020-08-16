@@ -22,7 +22,7 @@ Output: 61
  
 Constraints:
 	date.length == 10
-	date[4] == date[7] == &#39;-&#39;, and all other date[i]&#39;s are digits
+	date[4] == date[7] == '-', and all other date[i]'s are digits
 	date represents a calendar date between Jan 1st, 1900 and Dec 31, 2019.
 
 */

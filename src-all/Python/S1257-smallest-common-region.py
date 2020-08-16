@@ -7,7 +7,7 @@ Given two regions region1, region2, find out the smallest region that contains b
 
 If you are given regions r1, r2 and r3 such that r1 includes r3, it is guaranteed there is no r2 such that r2 includes r3.
 
-It&#39;s guaranteed the smallest region exists.
+It's guaranteed the smallest region exists.
 
  
 Example 1:

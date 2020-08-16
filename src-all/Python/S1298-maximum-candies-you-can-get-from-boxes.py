@@ -14,7 +14,7 @@ Return the maximum number of candies you can get following the rules above.
 Example 1:
 Input: status = [1,0,1,0], candies = [7,5,4,100], keys = [[],[],[1],[]], containedBoxes = [[1,2],[3],[],[]], initialBoxes = [0]
 Output: 16
-Explanation: You will be initially given box 0. You will find 7 candies in it and boxes 1 and 2. Box 1 is closed and you don&#39;t have a key for it so you will open box 2. You will find 4 candies and a key to box 1 in box 2.
+Explanation: You will be initially given box 0. You will find 7 candies in it and boxes 1 and 2. Box 1 is closed and you don't have a key for it so you will open box 2. You will find 4 candies and a key to box 1 in box 2.
 In box 1, you will find 5 candies and box 3 but you will not find a key to box 3 so box 3 will remain closed.
 Total number of candies collected = 7 + 4 + 5 = 16 candy.
 

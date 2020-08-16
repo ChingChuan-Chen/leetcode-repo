@@ -6,7 +6,7 @@ In one operation, you can choose any character of the string and change it to an
 Find the length of the longest sub-string containing all repeating letters you can get after performing the above operations.
 
 Note:
-Both the string&#39;s length and k will not exceed 104.
+Both the string's length and k will not exceed 104.
 
 Example 1:
 Input:
@@ -16,7 +16,7 @@ Output:
 4
 
 Explanation:
-Replace the two &#39;A&#39;s with two &#39;B&#39;s or vice versa.
+Replace the two 'A's with two 'B's or vice versa.
 
  
 
@@ -28,7 +28,7 @@ Output:
 4
 
 Explanation:
-Replace the one &#39;A&#39; in the middle with &#39;B&#39; and form "AABBBBA".
+Replace the one 'A' in the middle with 'B' and form "AABBBBA".
 The substring "BBBB" has the longest repeating letters, which is 4.
 
  

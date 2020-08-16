@@ -13,9 +13,9 @@ Output: "10101"
 
  
 Constraints:
-	Each string consists only of &#39;0&#39; or &#39;1&#39; characters.
+	Each string consists only of '0' or '1' characters.
 	1 <= a.length, b.length <= 10^4
-	Each string is either "0" or doesn&#39;t contain any leading zero.
+	Each string is either "0" or doesn't contain any leading zero.
 
 
 */

@@ -8,7 +8,7 @@ A valid IPv4 address is an IP in the form "x1.x2.x3.x4" where 0 <= xi <= 255 and
 A valid IPv6 address is an IP in the form "x1:x2:x3:x4:x5:x6:x7:x8" where:
 
 	1 <= xi.length <= 4
-	xi is hexadecimal string whcih may contain digits, lower-case English letter (&#39;a&#39; to &#39;f&#39;) and/or upper-case English letters (&#39;A&#39; to &#39;F&#39;).
+	xi is hexadecimal string whcih may contain digits, lower-case English letter ('a' to 'f') and/or upper-case English letters ('A' to 'F').
 	Leading zeros are allowed in xi.
 
 For example, "2001:0db8:85a3:0000:0000:8a2e:0370:7334" and "2001:db8:85a3:0:0:8A2E:0370:7334" are valid IPv6 addresses but "2001:0db8:85a3::8A2E:037j:7334" and "02001:0db8:85a3:0000:0000:8a2e:0370:7334" are invalid IPv6 addresses.
@@ -39,7 +39,7 @@ Output: "Neither"
 
  
 Constraints:
-	IP consists only of English letters, digits and the characters &#39;.&#39; and &#39;:&#39;.
+	IP consists only of English letters, digits and the characters '.' and ':'.
 
 
 """

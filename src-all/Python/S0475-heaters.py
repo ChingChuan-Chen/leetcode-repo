@@ -8,7 +8,7 @@ So, your input will be the positions of houses and heaters seperately, and your 
 Note:
 	Numbers of houses and heaters you are given are non-negative and will not exceed 25000.
 	Positions of houses and heaters you are given are non-negative and will not exceed 10^9.
-	As long as a house is in the heaters&#39; warm radius range, it can be warmed.
+	As long as a house is in the heaters' warm radius range, it can be warmed.
 	All the heaters follow your radius standard and the warm radius will the same.
 
  

@@ -25,7 +25,7 @@ Output: 1
  
 Constraints:
 	Each tree has at most 50000 nodes and at least 2 nodes.
-	Each node&#39;s value is between [1, 10000].
+	Each node's value is between [1, 10000].
 
 */
 

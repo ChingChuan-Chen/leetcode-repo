@@ -1,7 +1,7 @@
 """
 Given a binary tree root and an integer target, delete all the leaf nodes with value target.
 
-Note that once you delete a leaf node with value target, if it&#39;s parent node becomes a leaf node and has the value target, it should also be deleted (you need to continue doing that until you can&#39;t).
+Note that once you delete a leaf node with value target, if it's parent node becomes a leaf node and has the value target, it should also be deleted (you need to continue doing that until you can't).
 
  
 Example 1:
@@ -31,7 +31,7 @@ Output: [1,2,3]
 Constraints:
 	1 <= target <= 1000
 	The given binary tree will have between 1 and 3000 nodes.
-	Each node&#39;s value is between [1, 1000].
+	Each node's value is between [1, 1000].
 
 
 """

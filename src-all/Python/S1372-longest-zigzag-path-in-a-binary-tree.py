@@ -4,7 +4,7 @@ Given a binary tree root, a ZigZag path for a binary tree is defined as follow:
 	Choose any node in the binary tree and a direction (right or left).
 	If the current direction is right then move to the right child of the current node otherwise move to the left child.
 	Change the direction from right to left or right to left.
-	Repeat the second and third step until you can&#39;t move in the tree.
+	Repeat the second and third step until you can't move in the tree.
 
 Zigzag length is defined as the number of nodes visited - 1. (A single node has a length of 0).
 
@@ -28,7 +28,7 @@ Output: 0
  
 Constraints:
 	Each tree has at most 50000 nodes..
-	Each node&#39;s value is between [1, 100].
+	Each node's value is between [1, 100].
 
 """
 

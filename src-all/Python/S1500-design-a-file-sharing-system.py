@@ -48,7 +48,7 @@ fileSharing.request(2, 1);   // The user with id = 2 requested the first file ch
 
 fileSharing.leave(2);        // The user with id = 2 left the system.
 
-fileSharing.join([]);        // A user who doesn&#39;t have any chunks joined the system, assign id = 1 to them and return 1. Notice that ids 1 and 2 are free and we can reuse them.
+fileSharing.join([]);        // A user who doesn't have any chunks joined the system, assign id = 1 to them and return 1. Notice that ids 1 and 2 are free and we can reuse them.
 
  
 Constraints:

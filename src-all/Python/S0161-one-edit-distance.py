@@ -12,7 +12,7 @@ There are 3 possiblities to satisify one edit distance apart:
 Example 1:
 Input: s = "ab", t = "acb"
 Output: true
-Explanation: We can insert &#39;c&#39; into s to get t.
+Explanation: We can insert 'c' into s to get t.
 
 Example 2:
 Input: s = "cab", t = "ad"
@@ -22,7 +22,7 @@ Explanation: We cannot get t from s by only one step.
 Example 3:
 Input: s = "1203", t = "1213"
 Output: true
-Explanation: We can replace &#39;0&#39; with &#39;1&#39; to get t.
+Explanation: We can replace '0' with '1' to get t.
 
 """
 class Solution:

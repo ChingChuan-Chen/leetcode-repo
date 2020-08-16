@@ -3,12 +3,12 @@ Storekeeper is a game in which the player pushes boxes around in a warehouse try
 
 The game is represented by a grid of size m x n, where each element is a wall, floor, or a box.
 
-Your task is move the box &#39;B&#39; to the target position &#39;T&#39; under the following rules:
+Your task is move the box 'B' to the target position 'T' under the following rules:
 
-	Player is represented by character &#39;S&#39; and can move up, down, left, right in the grid if it is a floor (empy cell).
-	Floor is represented by character &#39;.&#39; that means free cell to walk.
-	Wall is represented by character &#39;#&#39; that means obstacle  (impossible to walk there). 
-	There is only one box &#39;B&#39; and one target cell &#39;T&#39; in the grid.
+	Player is represented by character 'S' and can move up, down, left, right in the grid if it is a floor (empy cell).
+	Floor is represented by character '.' that means free cell to walk.
+	Wall is represented by character '#' that means obstacle  (impossible to walk there). 
+	There is only one box 'B' and one target cell 'T' in the grid.
 	The box can be moved to an adjacent free cell by standing next to the box and then moving in the direction of the box. This is a push.
 	The player cannot walk through the box.
 
@@ -56,8 +56,8 @@ Constraints:
 	n == grid[i].length
 	1 <= m <= 20
 	1 <= n <= 20
-	grid contains only characters &#39;.&#39;, &#39;#&#39;,  &#39;S&#39; , &#39;T&#39;, or &#39;B&#39;.
-	There is only one character &#39;S&#39;, &#39;B&#39; and &#39;T&#39; in the grid.
+	grid contains only characters '.', '#',  'S' , 'T', or 'B'.
+	There is only one character 'S', 'B' and 'T' in the grid.
 
 
 */

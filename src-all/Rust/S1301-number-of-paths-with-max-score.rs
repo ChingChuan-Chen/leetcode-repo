@@ -1,7 +1,7 @@
 /*
-You are given a square board of characters. You can move on the board starting at the bottom right square marked with the character &#39;S&#39;.
+You are given a square board of characters. You can move on the board starting at the bottom right square marked with the character 'S'.
 
-You need to reach the top left square marked with the character &#39;E&#39;. The rest of the squares are labeled either with a numeric character 1, 2, ..., 9 or with an obstacle &#39;X&#39;. In one move you can go up, left or up-left (diagonally) only if there is no obstacle there.
+You need to reach the top left square marked with the character 'E'. The rest of the squares are labeled either with a numeric character 1, 2, ..., 9 or with an obstacle 'X'. In one move you can go up, left or up-left (diagonally) only if there is no obstacle there.
 
 Return a list of two integers: the first integer is the maximum sum of numeric characters you can collect, and the second is the number of such paths that you can take to get that maximum sum, taken modulo 10^9 + 7.
 

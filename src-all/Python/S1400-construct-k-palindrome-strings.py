@@ -23,12 +23,12 @@ Explanation: The only possible solution is to put each character in a separate s
 Example 4:
 Input: s = "yzyzyzyzyzyzyzy", k = 2
 Output: true
-Explanation: Simply you can put all z&#39;s in one string and all y&#39;s in the other string. Both strings will be palindrome.
+Explanation: Simply you can put all z's in one string and all y's in the other string. Both strings will be palindrome.
 
 Example 5:
 Input: s = "cr", k = 7
 Output: false
-Explanation: We don&#39;t have enough characters in s to construct 7 palindromes.
+Explanation: We don't have enough characters in s to construct 7 palindromes.
 
  
 Constraints:

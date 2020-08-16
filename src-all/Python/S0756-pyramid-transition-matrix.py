@@ -26,14 +26,14 @@ Example 2:
 Input: bottom = "AABA", allowed = ["AAA", "AAB", "ABA", "ABB", "BAC"]
 Output: false
 Explanation:
-We can&#39;t stack the pyramid to the top.
+We can't stack the pyramid to the top.
 Note that there could be allowed triples (A, B, C) and (A, B, D) with C != D.
 
  
 Constraints:
 	bottom will be a string with length in range [2, 8].
 	allowed will have length in range [0, 200].
-	Letters in all strings will be chosen from the set {&#39;A&#39;, &#39;B&#39;, &#39;C&#39;, &#39;D&#39;, &#39;E&#39;, &#39;F&#39;, &#39;G&#39;}.
+	Letters in all strings will be chosen from the set {'A', 'B', 'C', 'D', 'E', 'F', 'G'}.
 
 
 """

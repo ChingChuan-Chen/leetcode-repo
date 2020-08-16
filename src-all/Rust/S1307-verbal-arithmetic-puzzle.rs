@@ -14,13 +14,13 @@ Return True if the equation is solvable otherwise return False.
 Example 1:
 Input: words = ["SEND","MORE"], result = "MONEY"
 Output: true
-Explanation: Map &#39;S&#39;-> 9, &#39;E&#39;->5, &#39;N&#39;->6, &#39;D&#39;->7, &#39;M&#39;->1, &#39;O&#39;->0, &#39;R&#39;->8, &#39;Y&#39;->&#39;2&#39;
+Explanation: Map 'S'-> 9, 'E'->5, 'N'->6, 'D'->7, 'M'->1, 'O'->0, 'R'->8, 'Y'->'2'
 Such that: "SEND" + "MORE" = "MONEY" ,  9567 + 1085 = 10652
 
 Example 2:
 Input: words = ["SIX","SEVEN","SEVEN"], result = "TWENTY"
 Output: true
-Explanation: Map &#39;S&#39;-> 6, &#39;I&#39;->5, &#39;X&#39;->0, &#39;E&#39;->8, &#39;V&#39;->7, &#39;N&#39;->2, &#39;T&#39;->1, &#39;W&#39;->&#39;3&#39;, &#39;Y&#39;->4
+Explanation: Map 'S'-> 6, 'I'->5, 'X'->0, 'E'->8, 'V'->7, 'N'->2, 'T'->1, 'W'->'3', 'Y'->4
 Such that: "SIX" + "SEVEN" + "SEVEN" = "TWENTY" ,  650 + 68782 + 68782 = 138214
 
 Example 3:

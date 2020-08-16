@@ -1,5 +1,5 @@
 """
-In a string composed of &#39;L&#39;, &#39;R&#39;, and &#39;X&#39; characters, like "RXXLRXRXL", a move consists of either replacing one occurrence of "XL" with "LX", or replacing one occurrence of "RX" with "XR". Given the starting string start and the ending string end, return True if and only if there exists a sequence of moves to transform one string to the other.
+In a string composed of 'L', 'R', and 'X' characters, like "RXXLRXRXL", a move consists of either replacing one occurrence of "XL" with "LX", or replacing one occurrence of "RX" with "XR". Given the starting string start and the ending string end, return True if and only if there exists a sequence of moves to transform one string to the other.
 
 Example:
 
@@ -16,7 +16,7 @@ XRLXXRRLX
  
 Constraints:
 	1 <= len(start) == len(end) <= 10000.
-	Both start and end will only consist of characters in {&#39;L&#39;, &#39;R&#39;, &#39;X&#39;}.
+	Both start and end will only consist of characters in {'L', 'R', 'X'}.
 
 
 """

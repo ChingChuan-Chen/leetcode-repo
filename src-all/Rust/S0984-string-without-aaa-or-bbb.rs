@@ -1,9 +1,9 @@
 /*
 Given two integers A and B, return any string S such that:
 
-	S has length A + B and contains exactly A &#39;a&#39; letters, and exactly B &#39;b&#39; letters;
-	The substring &#39;aaa&#39; does not occur in S;
-	The substring &#39;bbb&#39; does not occur in S.
+	S has length A + B and contains exactly A 'a' letters, and exactly B 'b' letters;
+	The substring 'aaa' does not occur in S;
+	The substring 'bbb' does not occur in S.
 
  
 

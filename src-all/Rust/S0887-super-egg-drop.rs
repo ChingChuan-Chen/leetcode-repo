@@ -19,7 +19,7 @@ Output: 2
 Explanation: 
 Drop the egg from floor 1.  If it breaks, we know with certainty that F = 0.
 Otherwise, drop the egg from floor 2.  If it breaks, we know with certainty that F = 1.
-If it didn&#39;t break, then we know with certainty F = 2.
+If it didn't break, then we know with certainty F = 2.
 Hence, we needed 2 moves in the worst case to know what F is with certainty.
 
 Example 2:

@@ -5,7 +5,7 @@ Return the maximum amount of gold you can collect under the conditions:
 
 	Every time you are located in a cell you will collect all the gold in that cell.
 	From your position you can walk one step to the left, right, up or down.
-	You can&#39;t visit the same cell more than once.
+	You can't visit the same cell more than once.
 	Never visit a cell with 0 gold.
 	You can start and stop collecting gold from any position in the grid that has some gold.
 

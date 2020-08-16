@@ -24,7 +24,7 @@ Explanation: There are 6 subsequences that satisfy the condition. (nums can have
 Example 3:
 Input: nums = [2,3,3,4,6,7], target = 12
 Output: 61
-Explanation: There are 63 non-empty subsequences, two of them don&#39;t satisfy the condition ([6,7], [7]).
+Explanation: There are 63 non-empty subsequences, two of them don't satisfy the condition ([6,7], [7]).
 Number of valid subsequences (63 - 2 = 61).
 
 Example 4:

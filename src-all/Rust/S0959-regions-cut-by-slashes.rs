@@ -58,7 +58,7 @@ Explanation: The 2x2 grid is as follows:
 
 Note:
 	1 <= grid.length == grid[0].length <= 30
-	grid[i][j] is either &#39;/&#39;, &#39;\&#39;, or &#39; &#39;.
+	grid[i][j] is either '/', '\', or ' '.
 
 
 */

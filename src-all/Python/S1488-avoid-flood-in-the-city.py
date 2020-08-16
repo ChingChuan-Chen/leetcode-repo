@@ -24,7 +24,7 @@ Explanation: After the first day full lakes are [1]
 After the second day full lakes are [1,2]
 After the third day full lakes are [1,2,3]
 After the fourth day full lakes are [1,2,3,4]
-There&#39;s no day to dry any lake and there is no flood in any lake.
+There's no day to dry any lake and there is no flood in any lake.
 
 Example 2:
 Input: rains = [1,2,0,0,2,1]
@@ -41,7 +41,7 @@ Example 3:
 Input: rains = [1,2,0,1,2]
 Output: []
 Explanation: After the second day, full lakes are  [1,2]. We have to dry one lake in the third day.
-After that, it will rain over lakes [1,2]. It&#39;s easy to prove that no matter which lake you choose to dry in the 3rd day, the other one will flood.
+After that, it will rain over lakes [1,2]. It's easy to prove that no matter which lake you choose to dry in the 3rd day, the other one will flood.
 
 Example 4:
 Input: rains = [69,0,0,0,69]

@@ -27,7 +27,7 @@ Explanation: The path 0 -> 1 -> 1 is a sequence, but it is not a valid sequence.
 Constraints:
 	1 <= arr.length <= 5000
 	0 <= arr[i] <= 9
-	Each node&#39;s value is between [0 - 9].
+	Each node's value is between [0 - 9].
 
 
 """

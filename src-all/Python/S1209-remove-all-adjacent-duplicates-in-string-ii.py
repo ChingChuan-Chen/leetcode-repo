@@ -11,7 +11,7 @@ It is guaranteed that the answer is unique.
 Example 1:
 Input: s = "abcd", k = 2
 Output: "abcd"
-Explanation: There&#39;s nothing to delete.
+Explanation: There's nothing to delete.
 
 Example 2:
 Input: s = "deeedbbcccbdaa", k = 3

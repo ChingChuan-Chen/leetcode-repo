@@ -1,8 +1,8 @@
 """
-Given an input string (s) and a pattern (p), implement regular expression matching with support for &#39;.&#39; and &#39;*&#39;.
+Given an input string (s) and a pattern (p), implement regular expression matching with support for '.' and '*'.
 
-&#39;.&#39; Matches any single character.
-&#39;*&#39; Matches zero or more of the preceding element.
+'.' Matches any single character.
+'*' Matches zero or more of the preceding element.
 
 The matching should cover the entire input string (not partial).
 
@@ -22,7 +22,7 @@ Input:
 s = "aa"
 p = "a*"
 Output: true
-Explanation: &#39;*&#39; means zero or more of the preceding element, &#39;a&#39;. Therefore, by repeating &#39;a&#39; once, it becomes "aa".
+Explanation: '*' means zero or more of the preceding element, 'a'. Therefore, by repeating 'a' once, it becomes "aa".
 
 Example 3:
 Input:

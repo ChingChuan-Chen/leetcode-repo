@@ -1,5 +1,5 @@
 /*
-Given an integer n, generate all structurally unique BST&#39;s (binary search trees) that store values 1 ... n.
+Given an integer n, generate all structurally unique BST's (binary search trees) that store values 1 ... n.
 
 Example:
 
@@ -13,7 +13,7 @@ Output:
   [1,null,2,null,3]
 ]
 Explanation:
-The above output corresponds to the 5 unique BST&#39;s shown below:
+The above output corresponds to the 5 unique BST's shown below:
 
    1         3     3      2      1
     \       /     /      / \      \

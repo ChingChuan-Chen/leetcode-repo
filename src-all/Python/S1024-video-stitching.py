@@ -20,7 +20,7 @@ Example 2:
 Input: clips = [[0,1],[1,2]], T = 5
 Output: -1
 Explanation: 
-We can&#39;t cover [0,5] with only [0,1] and [1,2].
+We can't cover [0,5] with only [0,1] and [1,2].
 
 Example 3:
 Input: clips = [[0,1],[6,8],[0,2],[5,6],[0,4],[0,3],[6,7],[1,3],[4,7],[1,4],[2,5],[2,6],[3,4],[4,5],[5,7],[6,9]], T = 9

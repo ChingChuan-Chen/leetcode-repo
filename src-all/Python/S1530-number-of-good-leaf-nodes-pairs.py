@@ -30,7 +30,7 @@ Output: 1
  
 Constraints:
 	The number of nodes in the tree is in the range [1, 2^10].
-	Each node&#39;s value is between [1, 100].
+	Each node's value is between [1, 100].
 	1 <= distance <= 10
 
 """

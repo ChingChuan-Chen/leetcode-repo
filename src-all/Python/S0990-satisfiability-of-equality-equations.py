@@ -33,8 +33,8 @@ Note:
 	1 <= equations.length <= 500
 	equations[i].length == 4
 	equations[i][0] and equations[i][3] are lowercase letters
-	equations[i][1] is either &#39;=&#39; or &#39;!&#39;
-	equations[i][2] is &#39;=&#39;
+	equations[i][1] is either '=' or '!'
+	equations[i][2] is '='
 
 
 """

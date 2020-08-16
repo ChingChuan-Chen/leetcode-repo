@@ -5,12 +5,12 @@ Given a string text, we are allowed to swap two of the characters in the string.
 Example 1:
 Input: text = "ababa"
 Output: 3
-Explanation: We can swap the first &#39;b&#39; with the last &#39;a&#39;, or the last &#39;b&#39; with the first &#39;a&#39;. Then, the longest repeated character substring is "aaa", which its length is 3.
+Explanation: We can swap the first 'b' with the last 'a', or the last 'b' with the first 'a'. Then, the longest repeated character substring is "aaa", which its length is 3.
 
 Example 2:
 Input: text = "aaabaaa"
 Output: 6
-Explanation: Swap &#39;b&#39; with the last &#39;a&#39; (or the first &#39;a&#39;), and we get longest repeated character substring "aaaaaa", which its length is 6.
+Explanation: Swap 'b' with the last 'a' (or the first 'a'), and we get longest repeated character substring "aaaaaa", which its length is 6.
 
 Example 3:
 Input: text = "aaabbaaa"

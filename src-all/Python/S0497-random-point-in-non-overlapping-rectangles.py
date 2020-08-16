@@ -26,7 +26,7 @@ Output:
 
 Explanation of Input Syntax:
 
-The input is two lists: the subroutines called and their arguments. Solution&#39;s constructor has one argument, the array of rectangles rects. pick has no arguments. Arguments are always wrapped with a list, even if there aren&#39;t any.
+The input is two lists: the subroutines called and their arguments. Solution's constructor has one argument, the array of rectangles rects. pick has no arguments. Arguments are always wrapped with a list, even if there aren't any.
 
  
 

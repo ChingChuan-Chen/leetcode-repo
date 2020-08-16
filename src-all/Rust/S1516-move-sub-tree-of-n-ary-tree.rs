@@ -1,7 +1,7 @@
 /*
 Given the root of an N-ary tree of unique values, and two nodes of the tree p and q.
 
-You should move the subtree of the node p to become a direct child of node q. If p is already a direct child of q, don&#39;t change anything. Node p must be the last child in the children list of node q.
+You should move the subtree of the node p to become a direct child of node q. If p is already a direct child of q, don't change anything. Node p must be the last child in the children list of node q.
 
 Return the root of the tree after adjusting it.
 
@@ -31,12 +31,12 @@ Notice that node 4 is the last child of node 1.
 Example 2:
 Input: root = [1,null,2,3,null,4,5,null,6,null,7,8], p = 7, q = 4
 Output: [1,null,2,3,null,4,5,null,6,null,7,8]
-Explanation: Node 7 is already a direct child of node 4. We don&#39;t change anything.
+Explanation: Node 7 is already a direct child of node 4. We don't change anything.
 
 Example 3:
 Input: root = [1,null,2,3,null,4,5,null,6,null,7,8], p = 3, q = 8
 Output: [1,null,2,null,4,5,null,7,8,null,null,null,3,null,6]
-Explanation: This example follows case 3 because node p is not in the sub-tree of node q and vice-versa. We can move node 3 with its sub-tree and make it as node 8&#39;s child.
+Explanation: This example follows case 3 because node p is not in the sub-tree of node q and vice-versa. We can move node 3 with its sub-tree and make it as node 8's child.
 
 Example 4:
 Input: root = [1,null,2,3,null,4,5,null,6,null,7,8], p = 2, q = 7

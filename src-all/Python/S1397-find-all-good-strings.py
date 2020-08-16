@@ -7,7 +7,7 @@ A good string has size n, it is alphabetically greater than or equal to s1, it i
 Example 1:
 Input: n = 2, s1 = "aa", s2 = "da", evil = "b"
 Output: 51 
-Explanation: There are 25 good strings starting with &#39;a&#39;: "aa","ac","ad",...,"az". Then there are 25 good strings starting with &#39;c&#39;: "ca","cc","cd",...,"cz" and finally there is one good string starting with &#39;d&#39;: "da". 
+Explanation: There are 25 good strings starting with 'a': "aa","ac","ad",...,"az". Then there are 25 good strings starting with 'c': "ca","cc","cd",...,"cz" and finally there is one good string starting with 'd': "da". 
 
 Example 2:
 Input: n = 8, s1 = "leetcode", s2 = "leetgoes", evil = "leet"

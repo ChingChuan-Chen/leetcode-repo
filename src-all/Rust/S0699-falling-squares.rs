@@ -27,7 +27,7 @@ After the third drop of positions[1] = [6, 1]: __aaa __aaa __aaa _aa _aa___a ---
 Example 2:
 Input: [[100, 100], [200, 100]]
 Output: [100, 100]
-Explanation: Adjacent squares don&#39;t get stuck prematurely - only their bottom edge can stick to surfaces.
+Explanation: Adjacent squares don't get stuck prematurely - only their bottom edge can stick to surfaces.
 
  
 

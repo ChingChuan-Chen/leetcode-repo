@@ -1,12 +1,12 @@
 """
 Given an integer n, your task is to count how many strings of length n can be formed under the following rules:
 
-	Each character is a lower case vowel (&#39;a&#39;, &#39;e&#39;, &#39;i&#39;, &#39;o&#39;, &#39;u&#39;)
-	Each vowel &#39;a&#39; may only be followed by an &#39;e&#39;.
-	Each vowel &#39;e&#39; may only be followed by an &#39;a&#39; or an &#39;i&#39;.
-	Each vowel &#39;i&#39; may not be followed by another &#39;i&#39;.
-	Each vowel &#39;o&#39; may only be followed by an &#39;i&#39; or a &#39;u&#39;.
-	Each vowel &#39;u&#39; may only be followed by an &#39;a&#39;.
+	Each character is a lower case vowel ('a', 'e', 'i', 'o', 'u')
+	Each vowel 'a' may only be followed by an 'e'.
+	Each vowel 'e' may only be followed by an 'a' or an 'i'.
+	Each vowel 'i' may not be followed by another 'i'.
+	Each vowel 'o' may only be followed by an 'i' or a 'u'.
+	Each vowel 'u' may only be followed by an 'a'.
 
 Since the answer may be too large, return it modulo 10^9 + 7.
 

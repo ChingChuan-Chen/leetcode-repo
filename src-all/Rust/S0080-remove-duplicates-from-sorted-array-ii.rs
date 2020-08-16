@@ -8,14 +8,14 @@ Given nums = [1,1,1,2,2,3],
 
 Your function should return length = 5, with the first five elements of nums being 1, 1, 2, 2 and 3 respectively.
 
-It doesn&#39;t matter what you leave beyond the returned length.
+It doesn't matter what you leave beyond the returned length.
 
 Example 2:
 Given nums = [0,0,1,1,1,1,2,3,3],
 
 Your function should return length = 7, with the first seven elements of nums being modified to 0, 0, 1, 1, 2, 3 and 3 respectively.
 
-It doesn&#39;t matter what values are set beyond the returned length.
+It doesn't matter what values are set beyond the returned length.
 
 Clarification:
 

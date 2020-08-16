@@ -26,11 +26,11 @@ Output
 
 Explanation
 Solution solution = new Solution([1, 3]);
-solution.pickIndex(); // return 1. It&#39;s returning the second element (index = 1) that has probability of 3/4.
+solution.pickIndex(); // return 1. It's returning the second element (index = 1) that has probability of 3/4.
 solution.pickIndex(); // return 1
 solution.pickIndex(); // return 1
 solution.pickIndex(); // return 1
-solution.pickIndex(); // return 0. It&#39;s returning the first element (index = 0) that has probability of 1/4.
+solution.pickIndex(); // return 0. It's returning the first element (index = 0) that has probability of 1/4.
 
 Since this is a randomization problem, multiple answers are allowed so the following outputs can be considered correct :
 [null,1,1,1,1,0]

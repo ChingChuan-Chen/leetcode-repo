@@ -28,7 +28,7 @@ Explanation: The only possible array is [1, 1, 1, 1, 1, 1, 1, 1, 1]
 Example 4:
 Input: n = 50, m = 100, k = 25
 Output: 34549172
-Explanation: Don&#39;t forget to compute the answer modulo 1000000007
+Explanation: Don't forget to compute the answer modulo 1000000007
 
 Example 5:
 Input: n = 37, m = 17, k = 7

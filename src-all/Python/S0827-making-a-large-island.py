@@ -16,7 +16,7 @@ Explanation: Change the 0 to 1 and make the island bigger, only one island with 
 Example 3:
 Input: [[1, 1], [1, 1]]
 Output: 4
-Explanation: Can&#39;t change any 0 to 1, only one island with area = 4.
+Explanation: Can't change any 0 to 1, only one island with area = 4.
 
  
 

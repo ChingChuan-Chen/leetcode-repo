@@ -21,7 +21,7 @@ Explanation: Dishes can be prepared in any order, (2*1 + 3*2 + 4*3 = 20)
 Example 3:
 Input: satisfaction = [-1,-4,-5]
 Output: 0
-Explanation: People don&#39;t like the dishes. No dish is prepared.
+Explanation: People don't like the dishes. No dish is prepared.
 
 Example 4:
 Input: satisfaction = [-2,5,-1,0,3,-3]

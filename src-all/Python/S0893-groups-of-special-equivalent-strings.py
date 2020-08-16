@@ -10,7 +10,7 @@ For example, S = "zzxy" and T = "xyzz" are special-equivalent because we may mak
 Now, a group of special-equivalent strings from A is a non-empty subset of A such that:
 
 	Every pair of strings in the group are special equivalent, and;
-	The group is the largest size possible (ie., there isn&#39;t a string S not in the group such that S is special equivalent to every string in the group)
+	The group is the largest size possible (ie., there isn't a string S not in the group such that S is special equivalent to every string in the group)
 
 Return the number of groups of special-equivalent strings from A.
 

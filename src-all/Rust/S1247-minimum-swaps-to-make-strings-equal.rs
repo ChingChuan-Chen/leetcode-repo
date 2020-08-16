@@ -17,7 +17,7 @@ Output: 2
 Explanation: 
 Swap s1[0] and s2[0], s1 = "yy", s2 = "xx".
 Swap s1[0] and s2[1], s1 = "xy", s2 = "xy".
-Note that you can&#39;t swap s1[0] and s1[1] to make s1 equal to "yx", cause we can only swap chars in different strings.
+Note that you can't swap s1[0] and s1[1] to make s1 equal to "yx", cause we can only swap chars in different strings.
 
 Example 3:
 Input: s1 = "xx", s2 = "xy"
@@ -30,7 +30,7 @@ Output: 4
  
 Constraints:
 	1 <= s1.length, s2.length <= 1000
-	s1, s2 only contain &#39;x&#39; or &#39;y&#39;.
+	s1, s2 only contain 'x' or 'y'.
 
 
 */

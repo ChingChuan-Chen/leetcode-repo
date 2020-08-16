@@ -20,7 +20,7 @@ Explanation: The LCA of nodes 5 and 4 is 5, since a node can be a descendant of 
  
 
 Note:
-	All of the nodes&#39; values will be unique.
+	All of the nodes' values will be unique.
 	p and q are different and both values will exist in the binary tree.
 
 

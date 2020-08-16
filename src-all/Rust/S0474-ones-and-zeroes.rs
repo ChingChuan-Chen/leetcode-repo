@@ -12,13 +12,13 @@ Explanation: This are totally 4 strings can be formed by the using of 5 0s and 3
 Example 2:
 Input: strs = ["10","0","1"], m = 1, n = 1
 Output: 2
-Explanation: You could form "10", but then you&#39;d have nothing left. Better form "0" and "1".
+Explanation: You could form "10", but then you'd have nothing left. Better form "0" and "1".
 
  
 Constraints:
 	1 <= strs.length <= 600
 	1 <= strs[i].length <= 100
-	strs[i] consists only of digits &#39;0&#39; and &#39;1&#39;.
+	strs[i] consists only of digits '0' and '1'.
 	1 <= m, n <= 100
 
 

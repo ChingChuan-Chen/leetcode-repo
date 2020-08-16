@@ -16,7 +16,7 @@ Explanation: 6 is the largest integer, and for every other number in the array x
 Example 2:
 Input: nums = [1, 2, 3, 4]
 Output: -1
-Explanation: 4 isn&#39;t at least as big as twice the value of 3, so we return -1.
+Explanation: 4 isn't at least as big as twice the value of 3, so we return -1.
 
  
 

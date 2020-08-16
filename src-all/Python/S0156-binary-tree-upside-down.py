@@ -23,9 +23,9 @@ Clarification:
 
 Confused what [4,5,2,#,#,3,1] means? Read more below on how binary tree is serialized on OJ.
 
-The serialization of a binary tree follows a level order traversal, where &#39;#&#39; signifies a path terminator where no node exists below.
+The serialization of a binary tree follows a level order traversal, where '#' signifies a path terminator where no node exists below.
 
-Here&#39;s an example:
+Here's an example:
 
    1
   / \

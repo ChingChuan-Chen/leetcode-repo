@@ -4,7 +4,7 @@ Design a stack which supports the following operations.
 Implement the CustomStack class:
 
 	CustomStack(int maxSize) Initializes the object with maxSize which is the maximum number of elements in the stack or do nothing if the stack reached the maxSize.
-	void push(int x) Adds x to the top of the stack if the stack hasn&#39;t reached the maxSize.
+	void push(int x) Adds x to the top of the stack if the stack hasn't reached the maxSize.
 	int pop() Pops and returns the top of stack or -1 if the stack is empty.
 	void inc(int k, int val) Increments the bottom k elements of the stack by val. If there are less than k elements in the stack, just increment all the elements in the stack.
 
@@ -22,7 +22,7 @@ customStack.push(2);                          // stack becomes [1, 2]
 customStack.pop();                            // return 2 --> Return top of the stack 2, stack becomes [1]
 customStack.push(2);                          // stack becomes [1, 2]
 customStack.push(3);                          // stack becomes [1, 2, 3]
-customStack.push(4);                          // stack still [1, 2, 3], Don&#39;t add another elements as size is 4
+customStack.push(4);                          // stack still [1, 2, 3], Don't add another elements as size is 4
 customStack.increment(5, 100);                // stack becomes [101, 102, 103]
 customStack.increment(2, 100);                // stack becomes [201, 202, 103]
 customStack.pop();                            // return 103 --> Return top of the stack 103, stack becomes [201, 202]

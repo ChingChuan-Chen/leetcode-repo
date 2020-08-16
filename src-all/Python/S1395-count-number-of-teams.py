@@ -17,7 +17,7 @@ Explanation: We can form three teams given the conditions. (2,3,4), (5,4,1), (5,
 Example 2:
 Input: rating = [2,1,3]
 Output: 0
-Explanation: We can&#39;t form any team given the conditions.
+Explanation: We can't form any team given the conditions.
 
 Example 3:
 Input: rating = [1,2,3,4]

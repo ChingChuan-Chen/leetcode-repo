@@ -13,7 +13,7 @@ For k = 3, you should return: 3->2->1->4->5
 
 Note:
 	Only constant extra memory is allowed.
-	You may not alter the values in the list&#39;s nodes, only nodes itself may be changed.
+	You may not alter the values in the list's nodes, only nodes itself may be changed.
 
 
 */

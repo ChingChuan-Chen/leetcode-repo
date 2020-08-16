@@ -1,10 +1,10 @@
 /*
-We are given S, a length n string of characters from the set {&#39;D&#39;, &#39;I&#39;}. (These letters stand for "decreasing" and "increasing".)
+We are given S, a length n string of characters from the set {'D', 'I'}. (These letters stand for "decreasing" and "increasing".)
 
 A valid permutation is a permutation P[0], P[1], ..., P[n] of integers {0, 1, ..., n}, such that for all i:
 
-	If S[i] == &#39;D&#39;, then P[i] > P[i+1], and;
-	If S[i] == &#39;I&#39;, then P[i] < P[i+1].
+	If S[i] == 'D', then P[i] > P[i+1], and;
+	If S[i] == 'I', then P[i] < P[i+1].
 
 How many valid permutations are there?  Since the answer may be large, return your answer modulo 10^9 + 7.
 
@@ -25,7 +25,7 @@ The 5 valid permutations of (0, 1, 2, 3) are:
 
 Note:
 	1 <= S.length <= 200
-	S consists only of characters from the set {&#39;D&#39;, &#39;I&#39;}.
+	S consists only of characters from the set {'D', 'I'}.
 
  
 

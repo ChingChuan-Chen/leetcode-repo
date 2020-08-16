@@ -25,7 +25,7 @@ Explanation: After flipping values in the first two columns, the last two rows h
 Note:
 	1 <= matrix.length <= 300
 	1 <= matrix[i].length <= 300
-	All matrix[i].length&#39;s are equal
+	All matrix[i].length's are equal
 	matrix[i][j] is 0 or 1
 
 

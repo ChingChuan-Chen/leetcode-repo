@@ -14,7 +14,7 @@ public:
   int f(int x, int y);
 };
 
-For custom testing purposes you&#39;re given an integer function_id and a target z as input, where function_id represent one function from an secret internal list, on the examples you&#39;ll know only two functions from the list.  
+For custom testing purposes you're given an integer function_id and a target z as input, where function_id represent one function from an secret internal list, on the examples you'll know only two functions from the list.  
 
 You may return the solutions in any order.
 
@@ -33,8 +33,8 @@ Explanation: function_id = 2 means that f(x, y) = x * y
 Constraints:
 	1 <= function_id <= 9
 	1 <= z <= 100
-	It&#39;s guaranteed that the solutions of f(x, y) == z will be on the range 1 <= x, y <= 1000
-	It&#39;s also guaranteed that f(x, y) will fit in 32 bit signed integer if 1 <= x, y <= 1000
+	It's guaranteed that the solutions of f(x, y) == z will be on the range 1 <= x, y <= 1000
+	It's also guaranteed that f(x, y) will fit in 32 bit signed integer if 1 <= x, y <= 1000
 
 
 */

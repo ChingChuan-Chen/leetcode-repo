@@ -11,7 +11,7 @@ It is guaranteed that there will be a winner of the game.
 Example 1:
 Input: arr = [2,1,3,5,4,6,7], k = 2
 Output: 5
-Explanation: Let&#39;s see the rounds of the game:
+Explanation: Let's see the rounds of the game:
 Round |       arr       | winner | win_count
   1   | [2,1,3,5,4,6,7] | 2      | 1
   2   | [2,3,5,4,6,7,1] | 3      | 1

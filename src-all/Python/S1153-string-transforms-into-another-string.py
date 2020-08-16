@@ -10,7 +10,7 @@ Return true if and only if you can transform str1 into str2.
 Example 1:
 Input: str1 = "aabcc", str2 = "ccdee"
 Output: true
-Explanation: Convert &#39;c&#39; to &#39;e&#39; then &#39;b&#39; to &#39;d&#39; then &#39;a&#39; to &#39;c&#39;. Note that the order of conversions matter.
+Explanation: Convert 'c' to 'e' then 'b' to 'd' then 'a' to 'c'. Note that the order of conversions matter.
 
 Example 2:
 Input: str1 = "leetcode", str2 = "codeleet"

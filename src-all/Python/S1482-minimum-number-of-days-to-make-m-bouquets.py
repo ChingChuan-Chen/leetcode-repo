@@ -11,7 +11,7 @@ Return the minimum number of days you need to wait to be able to make m bouquets
 Example 1:
 Input: bloomDay = [1,10,3,10,2], m = 3, k = 1
 Output: 3
-Explanation: Let&#39;s see what happened in the first three days. x means flower bloomed and _ means flower didn&#39;t bloom in the garden.
+Explanation: Let's see what happened in the first three days. x means flower bloomed and _ means flower didn't bloom in the garden.
 We need 3 bouquets each should contain 1 flower.
 After day 1: [x, _, _, _, _]   // we can only make one bouquet.
 After day 2: [x, _, _, _, x]   // we can only make two bouquets.
@@ -26,7 +26,7 @@ Example 3:
 Input: bloomDay = [7,7,7,7,12,7,7], m = 2, k = 3
 Output: 12
 Explanation: We need 2 bouquets each should have 3 flowers.
-Here&#39;s the garden after the 7 and 12 days:
+Here's the garden after the 7 and 12 days:
 After day 7: [x, x, x, x, _, x, x]
 We can make one bouquet of the first three flowers that bloomed. We cannot make another bouquet from the last three flowers that bloomed because they are not adjacent.
 After day 12: [x, x, x, x, x, x, x]
@@ -51,7 +51,7 @@ Constraints:
 
 """
 from typing import List
-class Solution:
+class Solution:
     def minDays(self, bloomDay: List[int], m: int, k: int) -> int:
         pass
 

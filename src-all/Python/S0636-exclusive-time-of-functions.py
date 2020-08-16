@@ -5,7 +5,7 @@ We store logs in timestamp order that describe when a function is entered or exi
 
 Each log is a string with this format: "{function_id}:{"start" | "end"}:{timestamp}".  For example, "0:start:3" means the function with id 0 started at the beginning of timestamp 3.  "1:end:2" means the function with id 1 ended at the end of timestamp 2.
 
-A function&#39;s exclusive time is the number of units of time spent in this function.  Note that this does not include any recursive calls to child functions.
+A function's exclusive time is the number of units of time spent in this function.  Note that this does not include any recursive calls to child functions.
 
 The CPU is single threaded which means that only one function is being executed at a given time unit.
 
@@ -28,7 +28,7 @@ So function 0 spends 2 + 1 = 3 units of total time executing, and function 1 spe
 
 Note:
 	1 <= n <= 100
-	Two functions won&#39;t start or end at the same time.
+	Two functions won't start or end at the same time.
 	Functions will always log when they exit.
 
  

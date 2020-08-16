@@ -14,7 +14,7 @@ Explanation: Every level before the last is full (ie. levels with node-values {1
 Example 2:
 Input: [1,2,3,4,5,null,7]
 Output: false
-Explanation: The node with value 7 isn&#39;t as far left as possible.
+Explanation: The node with value 7 isn't as far left as possible.
 
  
 

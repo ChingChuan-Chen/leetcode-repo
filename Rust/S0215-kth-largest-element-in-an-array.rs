@@ -10,7 +10,7 @@ Input: [3,2,3,1,2,4,5,5,6] and k = 4
 Output: 4
 
 Note: 
-You may assume k is always valid, 1 &le; k &le; array&#39;s length.
+You may assume k is always valid, 1 &le; k &le; array's length.
 
 */
 pub struct Solution {}

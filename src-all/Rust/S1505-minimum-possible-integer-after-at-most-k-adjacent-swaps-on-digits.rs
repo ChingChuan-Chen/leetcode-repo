@@ -14,7 +14,7 @@ Explanation: The steps to obtain the minimum integer from 4321 with 4 adjacent s
 Example 2:
 Input: num = "100", k = 1
 Output: "010"
-Explanation: It&#39;s ok for the output to have leading zeros, but the input is guaranteed not to have any leading zeros.
+Explanation: It's ok for the output to have leading zeros, but the input is guaranteed not to have any leading zeros.
 
 Example 3:
 Input: num = "36789", k = 1000
@@ -32,7 +32,7 @@ Output: "0345989723478563548"
  
 Constraints:
 	1 <= num.length <= 30000
-	num contains digits only and doesn&#39;t have leading zeros.
+	num contains digits only and doesn't have leading zeros.
 	1 <= k <= 10^9
 
 

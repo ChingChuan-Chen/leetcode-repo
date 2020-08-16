@@ -21,7 +21,7 @@ Explanation: Each character in s costs 2 to change to charactor in t, so the max
 Example 3:
 Input: s = "abcd", t = "acde", maxCost = 0
 Output: 1
-Explanation: You can&#39;t make any change, so the maximum length is 1.
+Explanation: You can't make any change, so the maximum length is 1.
 
  
 Constraints:

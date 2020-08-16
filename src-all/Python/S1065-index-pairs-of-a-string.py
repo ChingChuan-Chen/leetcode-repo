@@ -17,7 +17,7 @@ Notice that matches can overlap, see "aba" is found in [0,2] and [2,4].
 
 Note:
 	All strings contains only lowercase English letters.
-	It&#39;s guaranteed that all strings in words are different.
+	It's guaranteed that all strings in words are different.
 	1 <= text.length <= 100
 	1 <= words.length <= 20
 	1 <= words[i].length <= 50

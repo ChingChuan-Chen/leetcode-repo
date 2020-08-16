@@ -3,7 +3,7 @@ Given an array of integers arr.
 
 We want to select three indices i, j and k where (0 <= i < j <= k < arr.length).
 
-Let&#39;s define a and b as follows:
+Let's define a and b as follows:
 
 	a = arr[i] ^ arr[i + 1] ^ ... ^ arr[j - 1]
 	b = arr[j] ^ arr[j + 1] ^ ... ^ arr[k]

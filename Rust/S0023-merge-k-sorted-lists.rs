@@ -31,7 +31,7 @@ Constraints:
 	0 <= lists[i].length <= 500
 	-10^4 <= lists[i][j] <= 10^4
 	lists[i] is sorted in ascending order.
-	The sum of lists[i].length won&#39;t exceed 10^4.
+	The sum of lists[i].length won't exceed 10^4.
 
 
 */
