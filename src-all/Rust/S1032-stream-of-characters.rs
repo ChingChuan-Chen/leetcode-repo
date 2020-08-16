@@ -8,7 +8,7 @@ Implement the StreamChecker class as follows:
 
 Example:
 
-StreamChecker streamChecker = new StreamChecker([&quot;cd&quot;,&quot;f&quot;,&quot;kl&quot;]); // init the dictionary.
+StreamChecker streamChecker = new StreamChecker(["cd","f","kl"]); // init the dictionary.
 streamChecker.query(&#39;a&#39;);          // return false
 streamChecker.query(&#39;b&#39;);          // return false
 streamChecker.query(&#39;c&#39;);          // return false

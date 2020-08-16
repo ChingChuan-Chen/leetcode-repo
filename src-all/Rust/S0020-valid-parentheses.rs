@@ -9,23 +9,23 @@ An input string is valid if:
 Note that an empty string is also considered valid.
 
 Example 1:
-Input: &quot;()&quot;
+Input: "()"
 Output: true
 
 Example 2:
-Input: &quot;()[]{}&quot;
+Input: "()[]{}"
 Output: true
 
 Example 3:
-Input: &quot;(]&quot;
+Input: "(]"
 Output: false
 
 Example 4:
-Input: &quot;([)]&quot;
+Input: "([)]"
 Output: false
 
 Example 5:
-Input: &quot;{[]}&quot;
+Input: "{[]}"
 Output: true
 
 

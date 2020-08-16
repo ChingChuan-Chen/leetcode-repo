@@ -5,7 +5,7 @@ A move onto S consists of swapping any two even indexed characters of S, or any 
 
 Two strings S and T are special-equivalent if after any number of moves onto S, S == T.
 
-For example, S = &quot;zzxy&quot; and T = &quot;xyzz&quot; are special-equivalent because we may make the moves &quot;zzxy&quot; -> &quot;xzzy&quot; -> &quot;xyzz&quot; that swap S[0] and S[2], then S[1] and S[3].
+For example, S = "zzxy" and T = "xyzz" are special-equivalent because we may make the moves "zzxy" -> "xzzy" -> "xyzz" that swap S[0] and S[2], then S[1] and S[3].
 
 Now, a group of special-equivalent strings from A is a non-empty subset of A such that:
 
@@ -17,15 +17,15 @@ Return the number of groups of special-equivalent strings from A.
  
 
 Example 1:
-Input: [&quot;abcd&quot;,&quot;cdab&quot;,&quot;cbad&quot;,&quot;xyzz&quot;,&quot;zzxy&quot;,&quot;zzyx&quot;]
+Input: ["abcd","cdab","cbad","xyzz","zzxy","zzyx"]
 Output: 3
 Explanation: 
-One group is [&quot;abcd&quot;, &quot;cdab&quot;, &quot;cbad&quot;], since they are all pairwise special equivalent, and none of the other strings are all pairwise special equivalent to these.
+One group is ["abcd", "cdab", "cbad"], since they are all pairwise special equivalent, and none of the other strings are all pairwise special equivalent to these.
 
-The other two groups are [&quot;xyzz&quot;, &quot;zzxy&quot;] and [&quot;zzyx&quot;].  Note that in particular, &quot;zzxy&quot; is not special equivalent to &quot;zzyx&quot;.
+The other two groups are ["xyzz", "zzxy"] and ["zzyx"].  Note that in particular, "zzxy" is not special equivalent to "zzyx".
 
 Example 2:
-Input: [&quot;abc&quot;,&quot;acb&quot;,&quot;bac&quot;,&quot;bca&quot;,&quot;cab&quot;,&quot;cba&quot;]
+Input: ["abc","acb","bac","bca","cab","cba"]
 Output: 3
 
  

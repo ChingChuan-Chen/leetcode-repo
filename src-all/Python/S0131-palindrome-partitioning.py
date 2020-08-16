@@ -5,11 +5,11 @@ Return all possible palindrome partitioning of s.
 
 Example:
 
-Input: &quot;aab&quot;
+Input: "aab"
 Output:
 [
-  [&quot;aa&quot;,&quot;b&quot;],
-  [&quot;a&quot;,&quot;a&quot;,&quot;b&quot;]
+  ["aa","b"],
+  ["a","a","b"]
 ]
 
 

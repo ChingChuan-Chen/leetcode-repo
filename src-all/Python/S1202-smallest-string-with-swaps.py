@@ -7,27 +7,27 @@ Return the lexicographically smallest string that s can be changed to after usin
 
  
 Example 1:
-Input: s = &quot;dcab&quot;, pairs = [[0,3],[1,2]]
-Output: &quot;bacd&quot;
+Input: s = "dcab", pairs = [[0,3],[1,2]]
+Output: "bacd"
 Explaination: 
-Swap s[0] and s[3], s = &quot;bcad&quot;
-Swap s[1] and s[2], s = &quot;bacd&quot;
+Swap s[0] and s[3], s = "bcad"
+Swap s[1] and s[2], s = "bacd"
 
 Example 2:
-Input: s = &quot;dcab&quot;, pairs = [[0,3],[1,2],[0,2]]
-Output: &quot;abcd&quot;
+Input: s = "dcab", pairs = [[0,3],[1,2],[0,2]]
+Output: "abcd"
 Explaination: 
-Swap s[0] and s[3], s = &quot;bcad&quot;
-Swap s[0] and s[2], s = &quot;acbd&quot;
-Swap s[1] and s[2], s = &quot;abcd&quot;
+Swap s[0] and s[3], s = "bcad"
+Swap s[0] and s[2], s = "acbd"
+Swap s[1] and s[2], s = "abcd"
 
 Example 3:
-Input: s = &quot;cba&quot;, pairs = [[0,1],[1,2]]
-Output: &quot;abc&quot;
+Input: s = "cba", pairs = [[0,1],[1,2]]
+Output: "abc"
 Explaination: 
-Swap s[0] and s[1], s = &quot;bca&quot;
-Swap s[1] and s[2], s = &quot;bac&quot;
-Swap s[0] and s[1], s = &quot;abc&quot;
+Swap s[0] and s[1], s = "bca"
+Swap s[1] and s[2], s = "bac"
+Swap s[0] and s[1], s = "abc"
 
  
 Constraints:

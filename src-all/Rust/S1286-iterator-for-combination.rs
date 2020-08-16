@@ -9,13 +9,13 @@ Design an Iterator class, which has:
 
 Example:
 
-CombinationIterator iterator = new CombinationIterator(&quot;abc&quot;, 2); // creates the iterator.
+CombinationIterator iterator = new CombinationIterator("abc", 2); // creates the iterator.
 
-iterator.next(); // returns &quot;ab&quot;
+iterator.next(); // returns "ab"
 iterator.hasNext(); // returns true
-iterator.next(); // returns &quot;ac&quot;
+iterator.next(); // returns "ac"
 iterator.hasNext(); // returns true
-iterator.next(); // returns &quot;bc&quot;
+iterator.next(); // returns "bc"
 iterator.hasNext(); // returns false
 
  

@@ -6,11 +6,11 @@ The encoding is done by converting the integer to a string using a secret functi
  
 Example 1:
 Input: num = 23
-Output: &quot;1000&quot;
+Output: "1000"
 
 Example 2:
 Input: num = 107
-Output: &quot;101100&quot;
+Output: "101100"
 
  
 Constraints:

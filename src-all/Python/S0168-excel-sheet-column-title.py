@@ -14,15 +14,15 @@ For example:
 
 Example 1:
 Input: 1
-Output: &quot;A&quot;
+Output: "A"
 
 Example 2:
 Input: 28
-Output: &quot;AB&quot;
+Output: "AB"
 
 Example 3:
 Input: 701
-Output: &quot;ZY&quot;
+Output: "ZY"
 
 """
 class Solution:

@@ -25,7 +25,7 @@ Follow-ups:
 Example:
 
 Input:
-[&quot;FileSharing&quot;,&quot;join&quot;,&quot;join&quot;,&quot;join&quot;,&quot;request&quot;,&quot;request&quot;,&quot;leave&quot;,&quot;request&quot;,&quot;leave&quot;,&quot;join&quot;]
+["FileSharing","join","join","join","request","request","leave","request","leave","join"]
 [[4],[[1,2]],[[2,3]],[[4]],[1,3],[2,2],[1],[2,1],[2],[[]]]
 Output:
 [null,1,2,3,[2],[1,2],null,[],null,1]

@@ -3,10 +3,10 @@ Given a string, find the first non-repeating character in it and return its inde
 
 Examples:
 
-s = &quot;leetcode&quot;
+s = "leetcode"
 return 0.
 
-s = &quot;loveleetcode&quot;
+s = "loveleetcode"
 return 2.
 
  

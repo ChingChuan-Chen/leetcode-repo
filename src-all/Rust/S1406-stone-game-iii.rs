@@ -9,17 +9,17 @@ The objective of the game is to end with the highest score, and the winner is th
 
 Assume Alice and Bob play optimally.
 
-Return &quot;Alice&quot; if Alice will win, &quot;Bob&quot; if Bob will win or &quot;Tie&quot; if they end the game with the same score.
+Return "Alice" if Alice will win, "Bob" if Bob will win or "Tie" if they end the game with the same score.
 
  
 Example 1:
 Input: values = [1,2,3,7]
-Output: &quot;Bob&quot;
+Output: "Bob"
 Explanation: Alice will always lose. Her best move will be to take three piles and the score become 6. Now the score of Bob is 7 and Bob wins.
 
 Example 2:
 Input: values = [1,2,3,-9]
-Output: &quot;Alice&quot;
+Output: "Alice"
 Explanation: Alice must choose all the three piles at the first move to win and leave Bob with negative score.
 If Alice chooses one pile her score will be 1 and the next move Bob&#39;s score becomes 5. The next move Alice will take the pile with value = -9 and lose.
 If Alice chooses two piles her score will be 3 and the next move Bob&#39;s score becomes 3. The next move Alice will take the pile with value = -9 and also lose.
@@ -27,16 +27,16 @@ Remember that both play optimally so here Alice will choose the scenario that ma
 
 Example 3:
 Input: values = [1,2,3,6]
-Output: &quot;Tie&quot;
+Output: "Tie"
 Explanation: Alice cannot win this game. She can end the game in a draw if she decided to choose all the first three piles, otherwise she will lose.
 
 Example 4:
 Input: values = [1,2,3,-1,-2,-3,7]
-Output: &quot;Alice&quot;
+Output: "Alice"
 
 Example 5:
 Input: values = [-1,-2,-3]
-Output: &quot;Tie&quot;
+Output: "Tie"
 
  
 Constraints:

@@ -1,5 +1,5 @@
 /*
-Starting with an undirected graph (the &quot;original graph&quot;) with nodes from 0 to N-1, subdivisions are made to some of the edges.
+Starting with an undirected graph (the "original graph") with nodes from 0 to N-1, subdivisions are made to some of the edges.
 
 The graph is given as follows: edges[k] is a list of integer pairs (i, j, n) such that (i, j) is an edge of the original graph,
 

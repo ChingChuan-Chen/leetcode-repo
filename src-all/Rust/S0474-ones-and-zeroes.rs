@@ -5,14 +5,14 @@ Now your task is to find the maximum number of strings that you can form with gi
 
  
 Example 1:
-Input: strs = [&quot;10&quot;,&quot;0001&quot;,&quot;111001&quot;,&quot;1&quot;,&quot;0&quot;], m = 5, n = 3
+Input: strs = ["10","0001","111001","1","0"], m = 5, n = 3
 Output: 4
-Explanation: This are totally 4 strings can be formed by the using of 5 0s and 3 1s, which are &quot;10&quot;,&quot;0001&quot;,&quot;1&quot;,&quot;0&quot;.
+Explanation: This are totally 4 strings can be formed by the using of 5 0s and 3 1s, which are "10","0001","1","0".
 
 Example 2:
-Input: strs = [&quot;10&quot;,&quot;0&quot;,&quot;1&quot;], m = 1, n = 1
+Input: strs = ["10","0","1"], m = 1, n = 1
 Output: 2
-Explanation: You could form &quot;10&quot;, but then you&#39;d have nothing left. Better form &quot;0&quot; and &quot;1&quot;.
+Explanation: You could form "10", but then you&#39;d have nothing left. Better form "0" and "1".
 
  
 Constraints:

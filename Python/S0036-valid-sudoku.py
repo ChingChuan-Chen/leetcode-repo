@@ -53,7 +53,31 @@ Note:
 from typing import List
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        pass
+        if len(board) != 9:
+            return False
+        for i in range(9):
+            if len(board[i]) != 9:
+                return False
+
+        validate_dict = {}
+        for i in range(9):
+            for j in range(9):
+                validate_dict[f"r{i}"] = set()
+                validate_dict[f"c{j}"] = set()
+                validate_dict[f"b{i//3},{j//3}"] = set()
+
+        for i in range(9):
+            for j in range(9):
+                if board[i][j] != ".":
+                    if board[i][j] in validate_dict[f"r{i}"] or \
+                        board[i][j] in validate_dict[f"c{j}"] or \
+                        board[i][j] in validate_dict[f"b{i//3},{j//3}"]:
+                        return False
+                    validate_dict[f"r{i}"].add(board[i][j])
+                    validate_dict[f"c{j}"].add(board[i][j])
+                    validate_dict[f"b{i//3},{j//3}"].add(board[i][j])
+        return True
+
 
 if __name__ == '__main__':
     input = [
@@ -68,5 +92,5 @@ if __name__ == '__main__':
         [".", ".", ".", ".", "8", ".", ".", "7", "9"]
     ]
     assert Solution().isValidSudoku(input) == True
-    input[0][0] = 8
+    input[0][0] = "8"
     assert Solution().isValidSudoku(input) == False

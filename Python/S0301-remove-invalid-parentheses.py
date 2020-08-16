@@ -4,16 +4,16 @@ Remove the minimum number of invalid parentheses in order to make the input stri
 Note: The input string may contain letters other than the parentheses ( and ).
 
 Example 1:
-Input: &quot;()())()&quot;
-Output: [&quot;()()()&quot;, &quot;(())()&quot;]
+Input: "()())()"
+Output: ["()()()", "(())()"]
 
 Example 2:
-Input: &quot;(a)())()&quot;
-Output: [&quot;(a)()()&quot;, &quot;(a())()&quot;]
+Input: "(a)())()"
+Output: ["(a)()()", "(a())()"]
 
 Example 3:
-Input: &quot;)(&quot;
-Output: [&quot;&quot;]
+Input: ")("
+Output: [""]
 
 """
 from typing import List

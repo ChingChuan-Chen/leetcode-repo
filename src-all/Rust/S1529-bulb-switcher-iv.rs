@@ -14,25 +14,25 @@ Return the minimum number of flips required to form target.
 
  
 Example 1:
-Input: target = &quot;10111&quot;
+Input: target = "10111"
 Output: 3
-Explanation: Initial configuration &quot;00000&quot;.
-flip from the third bulb:  &quot;00000&quot; -> &quot;00111&quot;
-flip from the first bulb:  &quot;00111&quot; -> &quot;11000&quot;
-flip from the second bulb:  &quot;11000&quot; -> &quot;10111&quot;
+Explanation: Initial configuration "00000".
+flip from the third bulb:  "00000" -> "00111"
+flip from the first bulb:  "00111" -> "11000"
+flip from the second bulb:  "11000" -> "10111"
 We need at least 3 flip operations to form target.
 
 Example 2:
-Input: target = &quot;101&quot;
+Input: target = "101"
 Output: 3
-Explanation: &quot;000&quot; -> &quot;111&quot; -> &quot;100&quot; -> &quot;101&quot;.
+Explanation: "000" -> "111" -> "100" -> "101".
 
 Example 3:
-Input: target = &quot;00000&quot;
+Input: target = "00000"
 Output: 0
 
 Example 4:
-Input: target = &quot;001011101&quot;
+Input: target = "001011101"
 Output: 5
 
  

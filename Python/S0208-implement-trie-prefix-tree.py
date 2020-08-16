@@ -5,12 +5,12 @@ Example:
 
 Trie trie = new Trie();
 
-trie.insert(&quot;apple&quot;);
-trie.search(&quot;apple&quot;);   // returns true
-trie.search(&quot;app&quot;);     // returns false
-trie.startsWith(&quot;app&quot;); // returns true
-trie.insert(&quot;app&quot;);   
-trie.search(&quot;app&quot;);     // returns true
+trie.insert("apple");
+trie.search("apple");   // returns true
+trie.search("app");     // returns false
+trie.startsWith("app"); // returns true
+trie.insert("app");   
+trie.search("app");     // returns true
 
 Note:
 	You may assume that all inputs are consist of lowercase letters a-z.

@@ -2,14 +2,14 @@
 Given a string s , find the length of the longest substring t  that contains at most 2 distinct characters.
 
 Example 1:
-Input: &quot;eceba&quot;
+Input: "eceba"
 Output: 3
-Explanation: t is &quot;ece&quot; which its length is 3.
+Explanation: t is "ece" which its length is 3.
 
 Example 2:
-Input: &quot;ccaabbb&quot;
+Input: "ccaabbb"
 Output: 5
-Explanation: t is &quot;aabbb&quot; which its length is 5.
+Explanation: t is "aabbb" which its length is 5.
 
 
 """

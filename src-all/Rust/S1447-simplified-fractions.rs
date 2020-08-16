@@ -4,17 +4,17 @@ Given an integer n, return a list of all simplified fractions between 0 and 1 (e
  
 Example 1:
 Input: n = 2
-Output: [&quot;1/2&quot;]
-Explanation: &quot;1/2&quot; is the only unique fraction with a denominator less-than-or-equal-to 2.
+Output: ["1/2"]
+Explanation: "1/2" is the only unique fraction with a denominator less-than-or-equal-to 2.
 
 Example 2:
 Input: n = 3
-Output: [&quot;1/2&quot;,&quot;1/3&quot;,&quot;2/3&quot;]
+Output: ["1/2","1/3","2/3"]
 
 Example 3:
 Input: n = 4
-Output: [&quot;1/2&quot;,&quot;1/3&quot;,&quot;1/4&quot;,&quot;2/3&quot;,&quot;3/4&quot;]
-Explanation: &quot;2/4&quot; is not a simplified fraction because it can be simplified to &quot;1/2&quot;.
+Output: ["1/2","1/3","1/4","2/3","3/4"]
+Explanation: "2/4" is not a simplified fraction because it can be simplified to "1/2".
 
 Example 4:
 Input: n = 1

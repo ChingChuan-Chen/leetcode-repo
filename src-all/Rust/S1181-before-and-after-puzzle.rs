@@ -11,28 +11,28 @@ You should return a list of distinct strings sorted lexicographically.
 
  
 Example 1:
-Input: phrases = [&quot;writing code&quot;,&quot;code rocks&quot;]
-Output: [&quot;writing code rocks&quot;]
+Input: phrases = ["writing code","code rocks"]
+Output: ["writing code rocks"]
 
 Example 2:
-Input: phrases = [&quot;mission statement&quot;,
-                  &quot;a quick bite to eat&quot;,
-                  &quot;a chip off the old block&quot;,
-                  &quot;chocolate bar&quot;,
-                  &quot;mission impossible&quot;,
-                  &quot;a man on a mission&quot;,
-                  &quot;block party&quot;,
-                  &quot;eat my words&quot;,
-                  &quot;bar of soap&quot;]
-Output: [&quot;a chip off the old block party&quot;,
-         &quot;a man on a mission impossible&quot;,
-         &quot;a man on a mission statement&quot;,
-         &quot;a quick bite to eat my words&quot;,
-         &quot;chocolate bar of soap&quot;]
+Input: phrases = ["mission statement",
+                  "a quick bite to eat",
+                  "a chip off the old block",
+                  "chocolate bar",
+                  "mission impossible",
+                  "a man on a mission",
+                  "block party",
+                  "eat my words",
+                  "bar of soap"]
+Output: ["a chip off the old block party",
+         "a man on a mission impossible",
+         "a man on a mission statement",
+         "a quick bite to eat my words",
+         "chocolate bar of soap"]
 
 Example 3:
-Input: phrases = [&quot;a&quot;,&quot;b&quot;,&quot;a&quot;]
-Output: [&quot;a&quot;]
+Input: phrases = ["a","b","a"]
+Output: ["a"]
 
  
 Constraints:

@@ -9,12 +9,12 @@ Given two integers A and B, return any string S such that:
 
 Example 1:
 Input: A = 1, B = 2
-Output: &quot;abb&quot;
-Explanation: &quot;abb&quot;, &quot;bab&quot; and &quot;bba&quot; are all correct answers.
+Output: "abb"
+Explanation: "abb", "bab" and "bba" are all correct answers.
 
 Example 2:
 Input: A = 4, B = 1
-Output: &quot;aabaa&quot;
+Output: "aabaa"
 
  
 

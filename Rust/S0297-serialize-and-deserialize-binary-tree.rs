@@ -13,7 +13,7 @@ You may serialize the following tree:
      / \
     4   5
 
-as &quot;[1,2,3,null,null,4,5]&quot;
+as "[1,2,3,null,null,4,5]"
 
 Clarification: The above format is the same as how LeetCode serializes a binary tree. You do not necessarily need to follow this format, so please be creative and come up with different approaches yourself.
 

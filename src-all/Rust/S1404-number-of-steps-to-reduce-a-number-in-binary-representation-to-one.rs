@@ -12,9 +12,9 @@ It&#39;s guaranteed that you can always reach to one for all testcases.
 
  
 Example 1:
-Input: s = &quot;1101&quot;
+Input: s = "1101"
 Output: 6
-Explanation: &quot;1101&quot; corressponds to number 13 in their decimal representation.
+Explanation: "1101" corressponds to number 13 in their decimal representation.
 Step 1) 13 is odd, add 1 and obtain 14. 
 Step 2) 14 is even, divide by 2 and obtain 7.
 Step 3) 7 is odd, add 1 and obtain 8.
@@ -23,13 +23,13 @@ Step 5) 4 is even, divide by 2 and obtain 2.
 Step 6) 2 is even, divide by 2 and obtain 1.  
 
 Example 2:
-Input: s = &quot;10&quot;
+Input: s = "10"
 Output: 1
-Explanation: &quot;10&quot; corressponds to number 2 in their decimal representation.
+Explanation: "10" corressponds to number 2 in their decimal representation.
 Step 1) 2 is even, divide by 2 and obtain 1.  
 
 Example 3:
-Input: s = &quot;1&quot;
+Input: s = "1"
 Output: 0
 
  

@@ -1,5 +1,5 @@
 /*
-We are given S, a length n string of characters from the set {&#39;D&#39;, &#39;I&#39;}. (These letters stand for &quot;decreasing&quot; and &quot;increasing&quot;.)
+We are given S, a length n string of characters from the set {&#39;D&#39;, &#39;I&#39;}. (These letters stand for "decreasing" and "increasing".)
 
 A valid permutation is a permutation P[0], P[1], ..., P[n] of integers {0, 1, ..., n}, such that for all i:
 
@@ -11,7 +11,7 @@ How many valid permutations are there?  Since the answer may be large, return yo
  
 
 Example 1:
-Input: &quot;DID&quot;
+Input: "DID"
 Output: 5
 Explanation: 
 The 5 valid permutations of (0, 1, 2, 3) are:

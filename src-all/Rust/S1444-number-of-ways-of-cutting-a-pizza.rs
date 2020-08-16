@@ -7,16 +7,16 @@ Return the number of ways of cutting the pizza such that each piece contains at 
 
  
 Example 1:
-Input: pizza = [&quot;A..&quot;,&quot;AAA&quot;,&quot;...&quot;], k = 3
+Input: pizza = ["A..","AAA","..."], k = 3
 Output: 3 
 Explanation: The figure above shows the three ways to cut the pizza. Note that pieces must contain at least one apple.
 
 Example 2:
-Input: pizza = [&quot;A..&quot;,&quot;AA.&quot;,&quot;...&quot;], k = 3
+Input: pizza = ["A..","AA.","..."], k = 3
 Output: 1
 
 Example 3:
-Input: pizza = [&quot;A..&quot;,&quot;A..&quot;,&quot;...&quot;], k = 1
+Input: pizza = ["A..","A..","..."], k = 1
 Output: 1
 
  

@@ -7,26 +7,26 @@ A Palindrome String is one that reads the same backward as well as forward.
 
  
 Example 1:
-Input: s = &quot;zzazz&quot;
+Input: s = "zzazz"
 Output: 0
-Explanation: The string &quot;zzazz&quot; is already palindrome we don&#39;t need any insertions.
+Explanation: The string "zzazz" is already palindrome we don&#39;t need any insertions.
 
 Example 2:
-Input: s = &quot;mbadm&quot;
+Input: s = "mbadm"
 Output: 2
-Explanation: String can be &quot;mbdadbm&quot; or &quot;mdbabdm&quot;.
+Explanation: String can be "mbdadbm" or "mdbabdm".
 
 Example 3:
-Input: s = &quot;leetcode&quot;
+Input: s = "leetcode"
 Output: 5
-Explanation: Inserting 5 characters the string becomes &quot;leetcodocteel&quot;.
+Explanation: Inserting 5 characters the string becomes "leetcodocteel".
 
 Example 4:
-Input: s = &quot;g&quot;
+Input: s = "g"
 Output: 0
 
 Example 5:
-Input: s = &quot;no&quot;
+Input: s = "no"
 Output: 1
 
  

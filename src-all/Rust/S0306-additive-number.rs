@@ -9,13 +9,13 @@ Note: Numbers in the additive sequence cannot have leading zeros, so sequence 1,
 
  
 Example 1:
-Input: &quot;112358&quot;
+Input: "112358"
 Output: true
 Explanation: The digits can form an additive sequence: 1, 1, 2, 3, 5, 8. 
              1 + 1 = 2, 1 + 2 = 3, 2 + 3 = 5, 3 + 5 = 8
 
 Example 2:
-Input: &quot;199100199&quot;
+Input: "199100199"
 Output: true
 Explanation: The additive sequence is: 1, 99, 100, 199. 
              1 + 99 = 100, 99 + 100 = 199

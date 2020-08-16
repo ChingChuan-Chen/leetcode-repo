@@ -10,9 +10,9 @@ The input is:  vector<pair<string, string>> equations, vector<double>&amp; value
 
 According to the example above:
 
-equations = [ [&quot;a&quot;, &quot;b&quot;], [&quot;b&quot;, &quot;c&quot;] ],
+equations = [ ["a", "b"], ["b", "c"] ],
 values = [2.0, 3.0],
-queries = [ [&quot;a&quot;, &quot;c&quot;], [&quot;b&quot;, &quot;a&quot;], [&quot;a&quot;, &quot;e&quot;], [&quot;a&quot;, &quot;a&quot;], [&quot;x&quot;, &quot;x&quot;] ]. 
+queries = [ ["a", "c"], ["b", "a"], ["a", "e"], ["a", "a"], ["x", "x"] ]. 
 
  
 

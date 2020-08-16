@@ -12,14 +12,14 @@ It&#39;s guaranteed the smallest region exists.
  
 Example 1:
 Input:
-regions = [[&quot;Earth&quot;,&quot;North America&quot;,&quot;South America&quot;],
-[&quot;North America&quot;,&quot;United States&quot;,&quot;Canada&quot;],
-[&quot;United States&quot;,&quot;New York&quot;,&quot;Boston&quot;],
-[&quot;Canada&quot;,&quot;Ontario&quot;,&quot;Quebec&quot;],
-[&quot;South America&quot;,&quot;Brazil&quot;]],
-region1 = &quot;Quebec&quot;,
-region2 = &quot;New York&quot;
-Output: &quot;North America&quot;
+regions = [["Earth","North America","South America"],
+["North America","United States","Canada"],
+["United States","New York","Boston"],
+["Canada","Ontario","Quebec"],
+["South America","Brazil"]],
+region1 = "Quebec",
+region2 = "New York"
+Output: "North America"
 
  
 Constraints:

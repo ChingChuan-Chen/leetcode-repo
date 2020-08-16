@@ -1,5 +1,5 @@
 """
-A string is a valid parentheses string (denoted VPS) if and only if it consists of &quot;(&quot; and &quot;)&quot; characters only, and:
+A string is a valid parentheses string (denoted VPS) if and only if it consists of "(" and ")" characters only, and:
 
 	It is the empty string, or
 	It can be written as AB (A concatenated with B), where A and B are VPS&#39;s, or
@@ -7,11 +7,11 @@ A string is a valid parentheses string (denoted VPS) if and only if it consists 
 
 We can similarly define the nesting depth depth(S) of any VPS S as follows:
 
-	depth(&quot;&quot;) = 0
+	depth("") = 0
 	depth(A + B) = max(depth(A), depth(B)), where A and B are VPS&#39;s
-	depth(&quot;(&quot; + A + &quot;)&quot;) = 1 + depth(A), where A is a VPS.
+	depth("(" + A + ")") = 1 + depth(A), where A is a VPS.
 
-For example,  &quot;&quot;, &quot;()()&quot;, and &quot;()(()())&quot; are VPS&#39;s (with nesting depths 0, 1, and 2), and &quot;)(&quot; and &quot;(()&quot; are not VPS&#39;s.
+For example,  "", "()()", and "()(()())" are VPS&#39;s (with nesting depths 0, 1, and 2), and ")(" and "(()" are not VPS&#39;s.
 
  
 
@@ -23,11 +23,11 @@ Return an answer array (of length seq.length) that encodes such a choice of A an
 
  
 Example 1:
-Input: seq = &quot;(()())&quot;
+Input: seq = "(()())"
 Output: [0,1,1,1,1,0]
 
 Example 2:
-Input: seq = &quot;()(())()&quot;
+Input: seq = "()(())()"
 Output: [0,0,0,1,1,0,1,1]
 
  

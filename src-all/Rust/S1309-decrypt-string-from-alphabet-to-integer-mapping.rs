@@ -10,21 +10,21 @@ It&#39;s guaranteed that a unique mapping will always exist.
 
  
 Example 1:
-Input: s = &quot;10#11#12&quot;
-Output: &quot;jkab&quot;
-Explanation: &quot;j&quot; -> &quot;10#&quot; , &quot;k&quot; -> &quot;11#&quot; , &quot;a&quot; -> &quot;1&quot; , &quot;b&quot; -> &quot;2&quot;.
+Input: s = "10#11#12"
+Output: "jkab"
+Explanation: "j" -> "10#" , "k" -> "11#" , "a" -> "1" , "b" -> "2".
 
 Example 2:
-Input: s = &quot;1326#&quot;
-Output: &quot;acz&quot;
+Input: s = "1326#"
+Output: "acz"
 
 Example 3:
-Input: s = &quot;25#&quot;
-Output: &quot;y&quot;
+Input: s = "25#"
+Output: "y"
 
 Example 4:
-Input: s = &quot;12345678910#11#12#13#14#15#16#17#18#19#20#21#22#23#24#25#26#&quot;
-Output: &quot;abcdefghijklmnopqrstuvwxyz&quot;
+Input: s = "12345678910#11#12#13#14#15#16#17#18#19#20#21#22#23#24#25#26#"
+Output: "abcdefghijklmnopqrstuvwxyz"
 
  
 Constraints:

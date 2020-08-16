@@ -5,12 +5,12 @@ Return True if the path crosses itself at any point, that is, if at any time you
 
  
 Example 1:
-Input: path = &quot;NES&quot;
+Input: path = "NES"
 Output: false 
 Explanation: Notice that the path doesn&#39;t cross any point more than once.
 
 Example 2:
-Input: path = &quot;NESWW&quot;
+Input: path = "NESWW"
 Output: true
 Explanation: Notice that the path visits the origin twice.
 

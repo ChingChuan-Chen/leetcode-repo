@@ -8,17 +8,17 @@ Return the minimum number of flips to make S monotone increasing.
  
 
 Example 1:
-Input: &quot;00110&quot;
+Input: "00110"
 Output: 1
 Explanation: We flip the last digit to get 00111.
 
 Example 2:
-Input: &quot;010110&quot;
+Input: "010110"
 Output: 2
 Explanation: We flip to get 011111, or alternatively 000111.
 
 Example 3:
-Input: &quot;00011000&quot;
+Input: "00011000"
 Output: 2
 Explanation: We flip to get 00000000.
 

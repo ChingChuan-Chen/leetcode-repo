@@ -8,14 +8,14 @@ Return the number of positive integers that can be written (using the digits of 
  
 
 Example 1:
-Input: D = [&quot;1&quot;,&quot;3&quot;,&quot;5&quot;,&quot;7&quot;], N = 100
+Input: D = ["1","3","5","7"], N = 100
 Output: 20
 Explanation: 
 The 20 numbers that can be written are:
 1, 3, 5, 7, 11, 13, 15, 17, 31, 33, 35, 37, 51, 53, 55, 57, 71, 73, 75, 77.
 
 Example 2:
-Input: D = [&quot;1&quot;,&quot;4&quot;,&quot;9&quot;], N = 1000000000
+Input: D = ["1","4","9"], N = 1000000000
 Output: 29523
 Explanation: 
 We can write 3 one digit numbers, 9 two digit numbers, 27 three digit numbers,

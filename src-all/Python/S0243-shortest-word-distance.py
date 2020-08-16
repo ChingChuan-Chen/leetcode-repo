@@ -2,12 +2,12 @@
 Given a list of words and two words word1 and word2, return the shortest distance between these two words in the list.
 
 Example:
-Assume that words = [&quot;practice&quot;, &quot;makes&quot;, &quot;perfect&quot;, &quot;coding&quot;, &quot;makes&quot;].
+Assume that words = ["practice", "makes", "perfect", "coding", "makes"].
 
 Input: word1 = &ldquo;coding&rdquo;, word2 = &ldquo;practice&rdquo;
 Output: 3
 
-Input: word1 = &quot;makes&quot;, word2 = &quot;coding&quot;
+Input: word1 = "makes", word2 = "coding"
 Output: 1
 
 Note:

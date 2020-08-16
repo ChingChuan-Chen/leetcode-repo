@@ -12,36 +12,36 @@ Note:
 
 Example 1:
 Input:
-s = &quot;aa&quot;
-p = &quot;a&quot;
+s = "aa"
+p = "a"
 Output: false
-Explanation: &quot;a&quot; does not match the entire string &quot;aa&quot;.
+Explanation: "a" does not match the entire string "aa".
 
 Example 2:
 Input:
-s = &quot;aa&quot;
-p = &quot;*&quot;
+s = "aa"
+p = "*"
 Output: true
 Explanation: &#39;*&#39; matches any sequence.
 
 Example 3:
 Input:
-s = &quot;cb&quot;
-p = &quot;?a&quot;
+s = "cb"
+p = "?a"
 Output: false
 Explanation: &#39;?&#39; matches &#39;c&#39;, but the second letter is &#39;a&#39;, which does not match &#39;b&#39;.
 
 Example 4:
 Input:
-s = &quot;adceb&quot;
-p = &quot;*a*b&quot;
+s = "adceb"
+p = "*a*b"
 Output: true
-Explanation: The first &#39;*&#39; matches the empty sequence, while the second &#39;*&#39; matches the substring &quot;dce&quot;.
+Explanation: The first &#39;*&#39; matches the empty sequence, while the second &#39;*&#39; matches the substring "dce".
 
 Example 5:
 Input:
-s = &quot;acdcb&quot;
-p = &quot;a*c?b&quot;
+s = "acdcb"
+p = "a*c?b"
 Output: false
 
 

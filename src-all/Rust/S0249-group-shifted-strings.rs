@@ -1,19 +1,19 @@
 /*
-Given a string, we can &quot;shift&quot; each of its letter to its successive letter, for example: &quot;abc&quot; -> &quot;bcd&quot;. We can keep &quot;shifting&quot; which forms the sequence:
+Given a string, we can "shift" each of its letter to its successive letter, for example: "abc" -> "bcd". We can keep "shifting" which forms the sequence:
 
-&quot;abc&quot; -> &quot;bcd&quot; -> ... -> &quot;xyz&quot;
+"abc" -> "bcd" -> ... -> "xyz"
 
 Given a list of non-empty strings which contains only lowercase alphabets, group all strings that belong to the same shifting sequence.
 
 Example:
 
-Input: [&quot;abc&quot;, &quot;bcd&quot;, &quot;acef&quot;, &quot;xyz&quot;, &quot;az&quot;, &quot;ba&quot;, &quot;a&quot;, &quot;z&quot;],
+Input: ["abc", "bcd", "acef", "xyz", "az", "ba", "a", "z"],
 Output: 
 [
-  [&quot;abc&quot;,&quot;bcd&quot;,&quot;xyz&quot;],
-  [&quot;az&quot;,&quot;ba&quot;],
-  [&quot;acef&quot;],
-  [&quot;a&quot;,&quot;z&quot;]
+  ["abc","bcd","xyz"],
+  ["az","ba"],
+  ["acef"],
+  ["a","z"]
 ]
 
 

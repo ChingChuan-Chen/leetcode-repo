@@ -5,12 +5,12 @@ After doing so, return the final string.  If there is no way to do so, return th
 
  
 Example 1:
-Input: palindrome = &quot;abccba&quot;
-Output: &quot;aaccba&quot;
+Input: palindrome = "abccba"
+Output: "aaccba"
 
 Example 2:
-Input: palindrome = &quot;a&quot;
-Output: &quot;&quot;
+Input: palindrome = "a"
+Output: ""
 
  
 Constraints:

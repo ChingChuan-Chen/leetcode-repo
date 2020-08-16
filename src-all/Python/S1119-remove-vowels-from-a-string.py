@@ -4,12 +4,12 @@ Given a string S, remove the vowels &#39;a&#39;, &#39;e&#39;, &#39;i&#39;, &#39;
  
 
 Example 1:
-Input: &quot;leetcodeisacommunityforcoders&quot;
-Output: &quot;ltcdscmmntyfrcdrs&quot;
+Input: "leetcodeisacommunityforcoders"
+Output: "ltcdscmmntyfrcdrs"
 
 Example 2:
-Input: &quot;aeiou&quot;
-Output: &quot;&quot;
+Input: "aeiou"
+Output: ""
 
  
 

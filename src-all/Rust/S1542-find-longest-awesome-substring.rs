@@ -5,21 +5,21 @@ Return the length of the maximum length awesome substring of s.
 
  
 Example 1:
-Input: s = &quot;3242415&quot;
+Input: s = "3242415"
 Output: 5
-Explanation: &quot;24241&quot; is the longest awesome substring, we can form the palindrome &quot;24142&quot; with some swaps.
+Explanation: "24241" is the longest awesome substring, we can form the palindrome "24142" with some swaps.
 
 Example 2:
-Input: s = &quot;12345678&quot;
+Input: s = "12345678"
 Output: 1
 
 Example 3:
-Input: s = &quot;213123&quot;
+Input: s = "213123"
 Output: 6
-Explanation: &quot;213123&quot; is the longest awesome substring, we can form the palindrome &quot;231132&quot; with some swaps.
+Explanation: "213123" is the longest awesome substring, we can form the palindrome "231132" with some swaps.
 
 Example 4:
-Input: s = &quot;00&quot;
+Input: s = "00"
 Output: 2
 
  

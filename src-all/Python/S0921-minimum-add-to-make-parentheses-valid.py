@@ -12,19 +12,19 @@ Given a parentheses string, return the minimum number of parentheses we must add
  
 
 Example 1:
-Input: &quot;())&quot;
+Input: "())"
 Output: 1
 
 Example 2:
-Input: &quot;(((&quot;
+Input: "((("
 Output: 3
 
 Example 3:
-Input: &quot;()&quot;
+Input: "()"
 Output: 0
 
 Example 4:
-Input: &quot;()))((&quot;
+Input: "()))(("
 Output: 4
 
  

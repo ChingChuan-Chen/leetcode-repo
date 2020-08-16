@@ -5,7 +5,7 @@ Write a function to count the total strobogrammatic numbers that exist in the ra
 
 Example:
 
-Input: low = &quot;50&quot;, high = &quot;100&quot;
+Input: low = "50", high = "100"
 Output: 3 
 Explanation: 69, 88, and 96 are three strobogrammatic numbers.
 

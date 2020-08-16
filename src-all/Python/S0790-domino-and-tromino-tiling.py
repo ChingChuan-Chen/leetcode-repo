@@ -1,9 +1,9 @@
 """
-We have two types of tiles: a 2x1 domino shape, and an &quot;L&quot; tromino shape. These shapes may be rotated.
+We have two types of tiles: a 2x1 domino shape, and an "L" tromino shape. These shapes may be rotated.
 
 XX  <- domino
 
-XX  <- &quot;L&quot; tromino
+XX  <- "L" tromino
 X
 
 Given N, how many ways are there to tile a 2 x N board? Return your answer modulo 10^9 + 7.

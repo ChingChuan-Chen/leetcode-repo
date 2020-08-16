@@ -7,26 +7,26 @@ Return the shuffled string.
 
  
 Example 1:
-Input: s = &quot;codeleet&quot;, indices = [4,5,6,7,0,2,1,3]
-Output: &quot;leetcode&quot;
-Explanation: As shown, &quot;codeleet&quot; becomes &quot;leetcode&quot; after shuffling.
+Input: s = "codeleet", indices = [4,5,6,7,0,2,1,3]
+Output: "leetcode"
+Explanation: As shown, "codeleet" becomes "leetcode" after shuffling.
 
 Example 2:
-Input: s = &quot;abc&quot;, indices = [0,1,2]
-Output: &quot;abc&quot;
+Input: s = "abc", indices = [0,1,2]
+Output: "abc"
 Explanation: After shuffling, each character remains in its position.
 
 Example 3:
-Input: s = &quot;aiohn&quot;, indices = [3,1,4,2,0]
-Output: &quot;nihao&quot;
+Input: s = "aiohn", indices = [3,1,4,2,0]
+Output: "nihao"
 
 Example 4:
-Input: s = &quot;aaiougrt&quot;, indices = [4,0,2,6,7,3,1,5]
-Output: &quot;arigatou&quot;
+Input: s = "aaiougrt", indices = [4,0,2,6,7,3,1,5]
+Output: "arigatou"
 
 Example 5:
-Input: s = &quot;art&quot;, indices = [1,0,2]
-Output: &quot;rat&quot;
+Input: s = "art", indices = [1,0,2]
+Output: "rat"
 
  
 Constraints:

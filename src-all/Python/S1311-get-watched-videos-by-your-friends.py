@@ -5,19 +5,19 @@ Level 1 of videos are all watched videos by your friends, level 2 of videos are 
 
  
 Example 1:
-Input: watchedVideos = [[&quot;A&quot;,&quot;B&quot;],[&quot;C&quot;],[&quot;B&quot;,&quot;C&quot;],[&quot;D&quot;]], friends = [[1,2],[0,3],[0,3],[1,2]], id = 0, level = 1
-Output: [&quot;B&quot;,&quot;C&quot;] 
+Input: watchedVideos = [["A","B"],["C"],["B","C"],["D"]], friends = [[1,2],[0,3],[0,3],[1,2]], id = 0, level = 1
+Output: ["B","C"] 
 Explanation: 
 You have id = 0 (green color in the figure) and your friends are (yellow color in the figure):
-Person with id = 1 -> watchedVideos = [&quot;C&quot;] 
-Person with id = 2 -> watchedVideos = [&quot;B&quot;,&quot;C&quot;] 
+Person with id = 1 -> watchedVideos = ["C"] 
+Person with id = 2 -> watchedVideos = ["B","C"] 
 The frequencies of watchedVideos by your friends are: 
 B -> 1 
 C -> 2
 
 Example 2:
-Input: watchedVideos = [[&quot;A&quot;,&quot;B&quot;],[&quot;C&quot;],[&quot;B&quot;,&quot;C&quot;],[&quot;D&quot;]], friends = [[1,2],[0,3],[0,3],[1,2]], id = 0, level = 2
-Output: [&quot;D&quot;]
+Input: watchedVideos = [["A","B"],["C"],["B","C"],["D"]], friends = [[1,2],[0,3],[0,3],[1,2]], id = 0, level = 2
+Output: ["D"]
 Explanation: 
 You have id = 0 (green color in the figure) and the only friend of your friends is the person with id = 3 (yellow color in the figure).
 

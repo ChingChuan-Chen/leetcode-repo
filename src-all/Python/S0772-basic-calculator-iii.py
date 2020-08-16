@@ -9,10 +9,10 @@ You may assume that the given expression is always valid. All intermediate resul
 
 Some examples:
 
-&quot;1 + 1&quot; = 2
-&quot; 6-4 / 2 &quot; = 4
-&quot;2*(5+5*2)/3+(6/2+8)&quot; = 21
-&quot;(2+6* 3+5- (3*14/7+2)*5)+3&quot;=-12
+"1 + 1" = 2
+" 6-4 / 2 " = 4
+"2*(5+5*2)/3+(6/2+8)" = 21
+"(2+6* 3+5- (3*14/7+2)*5)+3"=-12
 
  
 

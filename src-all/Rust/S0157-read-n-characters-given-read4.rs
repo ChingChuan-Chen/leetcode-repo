@@ -20,11 +20,11 @@ Note: buf4[] is destination not source, the results from read4 will be copied to
 
 Below is a high level example of how read4 works:
 
-File file(&quot;abcde&quot;); // File is &quot;abcde&quot;, initially file pointer (fp) points to &#39;a&#39;
+File file("abcde"); // File is "abcde", initially file pointer (fp) points to &#39;a&#39;
 char[] buf4 = new char[4]; // Create buffer with enough space to store characters
-read4(buf4); // read4 returns 4. Now buf = &quot;abcd&quot;, fp points to &#39;e&#39;
-read4(buf4); // read4 returns 1. Now buf = &quot;e&quot;, fp points to end of file
-read4(buf4); // read4 returns 0. Now buf = &quot;&quot;, fp points to end of file
+read4(buf4); // read4 returns 4. Now buf = "abcd", fp points to &#39;e&#39;
+read4(buf4); // read4 returns 1. Now buf = "e", fp points to end of file
+read4(buf4); // read4 returns 0. Now buf = "", fp points to end of file
 
  
 
@@ -44,24 +44,24 @@ Note: buf[] is destination not source, you will need to write the results to buf
  
 
 Example 1:
-Input: file = &quot;abc&quot;, n = 4
+Input: file = "abc", n = 4
 Output: 3
-Explanation: After calling your read method, buf should contain &quot;abc&quot;. We read a total of 3 characters from the file, so return 3. Note that &quot;abc&quot; is the file&#39;s content, not buf. buf is the destination buffer that you will have to write the results to.
+Explanation: After calling your read method, buf should contain "abc". We read a total of 3 characters from the file, so return 3. Note that "abc" is the file&#39;s content, not buf. buf is the destination buffer that you will have to write the results to.
 
 Example 2:
-Input: file = &quot;abcde&quot;, n = 5
+Input: file = "abcde", n = 5
 Output: 5
-Explanation: After calling your read method, buf should contain &quot;abcde&quot;. We read a total of 5 characters from the file, so return 5.
+Explanation: After calling your read method, buf should contain "abcde". We read a total of 5 characters from the file, so return 5.
 
 Example 3:
-Input: file = &quot;abcdABCD1234&quot;, n = 12
+Input: file = "abcdABCD1234", n = 12
 Output: 12
-Explanation: After calling your read method, buf should contain &quot;abcdABCD1234&quot;. We read a total of 12 characters from the file, so return 12.
+Explanation: After calling your read method, buf should contain "abcdABCD1234". We read a total of 12 characters from the file, so return 12.
 
 Example 4:
-Input: file = &quot;leetcode&quot;, n = 5
+Input: file = "leetcode", n = 5
 Output: 5
-Explanation: After calling your read method, buf should contain &quot;leetc&quot;. We read a total of 5 characters from the file, so return 5.
+Explanation: After calling your read method, buf should contain "leetc". We read a total of 5 characters from the file, so return 5.
 
  
 

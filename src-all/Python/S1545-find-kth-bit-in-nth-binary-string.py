@@ -1,38 +1,38 @@
 """
 Given two positive integers n and k, the binary string  Sn is formed as follows:
 
-	S1 = &quot;0&quot;
-	Si = Si-1 + &quot;1&quot; + reverse(invert(Si-1)) for i > 1
+	S1 = "0"
+	Si = Si-1 + "1" + reverse(invert(Si-1)) for i > 1
 
 Where + denotes the concatenation operation, reverse(x) returns the reversed string x, and invert(x) inverts all the bits in x (0 changes to 1 and 1 changes to 0).
 
 For example, the first 4 strings in the above sequence are:
 
-	S1 = &quot;0&quot;
-	S2 = &quot;011&quot;
-	S3 = &quot;0111001&quot;
-	S4 = &quot;011100110110001&quot;
+	S1 = "0"
+	S2 = "011"
+	S3 = "0111001"
+	S4 = "011100110110001"
 
 Return the kth bit in Sn. It is guaranteed that k is valid for the given n.
 
  
 Example 1:
 Input: n = 3, k = 1
-Output: &quot;0&quot;
-Explanation: S3 is &quot;0111001&quot;. The first bit is &quot;0&quot;.
+Output: "0"
+Explanation: S3 is "0111001". The first bit is "0".
 
 Example 2:
 Input: n = 4, k = 11
-Output: &quot;1&quot;
-Explanation: S4 is &quot;011100110110001&quot;. The 11th bit is &quot;1&quot;.
+Output: "1"
+Explanation: S4 is "011100110110001". The 11th bit is "1".
 
 Example 3:
 Input: n = 1, k = 1
-Output: &quot;0&quot;
+Output: "0"
 
 Example 4:
 Input: n = 2, k = 3
-Output: &quot;1&quot;
+Output: "1"
 
  
 Constraints:

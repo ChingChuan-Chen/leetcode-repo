@@ -11,17 +11,17 @@ When a vertical domino has dominoes falling on it from both sides, it stays stil
 
 For the purposes of this question, we will consider that a falling domino expends no additional force to a falling or already fallen domino.
 
-Given a string &quot;S&quot; representing the initial state. S[i] = &#39;L&#39;, if the i-th domino has been pushed to the left; S[i] = &#39;R&#39;, if the i-th domino has been pushed to the right; S[i] = &#39;.&#39;, if the i-th domino has not been pushed.
+Given a string "S" representing the initial state. S[i] = &#39;L&#39;, if the i-th domino has been pushed to the left; S[i] = &#39;R&#39;, if the i-th domino has been pushed to the right; S[i] = &#39;.&#39;, if the i-th domino has not been pushed.
 
 Return a string representing the final state. 
 
 Example 1:
-Input: &quot;.L.R...LR..L..&quot;
-Output: &quot;LL.RR.LLRRLL..&quot;
+Input: ".L.R...LR..L.."
+Output: "LL.RR.LLRRLL.."
 
 Example 2:
-Input: &quot;RR.L&quot;
-Output: &quot;RR.L&quot;
+Input: "RR.L"
+Output: "RR.L"
 Explanation: The first domino expends no additional force on the second domino.
 
 Note:

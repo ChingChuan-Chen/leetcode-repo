@@ -13,30 +13,30 @@ Please refer to the examples for clarifications.
  
 Example 1:
 Input: 
-[&quot;FileSystem&quot;,&quot;createPath&quot;,&quot;get&quot;]
-[[],[&quot;/a&quot;,1],[&quot;/a&quot;]]
+["FileSystem","createPath","get"]
+[[],["/a",1],["/a"]]
 Output: 
 [null,true,1]
 Explanation: 
 FileSystem fileSystem = new FileSystem();
 
-fileSystem.createPath(&quot;/a&quot;, 1); // return true
-fileSystem.get(&quot;/a&quot;); // return 1
+fileSystem.createPath("/a", 1); // return true
+fileSystem.get("/a"); // return 1
 
 Example 2:
 Input: 
-[&quot;FileSystem&quot;,&quot;createPath&quot;,&quot;createPath&quot;,&quot;get&quot;,&quot;createPath&quot;,&quot;get&quot;]
-[[],[&quot;/leet&quot;,1],[&quot;/leet/code&quot;,2],[&quot;/leet/code&quot;],[&quot;/c/d&quot;,1],[&quot;/c&quot;]]
+["FileSystem","createPath","createPath","get","createPath","get"]
+[[],["/leet",1],["/leet/code",2],["/leet/code"],["/c/d",1],["/c"]]
 Output: 
 [null,true,true,2,false,-1]
 Explanation: 
 FileSystem fileSystem = new FileSystem();
 
-fileSystem.createPath(&quot;/leet&quot;, 1); // return true
-fileSystem.createPath(&quot;/leet/code&quot;, 2); // return true
-fileSystem.get(&quot;/leet/code&quot;); // return 2
-fileSystem.createPath(&quot;/c/d&quot;, 1); // return false because the parent path &quot;/c&quot; doesn&#39;t exist.
-fileSystem.get(&quot;/c&quot;); // return -1 because this path doesn&#39;t exist.
+fileSystem.createPath("/leet", 1); // return true
+fileSystem.createPath("/leet/code", 2); // return true
+fileSystem.get("/leet/code"); // return 2
+fileSystem.createPath("/c/d", 1); // return false because the parent path "/c" doesn&#39;t exist.
+fileSystem.get("/c"); // return -1 because this path doesn&#39;t exist.
 
  
 Constraints:

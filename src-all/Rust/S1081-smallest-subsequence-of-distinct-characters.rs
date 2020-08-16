@@ -2,20 +2,20 @@
 Return the lexicographically smallest subsequence of text that contains all the distinct characters of text exactly once.
 
 Example 1:
-Input: &quot;cdadabcc&quot;
-Output: &quot;adbc&quot;
+Input: "cdadabcc"
+Output: "adbc"
 
 Example 2:
-Input: &quot;abcd&quot;
-Output: &quot;abcd&quot;
+Input: "abcd"
+Output: "abcd"
 
 Example 3:
-Input: &quot;ecbacba&quot;
-Output: &quot;eacb&quot;
+Input: "ecbacba"
+Output: "eacb"
 
 Example 4:
-Input: &quot;leetcode&quot;
-Output: &quot;letcod&quot;
+Input: "leetcode"
+Output: "letcod"
 
  
 

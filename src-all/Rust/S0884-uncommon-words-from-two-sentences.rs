@@ -10,12 +10,12 @@ You may return the list in any order.
  
 
 Example 1:
-Input: A = &quot;this apple is sweet&quot;, B = &quot;this apple is sour&quot;
-Output: [&quot;sweet&quot;,&quot;sour&quot;]
+Input: A = "this apple is sweet", B = "this apple is sour"
+Output: ["sweet","sour"]
 
 Example 2:
-Input: A = &quot;apple apple&quot;, B = &quot;banana&quot;
-Output: [&quot;banana&quot;]
+Input: A = "apple apple", B = "banana"
+Output: ["banana"]
 
  
 

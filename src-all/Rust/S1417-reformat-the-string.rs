@@ -7,27 +7,27 @@ Return the reformatted string or return an empty string if it is impossible to r
 
  
 Example 1:
-Input: s = &quot;a0b1c2&quot;
-Output: &quot;0a1b2c&quot;
-Explanation: No two adjacent characters have the same type in &quot;0a1b2c&quot;. &quot;a0b1c2&quot;, &quot;0a1b2c&quot;, &quot;0c2a1b&quot; are also valid permutations.
+Input: s = "a0b1c2"
+Output: "0a1b2c"
+Explanation: No two adjacent characters have the same type in "0a1b2c". "a0b1c2", "0a1b2c", "0c2a1b" are also valid permutations.
 
 Example 2:
-Input: s = &quot;leetcode&quot;
-Output: &quot;&quot;
-Explanation: &quot;leetcode&quot; has only characters so we cannot separate them by digits.
+Input: s = "leetcode"
+Output: ""
+Explanation: "leetcode" has only characters so we cannot separate them by digits.
 
 Example 3:
-Input: s = &quot;1229857369&quot;
-Output: &quot;&quot;
-Explanation: &quot;1229857369&quot; has only digits so we cannot separate them by characters.
+Input: s = "1229857369"
+Output: ""
+Explanation: "1229857369" has only digits so we cannot separate them by characters.
 
 Example 4:
-Input: s = &quot;covid2019&quot;
-Output: &quot;c2o0v1i9d&quot;
+Input: s = "covid2019"
+Output: "c2o0v1i9d"
 
 Example 5:
-Input: s = &quot;ab123&quot;
-Output: &quot;1a2b3&quot;
+Input: s = "ab123"
+Output: "1a2b3"
 
  
 Constraints:

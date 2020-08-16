@@ -5,7 +5,7 @@ Note: You can only put the bomb at an empty cell.
 
 Example:
 
-Input: [[&quot;0&quot;,&quot;E&quot;,&quot;0&quot;,&quot;0&quot;],[&quot;E&quot;,&quot;0&quot;,&quot;W&quot;,&quot;E&quot;],[&quot;0&quot;,&quot;E&quot;,&quot;0&quot;,&quot;0&quot;]]
+Input: [["0","E","0","0"],["E","0","W","E"],["0","E","0","0"]]
 Output: 3 
 Explanation: For the given grid,
 

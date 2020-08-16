@@ -3,19 +3,19 @@ Given the string s, return the size of the longest substring containing each vow
 
  
 Example 1:
-Input: s = &quot;eleetminicoworoep&quot;
+Input: s = "eleetminicoworoep"
 Output: 13
-Explanation: The longest substring is &quot;leetminicowor&quot; which contains two each of the vowels: e, i and o and zero of the vowels: a and u.
+Explanation: The longest substring is "leetminicowor" which contains two each of the vowels: e, i and o and zero of the vowels: a and u.
 
 Example 2:
-Input: s = &quot;leetcodeisgreat&quot;
+Input: s = "leetcodeisgreat"
 Output: 5
-Explanation: The longest substring is &quot;leetc&quot; which contains two e&#39;s.
+Explanation: The longest substring is "leetc" which contains two e&#39;s.
 
 Example 3:
-Input: s = &quot;bcbcbc&quot;
+Input: s = "bcbcbc"
 Output: 6
-Explanation: In this case, the given string &quot;bcbcbc&quot; is the longest because all vowels: a, e, i, o and u appear zero times.
+Explanation: In this case, the given string "bcbcbc" is the longest because all vowels: a, e, i, o and u appear zero times.
 
  
 Constraints:

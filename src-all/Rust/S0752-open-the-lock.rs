@@ -9,27 +9,27 @@ Given a target representing the value of the wheels that will unlock the lock, r
 
  
 Example 1:
-Input: deadends = [&quot;0201&quot;,&quot;0101&quot;,&quot;0102&quot;,&quot;1212&quot;,&quot;2002&quot;], target = &quot;0202&quot;
+Input: deadends = ["0201","0101","0102","1212","2002"], target = "0202"
 Output: 6
 Explanation:
-A sequence of valid moves would be &quot;0000&quot; -> &quot;1000&quot; -> &quot;1100&quot; -> &quot;1200&quot; -> &quot;1201&quot; -> &quot;1202&quot; -> &quot;0202&quot;.
-Note that a sequence like &quot;0000&quot; -> &quot;0001&quot; -> &quot;0002&quot; -> &quot;0102&quot; -> &quot;0202&quot; would be invalid,
-because the wheels of the lock become stuck after the display becomes the dead end &quot;0102&quot;.
+A sequence of valid moves would be "0000" -> "1000" -> "1100" -> "1200" -> "1201" -> "1202" -> "0202".
+Note that a sequence like "0000" -> "0001" -> "0002" -> "0102" -> "0202" would be invalid,
+because the wheels of the lock become stuck after the display becomes the dead end "0102".
 
 Example 2:
-Input: deadends = [&quot;8888&quot;], target = &quot;0009&quot;
+Input: deadends = ["8888"], target = "0009"
 Output: 1
 Explanation:
-We can turn the last wheel in reverse to move from &quot;0000&quot; -> &quot;0009&quot;.
+We can turn the last wheel in reverse to move from "0000" -> "0009".
 
 Example 3:
-Input: deadends = [&quot;8887&quot;,&quot;8889&quot;,&quot;8878&quot;,&quot;8898&quot;,&quot;8788&quot;,&quot;8988&quot;,&quot;7888&quot;,&quot;9888&quot;], target = &quot;8888&quot;
+Input: deadends = ["8887","8889","8878","8898","8788","8988","7888","9888"], target = "8888"
 Output: -1
 Explanation:
 We can&#39;t reach the target without getting stuck.
 
 Example 4:
-Input: deadends = [&quot;0000&quot;], target = &quot;8888&quot;
+Input: deadends = ["0000"], target = "8888"
 Output: -1
 
  

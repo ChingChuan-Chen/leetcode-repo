@@ -9,13 +9,13 @@ Note:
 
 Example 1:
 Input: 
-[&quot;Solution&quot;,&quot;randPoint&quot;,&quot;randPoint&quot;,&quot;randPoint&quot;]
+["Solution","randPoint","randPoint","randPoint"]
 [[1,0,0],[],[],[]]
 Output: [null,[-0.72939,-0.65505],[-0.78502,-0.28626],[-0.83119,-0.19803]]
 
 Example 2:
 Input: 
-[&quot;Solution&quot;,&quot;randPoint&quot;,&quot;randPoint&quot;,&quot;randPoint&quot;]
+["Solution","randPoint","randPoint","randPoint"]
 [[10,5,-7.5],[],[],[]]
 Output: [null,[11.52438,-8.33273],[2.46992,-16.21705],[11.13430,-12.42337]]
 

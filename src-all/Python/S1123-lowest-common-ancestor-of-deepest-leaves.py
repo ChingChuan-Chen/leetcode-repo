@@ -14,7 +14,7 @@ Output: [1,2,3]
 Explanation: 
 The deepest leaves are the nodes with values 2 and 3.
 The lowest common ancestor of these leaves is the node with value 1.
-The answer returned is a TreeNode object (not an array) with serialization &quot;[1,2,3]&quot;.
+The answer returned is a TreeNode object (not an array) with serialization "[1,2,3]".
 
 Example 2:
 Input: root = [1,2,3,4]

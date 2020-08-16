@@ -14,17 +14,17 @@ Return true if it&#39;s possible to convert s into t in no more than k moves, ot
 
  
 Example 1:
-Input: s = &quot;input&quot;, t = &quot;ouput&quot;, k = 9
+Input: s = "input", t = "ouput", k = 9
 Output: true
 Explanation: In the 6th move, we shift &#39;i&#39; 6 times to get &#39;o&#39;. And in the 7th move we shift &#39;n&#39; to get &#39;u&#39;.
 
 Example 2:
-Input: s = &quot;abc&quot;, t = &quot;bcd&quot;, k = 10
+Input: s = "abc", t = "bcd", k = 10
 Output: false
 Explanation: We need to shift each character in s one time to convert it into t. We can shift &#39;a&#39; to &#39;b&#39; during the 1st move. However, there is no way to shift the other characters in the remaining moves to obtain t from s.
 
 Example 3:
-Input: s = &quot;aab&quot;, t = &quot;bbb&quot;, k = 27
+Input: s = "aab", t = "bbb", k = 27
 Output: true
 Explanation: In the 1st move, we shift the first &#39;a&#39; 1 time to get &#39;b&#39;. In the 27th move, we shift the second &#39;a&#39; 27 times to get &#39;b&#39;.
 

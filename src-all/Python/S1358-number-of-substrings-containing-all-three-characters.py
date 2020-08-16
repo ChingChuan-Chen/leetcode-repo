@@ -5,17 +5,17 @@ Return the number of substrings containing at least one occurrence of all these 
 
  
 Example 1:
-Input: s = &quot;abcabc&quot;
+Input: s = "abcabc"
 Output: 10
-Explanation: The substrings containing at least one occurrence of the characters a, b and c are &quot;abc&quot;, &quot;abca&quot;, &quot;abcab&quot;, &quot;abcabc&quot;, &quot;bca&quot;, &quot;bcab&quot;, &quot;bcabc&quot;, &quot;cab&quot;, &quot;cabc&quot; and &quot;abc&quot; (again). 
+Explanation: The substrings containing at least one occurrence of the characters a, b and c are "abc", "abca", "abcab", "abcabc", "bca", "bcab", "bcabc", "cab", "cabc" and "abc" (again). 
 
 Example 2:
-Input: s = &quot;aaacb&quot;
+Input: s = "aaacb"
 Output: 3
-Explanation: The substrings containing at least one occurrence of the characters a, b and c are &quot;aaacb&quot;, &quot;aacb&quot; and &quot;acb&quot;. 
+Explanation: The substrings containing at least one occurrence of the characters a, b and c are "aaacb", "aacb" and "acb". 
 
 Example 3:
-Input: s = &quot;abc&quot;
+Input: s = "abc"
 Output: 1
 
  

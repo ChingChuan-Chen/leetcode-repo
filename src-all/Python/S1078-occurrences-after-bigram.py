@@ -1,17 +1,17 @@
 """
-Given words first and second, consider occurrences in some text of the form &quot;first second third&quot;, where second comes immediately after first, and third comes immediately after second.
+Given words first and second, consider occurrences in some text of the form "first second third", where second comes immediately after first, and third comes immediately after second.
 
-For each such occurrence, add &quot;third&quot; to the answer, and return the answer.
+For each such occurrence, add "third" to the answer, and return the answer.
 
  
 
 Example 1:
-Input: text = &quot;alice is a good girl she is a good student&quot;, first = &quot;a&quot;, second = &quot;good&quot;
-Output: [&quot;girl&quot;,&quot;student&quot;]
+Input: text = "alice is a good girl she is a good student", first = "a", second = "good"
+Output: ["girl","student"]
 
 Example 2:
-Input: text = &quot;we will we will rock you&quot;, first = &quot;we&quot;, second = &quot;will&quot;
-Output: [&quot;we&quot;,&quot;rock&quot;]
+Input: text = "we will we will rock you", first = "we", second = "will"
+Output: ["we","rock"]
 
  
 

@@ -8,7 +8,7 @@ We start with a bottom row of bottom, represented as a single string. We also st
 Return true if we can build the pyramid all the way to the top, otherwise false.
 
 Example 1:
-Input: bottom = &quot;BCD&quot;, allowed = [&quot;BCG&quot;, &quot;CDE&quot;, &quot;GEA&quot;, &quot;FFF&quot;]
+Input: bottom = "BCD", allowed = ["BCG", "CDE", "GEA", "FFF"]
 Output: true
 Explanation:
 We can stack the pyramid like this:
@@ -23,7 +23,7 @@ We are allowed to place G on top of B and C because BCG is an allowed triple.  S
  
 
 Example 2:
-Input: bottom = &quot;AABA&quot;, allowed = [&quot;AAA&quot;, &quot;AAB&quot;, &quot;ABA&quot;, &quot;ABB&quot;, &quot;BAC&quot;]
+Input: bottom = "AABA", allowed = ["AAA", "AAB", "ABA", "ABB", "BAC"]
 Output: false
 Explanation:
 We can&#39;t stack the pyramid to the top.

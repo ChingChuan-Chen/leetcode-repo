@@ -9,24 +9,24 @@ One way to serialize a binary tree is to use pre-order traversal. When we encoun
 / \ / \   / \
 # # # #   # #
 
-For example, the above binary tree can be serialized to the string &quot;9,3,4,#,#,1,#,#,2,#,6,#,#&quot;, where # represents a null node.
+For example, the above binary tree can be serialized to the string "9,3,4,#,#,1,#,#,2,#,6,#,#", where # represents a null node.
 
 Given a string of comma separated values, verify whether it is a correct preorder traversal serialization of a binary tree. Find an algorithm without reconstructing the tree.
 
 Each comma separated value in the string must be either an integer or a character &#39;#&#39; representing null pointer.
 
-You may assume that the input format is always valid, for example it could never contain two consecutive commas such as &quot;1,,3&quot;.
+You may assume that the input format is always valid, for example it could never contain two consecutive commas such as "1,,3".
 
 Example 1:
-Input: &quot;9,3,4,#,#,1,#,#,2,#,6,#,#&quot;
+Input: "9,3,4,#,#,1,#,#,2,#,6,#,#"
 Output: true
 
 Example 2:
-Input: &quot;1,#&quot;
+Input: "1,#"
 Output: false
 
 Example 3:
-Input: &quot;9,#,#,1&quot;
+Input: "9,#,#,1"
 Output: false
 */
 pub struct Solution {}

@@ -8,18 +8,18 @@ Return the lexicographically smallest string we could have after any number of m
  
 
 Example 1:
-Input: S = &quot;cba&quot;, K = 1
-Output: &quot;acb&quot;
+Input: S = "cba", K = 1
+Output: "acb"
 Explanation: 
-In the first move, we move the 1st character (&quot;c&quot;) to the end, obtaining the string &quot;bac&quot;.
-In the second move, we move the 1st character (&quot;b&quot;) to the end, obtaining the final result &quot;acb&quot;.
+In the first move, we move the 1st character ("c") to the end, obtaining the string "bac".
+In the second move, we move the 1st character ("b") to the end, obtaining the final result "acb".
 
 Example 2:
-Input: S = &quot;baaca&quot;, K = 3
-Output: &quot;aaabc&quot;
+Input: S = "baaca", K = 3
+Output: "aaabc"
 Explanation: 
-In the first move, we move the 1st character (&quot;b&quot;) to the end, obtaining the string &quot;aacab&quot;.
-In the second move, we move the 3rd character (&quot;c&quot;) to the end, obtaining the final result &quot;aaabc&quot;.
+In the first move, we move the 1st character ("b") to the end, obtaining the string "aacab".
+In the second move, we move the 3rd character ("c") to the end, obtaining the final result "aaabc".
 
  
 

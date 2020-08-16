@@ -11,22 +11,22 @@ Formally, a parentheses string is valid if and only if:
 
  
 Example 1:
-Input: s = &quot;lee(t(c)o)de)&quot;
-Output: &quot;lee(t(c)o)de&quot;
-Explanation: &quot;lee(t(co)de)&quot; , &quot;lee(t(c)ode)&quot; would also be accepted.
+Input: s = "lee(t(c)o)de)"
+Output: "lee(t(c)o)de"
+Explanation: "lee(t(co)de)" , "lee(t(c)ode)" would also be accepted.
 
 Example 2:
-Input: s = &quot;a)b(c)d&quot;
-Output: &quot;ab(c)d&quot;
+Input: s = "a)b(c)d"
+Output: "ab(c)d"
 
 Example 3:
-Input: s = &quot;))((&quot;
-Output: &quot;&quot;
+Input: s = "))(("
+Output: ""
 Explanation: An empty string is also valid.
 
 Example 4:
-Input: s = &quot;(a(b(c)d)&quot;
-Output: &quot;a(b(c)d)&quot;
+Input: s = "(a(b(c)d)"
+Output: "a(b(c)d)"
 
  
 Constraints:

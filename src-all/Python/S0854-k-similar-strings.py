@@ -4,19 +4,19 @@ Strings A and B are K-similar (for some non-negative integer K) if we can swap t
 Given two anagrams A and B, return the smallest K for which A and B are K-similar.
 
 Example 1:
-Input: A = &quot;ab&quot;, B = &quot;ba&quot;
+Input: A = "ab", B = "ba"
 Output: 1
 
 Example 2:
-Input: A = &quot;abc&quot;, B = &quot;bca&quot;
+Input: A = "abc", B = "bca"
 Output: 2
 
 Example 3:
-Input: A = &quot;abac&quot;, B = &quot;baca&quot;
+Input: A = "abac", B = "baca"
 Output: 2
 
 Example 4:
-Input: A = &quot;aabc&quot;, B = &quot;abca&quot;
+Input: A = "aabc", B = "abca"
 Output: 2
 
 Note:

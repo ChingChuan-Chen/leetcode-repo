@@ -8,7 +8,7 @@ You have the following 3 operations permitted on a word:
 	Replace a character
 
 Example 1:
-Input: word1 = &quot;horse&quot;, word2 = &quot;ros&quot;
+Input: word1 = "horse", word2 = "ros"
 Output: 3
 Explanation: 
 horse -> rorse (replace &#39;h&#39; with &#39;r&#39;)
@@ -16,7 +16,7 @@ rorse -> rose (remove &#39;r&#39;)
 rose -> ros (remove &#39;e&#39;)
 
 Example 2:
-Input: word1 = &quot;intention&quot;, word2 = &quot;execution&quot;
+Input: word1 = "intention", word2 = "execution"
 Output: 5
 Explanation: 
 intention -> inention (remove &#39;t&#39;)

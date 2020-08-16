@@ -7,22 +7,22 @@ Your result should not contain any brackets.
 
  
 Example 1:
-Input: s = &quot;(abcd)&quot;
-Output: &quot;dcba&quot;
+Input: s = "(abcd)"
+Output: "dcba"
 
 Example 2:
-Input: s = &quot;(u(love)i)&quot;
-Output: &quot;iloveu&quot;
-Explanation: The substring &quot;love&quot; is reversed first, then the whole string is reversed.
+Input: s = "(u(love)i)"
+Output: "iloveu"
+Explanation: The substring "love" is reversed first, then the whole string is reversed.
 
 Example 3:
-Input: s = &quot;(ed(et(oc))el)&quot;
-Output: &quot;leetcode&quot;
-Explanation: First, we reverse the substring &quot;oc&quot;, then &quot;etco&quot;, and finally, the whole string.
+Input: s = "(ed(et(oc))el)"
+Output: "leetcode"
+Explanation: First, we reverse the substring "oc", then "etco", and finally, the whole string.
 
 Example 4:
-Input: s = &quot;a(bcdefghijkl(mno)p)q&quot;
-Output: &quot;apmnolkjihgfedcbq&quot;
+Input: s = "a(bcdefghijkl(mno)p)q"
+Output: "apmnolkjihgfedcbq"
 
  
 Constraints:

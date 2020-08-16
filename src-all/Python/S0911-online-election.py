@@ -8,7 +8,7 @@ Votes cast at time t will count towards our query.  In the case of a tie, the mo
  
 
 Example 1:
-Input: [&quot;TopVotedCandidate&quot;,&quot;q&quot;,&quot;q&quot;,&quot;q&quot;,&quot;q&quot;,&quot;q&quot;,&quot;q&quot;], [[[0,1,1,0,0,1,0],[0,5,10,15,20,25,30]],[3],[12],[25],[15],[24],[8]]
+Input: ["TopVotedCandidate","q","q","q","q","q","q"], [[[0,1,1,0,0,1,0],[0,5,10,15,20,25,30]],[3],[12],[25],[15],[24],[8]]
 Output: [null,0,1,1,0,0,1]
 Explanation: 
 At time 3, the votes are [0], and 0 is leading.

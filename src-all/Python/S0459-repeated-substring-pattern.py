@@ -4,18 +4,18 @@ Given a non-empty string check if it can be constructed by taking a substring of
  
 
 Example 1:
-Input: &quot;abab&quot;
+Input: "abab"
 Output: True
-Explanation: It&#39;s the substring &quot;ab&quot; twice.
+Explanation: It&#39;s the substring "ab" twice.
 
 Example 2:
-Input: &quot;aba&quot;
+Input: "aba"
 Output: False
 
 Example 3:
-Input: &quot;abcabcabcabc&quot;
+Input: "abcabcabcabc"
 Output: True
-Explanation: It&#39;s the substring &quot;abc&quot; four times. (And the substring &quot;abcabc&quot; twice.)
+Explanation: It&#39;s the substring "abc" four times. (And the substring "abcabc" twice.)
 
 
 """

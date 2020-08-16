@@ -20,11 +20,11 @@ Note: buf4[] is destination not source, the results from read4 will be copied to
 
 Below is a high level example of how read4 works:
 
-File file(&quot;abcde&quot;); // File is &quot;abcde&quot;, initially file pointer (fp) points to &#39;a&#39;
+File file("abcde"); // File is "abcde", initially file pointer (fp) points to &#39;a&#39;
 char[] buf = new char[4]; // Create buffer with enough space to store characters
-read4(buf4); // read4 returns 4. Now buf = &quot;abcd&quot;, fp points to &#39;e&#39;
-read4(buf4); // read4 returns 1. Now buf = &quot;e&quot;, fp points to end of file
-read4(buf4); // read4 returns 0. Now buf = &quot;&quot;, fp points to end of file
+read4(buf4); // read4 returns 4. Now buf = "abcd", fp points to &#39;e&#39;
+read4(buf4); // read4 returns 1. Now buf = "e", fp points to end of file
+read4(buf4); // read4 returns 0. Now buf = "", fp points to end of file
 
  
 
@@ -44,17 +44,17 @@ Note: buf[] is destination not source, you will need to write the results to buf
  
 
 Example 1:
-File file(&quot;abc&quot;);
+File file("abc");
 Solution sol;
 // Assume buf is allocated and guaranteed to have enough space for storing all characters from the file.
-sol.read(buf, 1); // After calling your read method, buf should contain &quot;a&quot;. We read a total of 1 character from the file, so return 1.
-sol.read(buf, 2); // Now buf should contain &quot;bc&quot;. We read a total of 2 characters from the file, so return 2.
+sol.read(buf, 1); // After calling your read method, buf should contain "a". We read a total of 1 character from the file, so return 1.
+sol.read(buf, 2); // Now buf should contain "bc". We read a total of 2 characters from the file, so return 2.
 sol.read(buf, 1); // We have reached the end of file, no more characters can be read. So return 0.
 
 Example 2:
-File file(&quot;abc&quot;);
+File file("abc");
 Solution sol;
-sol.read(buf, 4); // After calling your read method, buf should contain &quot;abc&quot;. We read a total of 3 characters from the file, so return 3.
+sol.read(buf, 4); // After calling your read method, buf should contain "abc". We read a total of 3 characters from the file, so return 3.
 sol.read(buf, 1); // We have reached the end of file, no more characters can be read. So return 0.
 
  

@@ -9,11 +9,11 @@ Return the answer as a string of length 5.  If no valid time can be made, return
 
 Example 1:
 Input: [1,2,3,4]
-Output: &quot;23:41&quot;
+Output: "23:41"
 
 Example 2:
 Input: [5,5,5,5]
-Output: &quot;&quot;
+Output: ""
 
  
 

@@ -5,17 +5,17 @@ A good string has size n, it is alphabetically greater than or equal to s1, it i
 
  
 Example 1:
-Input: n = 2, s1 = &quot;aa&quot;, s2 = &quot;da&quot;, evil = &quot;b&quot;
+Input: n = 2, s1 = "aa", s2 = "da", evil = "b"
 Output: 51 
-Explanation: There are 25 good strings starting with &#39;a&#39;: &quot;aa&quot;,&quot;ac&quot;,&quot;ad&quot;,...,&quot;az&quot;. Then there are 25 good strings starting with &#39;c&#39;: &quot;ca&quot;,&quot;cc&quot;,&quot;cd&quot;,...,&quot;cz&quot; and finally there is one good string starting with &#39;d&#39;: &quot;da&quot;. 
+Explanation: There are 25 good strings starting with &#39;a&#39;: "aa","ac","ad",...,"az". Then there are 25 good strings starting with &#39;c&#39;: "ca","cc","cd",...,"cz" and finally there is one good string starting with &#39;d&#39;: "da". 
 
 Example 2:
-Input: n = 8, s1 = &quot;leetcode&quot;, s2 = &quot;leetgoes&quot;, evil = &quot;leet&quot;
+Input: n = 8, s1 = "leetcode", s2 = "leetgoes", evil = "leet"
 Output: 0 
-Explanation: All strings greater than or equal to s1 and smaller than or equal to s2 start with the prefix &quot;leet&quot;, therefore, there is not any good string.
+Explanation: All strings greater than or equal to s1 and smaller than or equal to s2 start with the prefix "leet", therefore, there is not any good string.
 
 Example 3:
-Input: n = 2, s1 = &quot;gx&quot;, s2 = &quot;gz&quot;, evil = &quot;x&quot;
+Input: n = 2, s1 = "gx", s2 = "gz", evil = "x"
 Output: 2
 
  

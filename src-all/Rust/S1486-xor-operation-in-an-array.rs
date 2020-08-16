@@ -10,7 +10,7 @@ Example 1:
 Input: n = 5, start = 0
 Output: 8
 Explanation: Array nums is equal to [0, 2, 4, 6, 8] where (0 ^ 2 ^ 4 ^ 6 ^ 8) = 8.
-Where &quot;^&quot; corresponds to bitwise XOR operator.
+Where "^" corresponds to bitwise XOR operator.
 
 Example 2:
 Input: n = 4, start = 3

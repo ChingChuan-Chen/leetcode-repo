@@ -5,20 +5,20 @@ Grammar can best be understood through simple examples:
 
 	Single letters represent a singleton set containing that word.
 	
-		R(&quot;a&quot;) = {&quot;a&quot;}
-		R(&quot;w&quot;) = {&quot;w&quot;}
+		R("a") = {"a"}
+		R("w") = {"w"}
 	
 	
 	When we take a comma delimited list of 2 or more expressions, we take the union of possibilities.
 	
-		R(&quot;{a,b,c}&quot;) = {&quot;a&quot;,&quot;b&quot;,&quot;c&quot;}
-		R(&quot;{{a,b},{b,c}}&quot;) = {&quot;a&quot;,&quot;b&quot;,&quot;c&quot;} (notice the final set only contains each word at most once)
+		R("{a,b,c}") = {"a","b","c"}
+		R("{{a,b},{b,c}}") = {"a","b","c"} (notice the final set only contains each word at most once)
 	
 	
 	When we concatenate two expressions, we take the set of possible concatenations between two words where the first word comes from the first expression and the second word comes from the second expression.
 	
-		R(&quot;{a,b}{c,d}&quot;) = {&quot;ac&quot;,&quot;ad&quot;,&quot;bc&quot;,&quot;bd&quot;}
-		R(&quot;a{b,c}{d,e}f{g,h}&quot;) = {&quot;abdfg&quot;, &quot;abdfh&quot;, &quot;abefg&quot;, &quot;abefh&quot;, &quot;acdfg&quot;, &quot;acdfh&quot;, &quot;acefg&quot;, &quot;acefh&quot;}
+		R("{a,b}{c,d}") = {"ac","ad","bc","bd"}
+		R("a{b,c}{d,e}f{g,h}") = {"abdfg", "abdfh", "abefg", "abefh", "acdfg", "acdfh", "acefg", "acefh"}
 	
 	
 
@@ -33,12 +33,12 @@ Given an expression representing a set of words under the given grammar, return 
  
 
 Example 1:
-Input: &quot;{a,b}{c,{d,e}}&quot;
-Output: [&quot;ac&quot;,&quot;ad&quot;,&quot;ae&quot;,&quot;bc&quot;,&quot;bd&quot;,&quot;be&quot;]
+Input: "{a,b}{c,{d,e}}"
+Output: ["ac","ad","ae","bc","bd","be"]
 
 Example 2:
-Input: &quot;{{a,z},a{b,c},{ab,z}}&quot;
-Output: [&quot;a&quot;,&quot;ab&quot;,&quot;ac&quot;,&quot;z&quot;]
+Input: "{{a,z},a{b,c},{ab,z}}"
+Output: ["a","ab","ac","z"]
 Explanation: Each distinct word is written only once in the final answer.
 
  

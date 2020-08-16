@@ -9,24 +9,24 @@ A string is called palindrome if is one that reads the same backward as well as 
 
  
 Example 1:
-Input: s = &quot;ababa&quot;
+Input: s = "ababa"
 Output: 1
 Explanation: String is already palindrome
 
 Example 2:
-Input: s = &quot;abb&quot;
+Input: s = "abb"
 Output: 2
-Explanation: &quot;abb&quot; -> &quot;bb&quot; -> &quot;&quot;. 
-Remove palindromic subsequence &quot;a&quot; then &quot;bb&quot;.
+Explanation: "abb" -> "bb" -> "". 
+Remove palindromic subsequence "a" then "bb".
 
 Example 3:
-Input: s = &quot;baabb&quot;
+Input: s = "baabb"
 Output: 2
-Explanation: &quot;baabb&quot; -> &quot;b&quot; -> &quot;&quot;. 
-Remove palindromic subsequence &quot;baab&quot; then &quot;b&quot;.
+Explanation: "baabb" -> "b" -> "". 
+Remove palindromic subsequence "baab" then "b".
 
 Example 4:
-Input: s = &quot;&quot;
+Input: s = ""
 Output: 0
 
  

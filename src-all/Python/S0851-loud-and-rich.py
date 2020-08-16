@@ -1,7 +1,7 @@
 """
 In a group of N people (labelled 0, 1, 2, ..., N-1), each person has different amounts of money, and different levels of quietness.
 
-For convenience, we&#39;ll call the person with label x, simply &quot;person x&quot;.
+For convenience, we&#39;ll call the person with label x, simply "person x".
 
 We&#39;ll say that richer[i] = [x, y] if person x definitely has more money than person y.  Note that richer may only be a subset of valid observations.
 

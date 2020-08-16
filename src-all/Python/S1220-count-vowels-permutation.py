@@ -14,12 +14,12 @@ Since the answer may be too large, return it modulo 10^9 + 7.
 Example 1:
 Input: n = 1
 Output: 5
-Explanation: All possible strings are: &quot;a&quot;, &quot;e&quot;, &quot;i&quot; , &quot;o&quot; and &quot;u&quot;.
+Explanation: All possible strings are: "a", "e", "i" , "o" and "u".
 
 Example 2:
 Input: n = 2
 Output: 10
-Explanation: All possible strings are: &quot;ae&quot;, &quot;ea&quot;, &quot;ei&quot;, &quot;ia&quot;, &quot;ie&quot;, &quot;io&quot;, &quot;iu&quot;, &quot;oi&quot;, &quot;ou&quot; and &quot;ua&quot;.
+Explanation: All possible strings are: "ae", "ea", "ei", "ia", "ie", "io", "iu", "oi", "ou" and "ua".
 
 Example 3: 
 

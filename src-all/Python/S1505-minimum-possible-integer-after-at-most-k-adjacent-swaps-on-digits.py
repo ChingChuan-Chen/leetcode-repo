@@ -7,27 +7,27 @@ Return the minimum integer you can obtain also as a string.
 
  
 Example 1:
-Input: num = &quot;4321&quot;, k = 4
-Output: &quot;1342&quot;
+Input: num = "4321", k = 4
+Output: "1342"
 Explanation: The steps to obtain the minimum integer from 4321 with 4 adjacent swaps are shown.
 
 Example 2:
-Input: num = &quot;100&quot;, k = 1
-Output: &quot;010&quot;
+Input: num = "100", k = 1
+Output: "010"
 Explanation: It&#39;s ok for the output to have leading zeros, but the input is guaranteed not to have any leading zeros.
 
 Example 3:
-Input: num = &quot;36789&quot;, k = 1000
-Output: &quot;36789&quot;
+Input: num = "36789", k = 1000
+Output: "36789"
 Explanation: We can keep the number without any swaps.
 
 Example 4:
-Input: num = &quot;22&quot;, k = 22
-Output: &quot;22&quot;
+Input: num = "22", k = 22
+Output: "22"
 
 Example 5:
-Input: num = &quot;9438957234785635408&quot;, k = 23
-Output: &quot;0345989723478563548&quot;
+Input: num = "9438957234785635408", k = 23
+Output: "0345989723478563548"
 
  
 Constraints:

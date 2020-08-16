@@ -6,7 +6,7 @@ Find all strobogrammatic numbers that are of length = n.
 Example:
 
 Input:  n = 2
-Output: [&quot;11&quot;,&quot;69&quot;,&quot;88&quot;,&quot;96&quot;]
+Output: ["11","69","88","96"]
 
 
 """

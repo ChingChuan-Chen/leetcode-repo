@@ -9,13 +9,13 @@ Note:
 
 Example 1:
 Input: 
-[&quot;Solution&quot;,&quot;flip&quot;,&quot;flip&quot;,&quot;flip&quot;,&quot;flip&quot;]
+["Solution","flip","flip","flip","flip"]
 [[2,3],[],[],[],[]]
 Output: [null,[0,1],[1,2],[1,0],[1,1]]
 
 Example 2:
 Input: 
-[&quot;Solution&quot;,&quot;flip&quot;,&quot;flip&quot;,&quot;reset&quot;,&quot;flip&quot;]
+["Solution","flip","flip","reset","flip"]
 [[1,2],[],[],[],[]]
 Output: [null,[0,0],[0,1],null,[0,0]]
 

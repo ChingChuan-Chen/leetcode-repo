@@ -6,7 +6,7 @@ Given a parentheses string s containing only the characters &#39;(&#39; and &#39
 
 In other words, we treat &#39;(&#39; as openning parenthesis and &#39;))&#39; as closing parenthesis.
 
-For example, &quot;())&quot;, &quot;())(())))&quot; and &quot;(())())))&quot; are balanced, &quot;)()&quot;, &quot;()))&quot; and &quot;(()))&quot; are not balanced.
+For example, "())", "())(())))" and "(())())))" are balanced, ")()", "()))" and "(()))" are not balanced.
 
 You can insert the characters &#39;(&#39; and &#39;)&#39; at any position of the string to balance it if needed.
 
@@ -14,29 +14,29 @@ Return the minimum number of insertions needed to make s balanced.
 
  
 Example 1:
-Input: s = &quot;(()))&quot;
+Input: s = "(()))"
 Output: 1
-Explanation: The second &#39;(&#39; has two matching &#39;))&#39;, but the first &#39;(&#39; has only &#39;)&#39; matching. We need to to add one more &#39;)&#39; at the end of the string to be &quot;(())))&quot; which is balanced.
+Explanation: The second &#39;(&#39; has two matching &#39;))&#39;, but the first &#39;(&#39; has only &#39;)&#39; matching. We need to to add one more &#39;)&#39; at the end of the string to be "(())))" which is balanced.
 
 Example 2:
-Input: s = &quot;())&quot;
+Input: s = "())"
 Output: 0
 Explanation: The string is already balanced.
 
 Example 3:
-Input: s = &quot;))())(&quot;
+Input: s = "))())("
 Output: 3
 Explanation: Add &#39;(&#39; to match the first &#39;))&#39;, Add &#39;))&#39; to match the last &#39;(&#39;.
 
 Example 4:
-Input: s = &quot;((((((&quot;
+Input: s = "(((((("
 Output: 12
 Explanation: Add 12 &#39;)&#39; to balance the string.
 
 Example 5:
-Input: s = &quot;)))))))&quot;
+Input: s = ")))))))"
 Output: 5
-Explanation: Add 4 &#39;(&#39; at the beginning of the string and one &#39;)&#39; at the end. The string becomes &quot;(((())))))))&quot;.
+Explanation: Add 4 &#39;(&#39; at the beginning of the string and one &#39;)&#39; at the end. The string becomes "(((())))))))".
 
  
 Constraints:

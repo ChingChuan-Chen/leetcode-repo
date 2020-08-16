@@ -11,7 +11,7 @@ You start on square 1 of the board (which is always in the last row and first co
 	
 	If S has a snake or ladder, you move to the destination of that snake or ladder.  Otherwise, you move to S.
 
-A board square on row r and column c has a &quot;snake or ladder&quot; if board[r][c] != -1.  The destination of that snake or ladder is board[r][c].
+A board square on row r and column c has a "snake or ladder" if board[r][c] != -1.  The destination of that snake or ladder is board[r][c].
 
 Note that you only take a snake or ladder at most once per move: if the destination to a snake or ladder is the start of another snake or ladder, you do not continue moving.  (For example, if the board is `[[4,-1],[-1,3]]`, and on the first move your destination square is `2`, then you finish your first move at `3`, because you do not continue moving to `4`.)
 

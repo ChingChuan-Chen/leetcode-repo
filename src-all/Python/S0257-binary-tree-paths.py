@@ -13,7 +13,7 @@ Input:
  \
   5
 
-Output: [&quot;1->2->5&quot;, &quot;1->3&quot;]
+Output: ["1->2->5", "1->3"]
 
 Explanation: All root-to-leaf paths are: 1->2->5, 1->3
 

@@ -5,16 +5,16 @@ Return the number of possible non-empty sequences of letters you can make using 
 
  
 Example 1:
-Input: tiles = &quot;AAB&quot;
+Input: tiles = "AAB"
 Output: 8
-Explanation: The possible sequences are &quot;A&quot;, &quot;B&quot;, &quot;AA&quot;, &quot;AB&quot;, &quot;BA&quot;, &quot;AAB&quot;, &quot;ABA&quot;, &quot;BAA&quot;.
+Explanation: The possible sequences are "A", "B", "AA", "AB", "BA", "AAB", "ABA", "BAA".
 
 Example 2:
-Input: tiles = &quot;AAABBC&quot;
+Input: tiles = "AAABBC"
 Output: 188
 
 Example 3:
-Input: tiles = &quot;V&quot;
+Input: tiles = "V"
 Output: 1
 
  

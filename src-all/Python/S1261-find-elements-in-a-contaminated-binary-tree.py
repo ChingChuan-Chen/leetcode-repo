@@ -15,7 +15,7 @@ You need to first recover the binary tree and then implement the FindElements cl
  
 Example 1:
 Input
-[&quot;FindElements&quot;,&quot;find&quot;,&quot;find&quot;]
+["FindElements","find","find"]
 [[[-1,null,-1]],[1],[2]]
 Output
 [null,false,true]
@@ -26,7 +26,7 @@ findElements.find(2); // return True
 
 Example 2:
 Input
-[&quot;FindElements&quot;,&quot;find&quot;,&quot;find&quot;,&quot;find&quot;]
+["FindElements","find","find","find"]
 [[[-1,-1,-1,-1,-1]],[1],[3],[5]]
 Output
 [null,true,true,false]
@@ -38,7 +38,7 @@ findElements.find(5); // return False
 
 Example 3:
 Input
-[&quot;FindElements&quot;,&quot;find&quot;,&quot;find&quot;,&quot;find&quot;,&quot;find&quot;]
+["FindElements","find","find","find","find"]
 [[[-1,null,-1,-1,null,-1]],[2],[3],[4],[5]]
 Output
 [null,true,false,false,true]

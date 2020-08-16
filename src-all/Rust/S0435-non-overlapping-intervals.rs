@@ -22,7 +22,7 @@ Explanation: You don&#39;t need to remove any of the intervals since they&#39;re
 
 Note:
 	You may assume the interval&#39;s end point is always bigger than its start point.
-	Intervals like [1,2] and [2,3] have borders &quot;touching&quot; but they don&#39;t overlap each other.
+	Intervals like [1,2] and [2,3] have borders "touching" but they don&#39;t overlap each other.
 
 
 */

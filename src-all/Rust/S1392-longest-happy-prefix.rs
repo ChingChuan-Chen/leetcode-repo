@@ -7,22 +7,22 @@ Return an empty string if no such prefix exists.
 
  
 Example 1:
-Input: s = &quot;level&quot;
-Output: &quot;l&quot;
-Explanation: s contains 4 prefix excluding itself (&quot;l&quot;, &quot;le&quot;, &quot;lev&quot;, &quot;leve&quot;), and suffix (&quot;l&quot;, &quot;el&quot;, &quot;vel&quot;, &quot;evel&quot;). The largest prefix which is also suffix is given by &quot;l&quot;.
+Input: s = "level"
+Output: "l"
+Explanation: s contains 4 prefix excluding itself ("l", "le", "lev", "leve"), and suffix ("l", "el", "vel", "evel"). The largest prefix which is also suffix is given by "l".
 
 Example 2:
-Input: s = &quot;ababab&quot;
-Output: &quot;abab&quot;
-Explanation: &quot;abab&quot; is the largest prefix which is also suffix. They can overlap in the original string.
+Input: s = "ababab"
+Output: "abab"
+Explanation: "abab" is the largest prefix which is also suffix. They can overlap in the original string.
 
 Example 3:
-Input: s = &quot;leetcodeleet&quot;
-Output: &quot;leet&quot;
+Input: s = "leetcodeleet"
+Output: "leet"
 
 Example 4:
-Input: s = &quot;a&quot;
-Output: &quot;&quot;
+Input: s = "a"
+Output: ""
 
  
 Constraints:

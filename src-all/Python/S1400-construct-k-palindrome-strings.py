@@ -5,28 +5,28 @@ Return True if you can use all the characters in s to construct k palindrome str
 
  
 Example 1:
-Input: s = &quot;annabelle&quot;, k = 2
+Input: s = "annabelle", k = 2
 Output: true
 Explanation: You can construct two palindromes using all characters in s.
-Some possible constructions &quot;anna&quot; + &quot;elble&quot;, &quot;anbna&quot; + &quot;elle&quot;, &quot;anellena&quot; + &quot;b&quot;
+Some possible constructions "anna" + "elble", "anbna" + "elle", "anellena" + "b"
 
 Example 2:
-Input: s = &quot;leetcode&quot;, k = 3
+Input: s = "leetcode", k = 3
 Output: false
 Explanation: It is impossible to construct 3 palindromes using all the characters of s.
 
 Example 3:
-Input: s = &quot;true&quot;, k = 4
+Input: s = "true", k = 4
 Output: true
 Explanation: The only possible solution is to put each character in a separate string.
 
 Example 4:
-Input: s = &quot;yzyzyzyzyzyzyzy&quot;, k = 2
+Input: s = "yzyzyzyzyzyzyzy", k = 2
 Output: true
 Explanation: Simply you can put all z&#39;s in one string and all y&#39;s in the other string. Both strings will be palindrome.
 
 Example 5:
-Input: s = &quot;cr&quot;, k = 7
+Input: s = "cr", k = 7
 Output: false
 Explanation: We don&#39;t have enough characters in s to construct 7 palindromes.
 

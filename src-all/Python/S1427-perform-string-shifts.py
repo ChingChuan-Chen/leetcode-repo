@@ -10,20 +10,20 @@ Return the final string after all operations.
 
  
 Example 1:
-Input: s = &quot;abc&quot;, shift = [[0,1],[1,2]]
-Output: &quot;cab&quot;
+Input: s = "abc", shift = [[0,1],[1,2]]
+Output: "cab"
 Explanation: 
-[0,1] means shift to left by 1. &quot;abc&quot; -> &quot;bca&quot;
-[1,2] means shift to right by 2. &quot;bca&quot; -> &quot;cab&quot;
+[0,1] means shift to left by 1. "abc" -> "bca"
+[1,2] means shift to right by 2. "bca" -> "cab"
 
 Example 2:
-Input: s = &quot;abcdefg&quot;, shift = [[1,1],[1,1],[0,2],[1,3]]
-Output: &quot;efgabcd&quot;
+Input: s = "abcdefg", shift = [[1,1],[1,1],[0,2],[1,3]]
+Output: "efgabcd"
 Explanation:  
-[1,1] means shift to right by 1. &quot;abcdefg&quot; -> &quot;gabcdef&quot;
-[1,1] means shift to right by 1. &quot;gabcdef&quot; -> &quot;fgabcde&quot;
-[0,2] means shift to left by 2. &quot;fgabcde&quot; -> &quot;abcdefg&quot;
-[1,3] means shift to right by 3. &quot;abcdefg&quot; -> &quot;efgabcd&quot;
+[1,1] means shift to right by 1. "abcdefg" -> "gabcdef"
+[1,1] means shift to right by 1. "gabcdef" -> "fgabcde"
+[0,2] means shift to left by 2. "fgabcde" -> "abcdefg"
+[1,3] means shift to right by 3. "abcdefg" -> "efgabcd"
 
  
 Constraints:
@@ -36,7 +36,7 @@ Constraints:
 
 """
 from typing import List
-class Solution:
+class Solution:
     def stringShift(self, s: str, shift: List[List[int]]) -> str:
         pass
 

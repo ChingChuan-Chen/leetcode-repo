@@ -5,27 +5,27 @@ Return the number of good splits you can make in s.
 
  
 Example 1:
-Input: s = &quot;aacaba&quot;
+Input: s = "aacaba"
 Output: 2
-Explanation: There are 5 ways to split &quot;aacaba&quot; and 2 of them are good. 
-(&quot;a&quot;, &quot;acaba&quot;) Left string and right string contains 1 and 3 different letters respectively.
-(&quot;aa&quot;, &quot;caba&quot;) Left string and right string contains 1 and 3 different letters respectively.
-(&quot;aac&quot;, &quot;aba&quot;) Left string and right string contains 2 and 2 different letters respectively (good split).
-(&quot;aaca&quot;, &quot;ba&quot;) Left string and right string contains 2 and 2 different letters respectively (good split).
-(&quot;aacab&quot;, &quot;a&quot;) Left string and right string contains 3 and 1 different letters respectively.
+Explanation: There are 5 ways to split "aacaba" and 2 of them are good. 
+("a", "acaba") Left string and right string contains 1 and 3 different letters respectively.
+("aa", "caba") Left string and right string contains 1 and 3 different letters respectively.
+("aac", "aba") Left string and right string contains 2 and 2 different letters respectively (good split).
+("aaca", "ba") Left string and right string contains 2 and 2 different letters respectively (good split).
+("aacab", "a") Left string and right string contains 3 and 1 different letters respectively.
 
 Example 2:
-Input: s = &quot;abcd&quot;
+Input: s = "abcd"
 Output: 1
-Explanation: Split the string as follows (&quot;ab&quot;, &quot;cd&quot;).
+Explanation: Split the string as follows ("ab", "cd").
 
 Example 3:
-Input: s = &quot;aaaaa&quot;
+Input: s = "aaaaa"
 Output: 4
 Explanation: All possible splits are good.
 
 Example 4:
-Input: s = &quot;acbadbaada&quot;
+Input: s = "acbadbaada"
 Output: 2
 
  

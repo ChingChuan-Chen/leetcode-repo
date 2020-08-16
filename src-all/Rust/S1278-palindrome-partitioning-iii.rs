@@ -8,17 +8,17 @@ Return the minimal number of characters that you need to change to divide the st
 
  
 Example 1:
-Input: s = &quot;abc&quot;, k = 2
+Input: s = "abc", k = 2
 Output: 1
-Explanation: You can split the string into &quot;ab&quot; and &quot;c&quot;, and change 1 character in &quot;ab&quot; to make it palindrome.
+Explanation: You can split the string into "ab" and "c", and change 1 character in "ab" to make it palindrome.
 
 Example 2:
-Input: s = &quot;aabbc&quot;, k = 3
+Input: s = "aabbc", k = 3
 Output: 0
-Explanation: You can split the string into &quot;aa&quot;, &quot;bb&quot; and &quot;c&quot;, all of them are palindrome.
+Explanation: You can split the string into "aa", "bb" and "c", all of them are palindrome.
 
 Example 3:
-Input: s = &quot;leetcode&quot;, k = 8
+Input: s = "leetcode", k = 8
 Output: 0
 
  

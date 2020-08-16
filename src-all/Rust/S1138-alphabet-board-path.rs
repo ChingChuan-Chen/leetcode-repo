@@ -1,7 +1,7 @@
 /*
 On an alphabet board, we start at position (0, 0), corresponding to character board[0][0].
 
-Here, board = [&quot;abcde&quot;, &quot;fghij&quot;, &quot;klmno&quot;, &quot;pqrst&quot;, &quot;uvwxy&quot;, &quot;z&quot;], as shown in the diagram below.
+Here, board = ["abcde", "fghij", "klmno", "pqrst", "uvwxy", "z"], as shown in the diagram below.
 
 We may make the following moves:
 

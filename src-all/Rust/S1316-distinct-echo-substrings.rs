@@ -3,14 +3,14 @@ Return the number of distinct non-empty substrings of text that can be written a
 
  
 Example 1:
-Input: text = &quot;abcabcabc&quot;
+Input: text = "abcabcabc"
 Output: 3
-Explanation: The 3 substrings are &quot;abcabc&quot;, &quot;bcabca&quot; and &quot;cabcab&quot;.
+Explanation: The 3 substrings are "abcabc", "bcabca" and "cabcab".
 
 Example 2:
-Input: text = &quot;leetcodeleetcode&quot;
+Input: text = "leetcodeleetcode"
 Output: 2
-Explanation: The 2 substrings are &quot;ee&quot; and &quot;leetcodeleetcode&quot;.
+Explanation: The 2 substrings are "ee" and "leetcodeleetcode".
 
  
 Constraints:

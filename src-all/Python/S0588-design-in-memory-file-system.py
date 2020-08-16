@@ -14,18 +14,18 @@ readContentFromFile: Given a file path, return its content in string format.
 Example:
 
 Input: 
-[&quot;FileSystem&quot;,&quot;ls&quot;,&quot;mkdir&quot;,&quot;addContentToFile&quot;,&quot;ls&quot;,&quot;readContentFromFile&quot;]
-[[],[&quot;/&quot;],[&quot;/a/b/c&quot;],[&quot;/a/b/c/d&quot;,&quot;hello&quot;],[&quot;/&quot;],[&quot;/a/b/c/d&quot;]]
+["FileSystem","ls","mkdir","addContentToFile","ls","readContentFromFile"]
+[[],["/"],["/a/b/c"],["/a/b/c/d","hello"],["/"],["/a/b/c/d"]]
 
 Output:
-[null,[],null,null,[&quot;a&quot;],&quot;hello&quot;]
+[null,[],null,null,["a"],"hello"]
 
 Explanation:
 
  
 
 Note:
-	You can assume all file or directory paths are absolute paths which begin with / and do not end with / except that the path is just &quot;/&quot;.
+	You can assume all file or directory paths are absolute paths which begin with / and do not end with / except that the path is just "/".
 	You can assume that all operations will be passed valid parameters and users will not attempt to retrieve file content or list a directory or file that does not exist.
 	You can assume that all directory names and file names only contain lower-case letters, and same names won&#39;t exist in the same directory.
 

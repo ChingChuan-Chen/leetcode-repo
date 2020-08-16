@@ -4,23 +4,23 @@ Given two strings A and B of lowercase letters, return true if and only if we ca
  
 
 Example 1:
-Input: A = &quot;ab&quot;, B = &quot;ba&quot;
+Input: A = "ab", B = "ba"
 Output: true
 
 Example 2:
-Input: A = &quot;ab&quot;, B = &quot;ab&quot;
+Input: A = "ab", B = "ab"
 Output: false
 
 Example 3:
-Input: A = &quot;aa&quot;, B = &quot;aa&quot;
+Input: A = "aa", B = "aa"
 Output: true
 
 Example 4:
-Input: A = &quot;aaaaaaabc&quot;, B = &quot;aaaaaaacb&quot;
+Input: A = "aaaaaaabc", B = "aaaaaaacb"
 Output: true
 
 Example 5:
-Input: A = &quot;&quot;, B = &quot;aa&quot;
+Input: A = "", B = "aa"
 Output: false
 
  

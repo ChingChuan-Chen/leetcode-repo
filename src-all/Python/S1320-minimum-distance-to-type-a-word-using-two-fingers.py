@@ -9,10 +9,10 @@ Note that the initial positions of your two fingers are considered free so don&#
 
  
 Example 1:
-Input: word = &quot;CAKE&quot;
+Input: word = "CAKE"
 Output: 3
 Explanation: 
-Using two fingers, one optimal way to type &quot;CAKE&quot; is: 
+Using two fingers, one optimal way to type "CAKE" is: 
 Finger 1 on letter &#39;C&#39; -> cost = 0 
 Finger 1 on letter &#39;A&#39; -> cost = Distance from letter &#39;C&#39; to letter &#39;A&#39; = 2 
 Finger 2 on letter &#39;K&#39; -> cost = 0 
@@ -20,10 +20,10 @@ Finger 2 on letter &#39;E&#39; -> cost = Distance from letter &#39;K&#39; to let
 Total distance = 3
 
 Example 2:
-Input: word = &quot;HAPPY&quot;
+Input: word = "HAPPY"
 Output: 6
 Explanation: 
-Using two fingers, one optimal way to type &quot;HAPPY&quot; is:
+Using two fingers, one optimal way to type "HAPPY" is:
 Finger 1 on letter &#39;H&#39; -> cost = 0
 Finger 1 on letter &#39;A&#39; -> cost = Distance from letter &#39;H&#39; to letter &#39;A&#39; = 2
 Finger 2 on letter &#39;P&#39; -> cost = 0
@@ -32,11 +32,11 @@ Finger 1 on letter &#39;Y&#39; -> cost = Distance from letter &#39;A&#39; to let
 Total distance = 6
 
 Example 3:
-Input: word = &quot;NEW&quot;
+Input: word = "NEW"
 Output: 3
 
 Example 4:
-Input: word = &quot;YEAR&quot;
+Input: word = "YEAR"
 Output: 7
 
  

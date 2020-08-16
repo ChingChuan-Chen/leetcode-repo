@@ -6,9 +6,9 @@ Design a class WordFilter that supports one function, WordFilter.f(String prefix
 Examples:
 
 Input:
-WordFilter([&quot;apple&quot;])
-WordFilter.f(&quot;a&quot;, &quot;e&quot;) // returns 0
-WordFilter.f(&quot;b&quot;, &quot;&quot;) // returns -1
+WordFilter(["apple"])
+WordFilter.f("a", "e") // returns 0
+WordFilter.f("b", "") // returns -1
 
  
 

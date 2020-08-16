@@ -8,7 +8,7 @@ Implement a SnapshotArray that supports the following interface:
 
  
 Example 1:
-Input: [&quot;SnapshotArray&quot;,&quot;set&quot;,&quot;snap&quot;,&quot;set&quot;,&quot;get&quot;]
+Input: ["SnapshotArray","set","snap","set","get"]
 [[3],[0,5],[],[0,6],[0,0]]
 Output: [null,null,0,null,5]
 Explanation: 

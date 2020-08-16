@@ -8,19 +8,19 @@ Given a balanced parentheses string S, compute the score of the string based on 
  
 
 Example 1:
-Input: &quot;()&quot;
+Input: "()"
 Output: 1
 
 Example 2:
-Input: &quot;(())&quot;
+Input: "(())"
 Output: 2
 
 Example 3:
-Input: &quot;()()&quot;
+Input: "()()"
 Output: 2
 
 Example 4:
-Input: &quot;(()(()))&quot;
+Input: "(()(()))"
 Output: 6
 
  

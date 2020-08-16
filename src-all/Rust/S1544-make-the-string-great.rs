@@ -14,20 +14,20 @@ Notice that an empty string is also good.
 
  
 Example 1:
-Input: s = &quot;leEeetcode&quot;
-Output: &quot;leetcode&quot;
-Explanation: In the first step, either you choose i = 1 or i = 2, both will result &quot;leEeetcode&quot; to be reduced to &quot;leetcode&quot;.
+Input: s = "leEeetcode"
+Output: "leetcode"
+Explanation: In the first step, either you choose i = 1 or i = 2, both will result "leEeetcode" to be reduced to "leetcode".
 
 Example 2:
-Input: s = &quot;abBAcC&quot;
-Output: &quot;&quot;
+Input: s = "abBAcC"
+Output: ""
 Explanation: We have many possible scenarios, and all lead to the same answer. For example:
-&quot;abBAcC&quot; --> &quot;aAcC&quot; --> &quot;cC&quot; --> &quot;&quot;
-&quot;abBAcC&quot; --> &quot;abBA&quot; --> &quot;aA&quot; --> &quot;&quot;
+"abBAcC" --> "aAcC" --> "cC" --> ""
+"abBAcC" --> "abBA" --> "aA" --> ""
 
 Example 3:
-Input: s = &quot;s&quot;
-Output: &quot;s&quot;
+Input: s = "s"
+Output: "s"
 
  
 Constraints:

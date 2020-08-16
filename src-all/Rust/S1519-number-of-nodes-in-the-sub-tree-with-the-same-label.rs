@@ -9,13 +9,13 @@ A subtree of a tree T is the tree consisting of a node in T and all of its desce
 
  
 Example 1:
-Input: n = 7, edges = [[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]], labels = &quot;abaedcd&quot;
+Input: n = 7, edges = [[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]], labels = "abaedcd"
 Output: [2,1,1,1,1,1,1]
 Explanation: Node 0 has label &#39;a&#39; and its sub-tree has node 2 with label &#39;a&#39; as well, thus the answer is 2. Notice that any node is part of its sub-tree.
 Node 1 has a label &#39;b&#39;. The sub-tree of node 1 contains nodes 1,4 and 5, as nodes 4 and 5 have different labels than node 1, the answer is just 1 (the node itself).
 
 Example 2:
-Input: n = 4, edges = [[0,1],[1,2],[0,3]], labels = &quot;bbbb&quot;
+Input: n = 4, edges = [[0,1],[1,2],[0,3]], labels = "bbbb"
 Output: [4,2,1,1]
 Explanation: The sub-tree of node 2 contains only node 2, so the answer is 1.
 The sub-tree of node 3 contains only node 3, so the answer is 1.
@@ -23,15 +23,15 @@ The sub-tree of node 1 contains nodes 1 and 2, both have label &#39;b&#39;, thus
 The sub-tree of node 0 contains nodes 0, 1, 2 and 3, all with label &#39;b&#39;, thus the answer is 4.
 
 Example 3:
-Input: n = 5, edges = [[0,1],[0,2],[1,3],[0,4]], labels = &quot;aabab&quot;
+Input: n = 5, edges = [[0,1],[0,2],[1,3],[0,4]], labels = "aabab"
 Output: [3,2,1,1,1]
 
 Example 4:
-Input: n = 6, edges = [[0,1],[0,2],[1,3],[3,4],[4,5]], labels = &quot;cbabaa&quot;
+Input: n = 6, edges = [[0,1],[0,2],[1,3],[3,4],[4,5]], labels = "cbabaa"
 Output: [1,2,1,1,2,1]
 
 Example 5:
-Input: n = 7, edges = [[0,1],[1,2],[2,3],[3,4],[4,5],[5,6]], labels = &quot;aaabaaa&quot;
+Input: n = 7, edges = [[0,1],[1,2],[2,3],[3,4],[4,5],[5,6]], labels = "aaabaaa"
 Output: [6,5,4,1,3,2,1]
 
  

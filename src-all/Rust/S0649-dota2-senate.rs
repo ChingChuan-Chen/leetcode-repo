@@ -17,8 +17,8 @@ The round-based procedure starts from the first senator to the last senator in t
 Suppose every senator is smart enough and will play the best strategy for his own party, you need to predict which party will finally announce the victory and make the change in the Dota2 game. The output should be Radiant or Dire.
 
 Example 1:
-Input: &quot;RD&quot;
-Output: &quot;Radiant&quot;
+Input: "RD"
+Output: "Radiant"
 Explanation: The first senator comes from Radiant and he can just ban the next senator&#39;s right in the round 1. 
 And the second senator can&#39;t exercise any rights any more since his right has been banned. 
 And in the round 2, the first senator can just announce the victory since he is the only guy in the senate who can vote.
@@ -26,8 +26,8 @@ And in the round 2, the first senator can just announce the victory since he is 
  
 
 Example 2:
-Input: &quot;RDD&quot;
-Output: &quot;Dire&quot;
+Input: "RDD"
+Output: "Dire"
 Explanation: 
 The first senator comes from Radiant and he can just ban the next senator&#39;s right in the round 1. 
 And the second senator can&#39;t exercise any rights anymore since his right has been banned. 

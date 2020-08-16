@@ -4,35 +4,35 @@ There is a new alien language which uses the latin alphabet. However, the order 
 Example 1:
 Input:
 [
-  &quot;wrt&quot;,
-  &quot;wrf&quot;,
-  &quot;er&quot;,
-  &quot;ett&quot;,
-  &quot;rftt&quot;
+  "wrt",
+  "wrf",
+  "er",
+  "ett",
+  "rftt"
 ]
 
-Output: &quot;wertf&quot;
+Output: "wertf"
 
 Example 2:
 Input:
 [
-  &quot;z&quot;,
-  &quot;x&quot;
+  "z",
+  "x"
 ]
 
-Output: &quot;zx&quot;
+Output: "zx"
 
 Example 3:
 Input:
 [
-  &quot;z&quot;,
-  &quot;x&quot;,
-  &quot;z&quot;
+  "z",
+  "x",
+  "z"
 ] 
 
-Output: &quot;&quot; 
+Output: "" 
 
-Explanation: The order is invalid, so return &quot;&quot;.
+Explanation: The order is invalid, so return "".
 
 Note:
 	You may assume all letters are in lowercase.

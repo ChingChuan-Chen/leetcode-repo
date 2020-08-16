@@ -9,23 +9,23 @@ Now for some encoded string S, and an index K, find and return the K-th letter (
  
 
 Example 1:
-Input: S = &quot;leet2code3&quot;, K = 10
-Output: &quot;o&quot;
+Input: S = "leet2code3", K = 10
+Output: "o"
 Explanation: 
-The decoded string is &quot;leetleetcodeleetleetcodeleetleetcode&quot;.
-The 10th letter in the string is &quot;o&quot;.
+The decoded string is "leetleetcodeleetleetcodeleetleetcode".
+The 10th letter in the string is "o".
 
 Example 2:
-Input: S = &quot;ha22&quot;, K = 5
-Output: &quot;h&quot;
+Input: S = "ha22", K = 5
+Output: "h"
 Explanation: 
-The decoded string is &quot;hahahaha&quot;.  The 5th letter is &quot;h&quot;.
+The decoded string is "hahahaha".  The 5th letter is "h".
 
 Example 3:
-Input: S = &quot;a2345678999999999999999&quot;, K = 1
-Output: &quot;a&quot;
+Input: S = "a2345678999999999999999", K = 1
+Output: "a"
 Explanation: 
-The decoded string is &quot;a&quot; repeated 8301530446056247680 times.  The 1st letter is &quot;a&quot;.
+The decoded string is "a" repeated 8301530446056247680 times.  The 1st letter is "a".
 
  
 Constraints:

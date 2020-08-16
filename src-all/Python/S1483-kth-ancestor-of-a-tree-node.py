@@ -10,7 +10,7 @@ The k-th ancestor of a tree node is the k-th node in the path from that node to 
 Example:
 
 Input:
-[&quot;TreeAncestor&quot;,&quot;getKthAncestor&quot;,&quot;getKthAncestor&quot;,&quot;getKthAncestor&quot;]
+["TreeAncestor","getKthAncestor","getKthAncestor","getKthAncestor"]
 [[7,[-1,0,0,1,1,2,2]],[3,1],[5,2],[6,3]]
 
 Output:
@@ -33,15 +33,15 @@ Constraints:
 
 """
 from typing import List
-class TreeAncestor:
-
-    def __init__(self, n: int, parent: List[int]):
-        
-
-    def getKthAncestor(self, node: int, k: int) -> int:
-        
-
-
+class TreeAncestor:
+
+    def __init__(self, n: int, parent: List[int]):
+        
+
+    def getKthAncestor(self, node: int, k: int) -> int:
+        
+
+
 # param_1 = obj.getKthAncestor(node,k)
         pass
 

@@ -16,7 +16,7 @@ Node 3 -> (3,1,3) is the maximum value in the path.
 Example 2:
 Input: root = [3,3,null,4,2]
 Output: 3
-Explanation: Node 2 -> (3, 3, 2) is not good, because &quot;3&quot; is higher than it.
+Explanation: Node 2 -> (3, 3, 2) is not good, because "3" is higher than it.
 
 Example 3:
 Input: root = [1]

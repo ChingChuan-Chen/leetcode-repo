@@ -13,22 +13,22 @@ For example:
     ...
 
 Example 1:
-Input: &quot;A&quot;
+Input: "A"
 Output: 1
 
 Example 2:
-Input: &quot;AB&quot;
+Input: "AB"
 Output: 28
 
 Example 3:
-Input: &quot;ZY&quot;
+Input: "ZY"
 Output: 701
 
  
 Constraints:
 	1 <= s.length <= 7
 	s consists only of uppercase English letters.
-	s is between &quot;A&quot; and &quot;FXSHRXW&quot;.
+	s is between "A" and "FXSHRXW".
 
 
 */

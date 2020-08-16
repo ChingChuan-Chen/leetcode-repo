@@ -1,5 +1,5 @@
 """
-In the &quot;100 game&quot; two players take turns adding, to a running total, any integer from 1 to 10. The player who first causes the running total to reach or exceed 100 wins.
+In the "100 game" two players take turns adding, to a running total, any integer from 1 to 10. The player who first causes the running total to reach or exceed 100 wins.
 
 What if we change the game so that players cannot re-use integers?
 

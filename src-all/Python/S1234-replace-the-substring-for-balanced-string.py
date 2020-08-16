@@ -9,24 +9,24 @@ Return 0 if the string is already balanced.
 
  
 Example 1:
-Input: s = &quot;QWER&quot;
+Input: s = "QWER"
 Output: 0
 Explanation: s is already balanced.
 
 Example 2:
-Input: s = &quot;QQWE&quot;
+Input: s = "QQWE"
 Output: 1
-Explanation: We need to replace a &#39;Q&#39; to &#39;R&#39;, so that &quot;RQWE&quot; (or &quot;QRWE&quot;) is balanced.
+Explanation: We need to replace a &#39;Q&#39; to &#39;R&#39;, so that "RQWE" (or "QRWE") is balanced.
 
 Example 3:
-Input: s = &quot;QQQW&quot;
+Input: s = "QQQW"
 Output: 2
-Explanation: We can replace the first &quot;QQ&quot; to &quot;ER&quot;. 
+Explanation: We can replace the first "QQ" to "ER". 
 
 Example 4:
-Input: s = &quot;QQQQ&quot;
+Input: s = "QQQQ"
 Output: 3
-Explanation: We can replace the last 3 &#39;Q&#39; to make s = &quot;QWER&quot;.
+Explanation: We can replace the last 3 &#39;Q&#39; to make s = "QWER".
 
  
 Constraints:

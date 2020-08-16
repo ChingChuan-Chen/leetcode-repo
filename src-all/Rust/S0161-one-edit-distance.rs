@@ -10,17 +10,17 @@ There are 3 possiblities to satisify one edit distance apart:
 	Replace a character of s to get t
 
 Example 1:
-Input: s = &quot;ab&quot;, t = &quot;acb&quot;
+Input: s = "ab", t = "acb"
 Output: true
 Explanation: We can insert &#39;c&#39; into s to get t.
 
 Example 2:
-Input: s = &quot;cab&quot;, t = &quot;ad&quot;
+Input: s = "cab", t = "ad"
 Output: false
 Explanation: We cannot get t from s by only one step.
 
 Example 3:
-Input: s = &quot;1203&quot;, t = &quot;1213&quot;
+Input: s = "1203", t = "1213"
 Output: true
 Explanation: We can replace &#39;0&#39; with &#39;1&#39; to get t.
 

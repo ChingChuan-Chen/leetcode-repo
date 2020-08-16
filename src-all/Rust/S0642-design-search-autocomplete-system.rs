@@ -18,33 +18,33 @@ List<String> input(char c): The input c is the next character typed by the user.
  
 
 Example:
-Operation: AutocompleteSystem([&quot;i love you&quot;, &quot;island&quot;,&quot;ironman&quot;, &quot;i love leetcode&quot;], [5,3,2,2])
+Operation: AutocompleteSystem(["i love you", "island","ironman", "i love leetcode"], [5,3,2,2])
 The system have already tracked down the following sentences and their corresponding times:
-&quot;i love you&quot; : 5 times
-&quot;island&quot; : 3 times
-&quot;ironman&quot; : 2 times
-&quot;i love leetcode&quot; : 2 times
+"i love you" : 5 times
+"island" : 3 times
+"ironman" : 2 times
+"i love leetcode" : 2 times
 Now, the user begins another search:
 
 Operation: input(&#39;i&#39;)
-Output: [&quot;i love you&quot;, &quot;island&quot;,&quot;i love leetcode&quot;]
+Output: ["i love you", "island","i love leetcode"]
 Explanation:
-There are four sentences that have prefix &quot;i&quot;. Among them, &quot;ironman&quot; and &quot;i love leetcode&quot; have same hot degree. Since &#39; &#39; has ASCII code 32 and &#39;r&#39; has ASCII code 114, &quot;i love leetcode&quot; should be in front of &quot;ironman&quot;. Also we only need to output top 3 hot sentences, so &quot;ironman&quot; will be ignored.
+There are four sentences that have prefix "i". Among them, "ironman" and "i love leetcode" have same hot degree. Since &#39; &#39; has ASCII code 32 and &#39;r&#39; has ASCII code 114, "i love leetcode" should be in front of "ironman". Also we only need to output top 3 hot sentences, so "ironman" will be ignored.
 
 Operation: input(&#39; &#39;)
-Output: [&quot;i love you&quot;,&quot;i love leetcode&quot;]
+Output: ["i love you","i love leetcode"]
 Explanation:
-There are only two sentences that have prefix &quot;i &quot;.
+There are only two sentences that have prefix "i ".
 
 Operation: input(&#39;a&#39;)
 Output: []
 Explanation:
-There are no sentences that have prefix &quot;i a&quot;.
+There are no sentences that have prefix "i a".
 
 Operation: input(&#39;#&#39;)
 Output: []
 Explanation:
-The user finished the input, the sentence &quot;i a&quot; should be saved as a historical sentence in system. And the following input will be counted as a new search.
+The user finished the input, the sentence "i a" should be saved as a historical sentence in system. And the following input will be counted as a new search.
  
 
 Note:

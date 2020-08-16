@@ -10,17 +10,17 @@ Given the output S of this traversal, recover the tree and return its root.
  
 
 Example 1:
-Input: &quot;1-2--3--4-5--6--7&quot;
+Input: "1-2--3--4-5--6--7"
 Output: [1,2,5,3,4,6,7]
 
 Example 2:
-Input: &quot;1-2--3---4-5--6---7&quot;
+Input: "1-2--3---4-5--6---7"
 Output: [1,2,5,3,null,6,null,4,null,7]
 
  
 
 Example 3:
-Input: &quot;1-401--349---90--88&quot;
+Input: "1-401--349---90--88"
 Output: [1,401,null,349,88,90]
 
  

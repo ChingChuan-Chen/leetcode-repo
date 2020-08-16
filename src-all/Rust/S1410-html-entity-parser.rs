@@ -3,7 +3,7 @@ HTML entity parser is the parser that takes HTML code as input and replace all t
 
 The special characters and their entities for HTML are:
 
-	Quotation Mark: the entity is &amp;quot; and symbol character is &quot;.
+	Quotation Mark: the entity is &amp;quot; and symbol character is ".
 	Single Quote Mark: the entity is &amp;apos; and symbol character is &#39;.
 	Ampersand: the entity is &amp;amp; and symbol character is &amp;.
 	Greater Than Sign: the entity is &amp;gt; and symbol character is >.
@@ -16,25 +16,25 @@ Return the text after replacing the entities by the special characters.
 
  
 Example 1:
-Input: text = &quot;&amp;amp; is an HTML entity but &amp;ambassador; is not.&quot;
-Output: &quot;&amp; is an HTML entity but &amp;ambassador; is not.&quot;
+Input: text = "&amp;amp; is an HTML entity but &amp;ambassador; is not."
+Output: "&amp; is an HTML entity but &amp;ambassador; is not."
 Explanation: The parser will replace the &amp;amp; entity by &amp;
 
 Example 2:
-Input: text = &quot;and I quote: &amp;quot;...&amp;quot;&quot;
-Output: &quot;and I quote: \&quot;...\&quot;&quot;
+Input: text = "and I quote: &amp;quot;...&amp;quot;"
+Output: "and I quote: \"...\""
 
 Example 3:
-Input: text = &quot;Stay home! Practice on Leetcode :)&quot;
-Output: &quot;Stay home! Practice on Leetcode :)&quot;
+Input: text = "Stay home! Practice on Leetcode :)"
+Output: "Stay home! Practice on Leetcode :)"
 
 Example 4:
-Input: text = &quot;x &amp;gt; y &amp;amp;&amp;amp; x &amp;lt; y is always false&quot;
-Output: &quot;x > y &amp;&amp; x < y is always false&quot;
+Input: text = "x &amp;gt; y &amp;amp;&amp;amp; x &amp;lt; y is always false"
+Output: "x > y &amp;&amp; x < y is always false"
 
 Example 5:
-Input: text = &quot;leetcode.com&amp;frasl;problemset&amp;frasl;all&quot;
-Output: &quot;leetcode.com/problemset/all&quot;
+Input: text = "leetcode.com&amp;frasl;problemset&amp;frasl;all"
+Output: "leetcode.com/problemset/all"
 
  
 Constraints:

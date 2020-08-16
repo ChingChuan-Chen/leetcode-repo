@@ -5,18 +5,18 @@ String words[i] is substring of words[j], if can be obtained removing some chara
 
  
 Example 1:
-Input: words = [&quot;mass&quot;,&quot;as&quot;,&quot;hero&quot;,&quot;superhero&quot;]
-Output: [&quot;as&quot;,&quot;hero&quot;]
-Explanation: &quot;as&quot; is substring of &quot;mass&quot; and &quot;hero&quot; is substring of &quot;superhero&quot;.
-[&quot;hero&quot;,&quot;as&quot;] is also a valid answer.
+Input: words = ["mass","as","hero","superhero"]
+Output: ["as","hero"]
+Explanation: "as" is substring of "mass" and "hero" is substring of "superhero".
+["hero","as"] is also a valid answer.
 
 Example 2:
-Input: words = [&quot;leetcode&quot;,&quot;et&quot;,&quot;code&quot;]
-Output: [&quot;et&quot;,&quot;code&quot;]
-Explanation: &quot;et&quot;, &quot;code&quot; are substring of &quot;leetcode&quot;.
+Input: words = ["leetcode","et","code"]
+Output: ["et","code"]
+Explanation: "et", "code" are substring of "leetcode".
 
 Example 3:
-Input: words = [&quot;blue&quot;,&quot;green&quot;,&quot;bu&quot;]
+Input: words = ["blue","green","bu"]
 Output: []
 
  

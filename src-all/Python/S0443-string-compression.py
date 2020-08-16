@@ -14,22 +14,22 @@ Could you solve it using only O(1) extra space?
 
 Example 1:
 Input:
-[&quot;a&quot;,&quot;a&quot;,&quot;b&quot;,&quot;b&quot;,&quot;c&quot;,&quot;c&quot;,&quot;c&quot;]
+["a","a","b","b","c","c","c"]
 
 Output:
-Return 6, and the first 6 characters of the input array should be: [&quot;a&quot;,&quot;2&quot;,&quot;b&quot;,&quot;2&quot;,&quot;c&quot;,&quot;3&quot;]
+Return 6, and the first 6 characters of the input array should be: ["a","2","b","2","c","3"]
 
 Explanation:
-&quot;aa&quot; is replaced by &quot;a2&quot;. &quot;bb&quot; is replaced by &quot;b2&quot;. &quot;ccc&quot; is replaced by &quot;c3&quot;.
+"aa" is replaced by "a2". "bb" is replaced by "b2". "ccc" is replaced by "c3".
 
  
 
 Example 2:
 Input:
-[&quot;a&quot;]
+["a"]
 
 Output:
-Return 1, and the first 1 characters of the input array should be: [&quot;a&quot;]
+Return 1, and the first 1 characters of the input array should be: ["a"]
 
 Explanation:
 Nothing is replaced.
@@ -38,13 +38,13 @@ Nothing is replaced.
 
 Example 3:
 Input:
-[&quot;a&quot;,&quot;b&quot;,&quot;b&quot;,&quot;b&quot;,&quot;b&quot;,&quot;b&quot;,&quot;b&quot;,&quot;b&quot;,&quot;b&quot;,&quot;b&quot;,&quot;b&quot;,&quot;b&quot;,&quot;b&quot;]
+["a","b","b","b","b","b","b","b","b","b","b","b","b"]
 
 Output:
-Return 4, and the first 4 characters of the input array should be: [&quot;a&quot;,&quot;b&quot;,&quot;1&quot;,&quot;2&quot;].
+Return 4, and the first 4 characters of the input array should be: ["a","b","1","2"].
 
 Explanation:
-Since the character &quot;a&quot; does not repeat, it is not compressed. &quot;bbbbbbbbbbbb&quot; is replaced by &quot;b12&quot;.
+Since the character "a" does not repeat, it is not compressed. "bbbbbbbbbbbb" is replaced by "b12".
 Notice each digit has it&#39;s own entry in the array.
 
  

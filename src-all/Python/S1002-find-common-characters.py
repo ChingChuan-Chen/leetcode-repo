@@ -6,12 +6,12 @@ You may return the answer in any order.
  
 
 Example 1:
-Input: [&quot;bella&quot;,&quot;label&quot;,&quot;roller&quot;]
-Output: [&quot;e&quot;,&quot;l&quot;,&quot;l&quot;]
+Input: ["bella","label","roller"]
+Output: ["e","l","l"]
 
 Example 2:
-Input: [&quot;cool&quot;,&quot;lock&quot;,&quot;cook&quot;]
-Output: [&quot;c&quot;,&quot;o&quot;]
+Input: ["cool","lock","cook"]
+Output: ["c","o"]
 
  
 

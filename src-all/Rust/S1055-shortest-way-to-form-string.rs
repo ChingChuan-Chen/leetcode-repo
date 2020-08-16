@@ -6,23 +6,23 @@ Given two strings source and target, return the minimum number of subsequences o
  
 
 Example 1:
-Input: source = &quot;abc&quot;, target = &quot;abcbc&quot;
+Input: source = "abc", target = "abcbc"
 Output: 2
-Explanation: The target &quot;abcbc&quot; can be formed by &quot;abc&quot; and &quot;bc&quot;, which are subsequences of source &quot;abc&quot;.
+Explanation: The target "abcbc" can be formed by "abc" and "bc", which are subsequences of source "abc".
 
 Example 2:
-Input: source = &quot;abc&quot;, target = &quot;acdbc&quot;
+Input: source = "abc", target = "acdbc"
 Output: -1
-Explanation: The target string cannot be constructed from the subsequences of source string due to the character &quot;d&quot; in target string.
+Explanation: The target string cannot be constructed from the subsequences of source string due to the character "d" in target string.
 
 Example 3:
-Input: source = &quot;xyz&quot;, target = &quot;xzyxz&quot;
+Input: source = "xyz", target = "xzyxz"
 Output: 3
-Explanation: The target string can be constructed as follows &quot;xz&quot; + &quot;y&quot; + &quot;xz&quot;.
+Explanation: The target string can be constructed as follows "xz" + "y" + "xz".
 
  
 Constraints:
-	Both the source and target strings consist of only lowercase English letters from &quot;a&quot;-&quot;z&quot;.
+	Both the source and target strings consist of only lowercase English letters from "a"-"z".
 	The lengths of source and target string are between 1 and 1000.
 
 */

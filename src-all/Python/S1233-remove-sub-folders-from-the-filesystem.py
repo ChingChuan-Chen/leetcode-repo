@@ -7,18 +7,18 @@ The format of a path is one or more concatenated strings of the form: / followed
 
  
 Example 1:
-Input: folder = [&quot;/a&quot;,&quot;/a/b&quot;,&quot;/c/d&quot;,&quot;/c/d/e&quot;,&quot;/c/f&quot;]
-Output: [&quot;/a&quot;,&quot;/c/d&quot;,&quot;/c/f&quot;]
-Explanation: Folders &quot;/a/b/&quot; is a subfolder of &quot;/a&quot; and &quot;/c/d/e&quot; is inside of folder &quot;/c/d&quot; in our filesystem.
+Input: folder = ["/a","/a/b","/c/d","/c/d/e","/c/f"]
+Output: ["/a","/c/d","/c/f"]
+Explanation: Folders "/a/b/" is a subfolder of "/a" and "/c/d/e" is inside of folder "/c/d" in our filesystem.
 
 Example 2:
-Input: folder = [&quot;/a&quot;,&quot;/a/b/c&quot;,&quot;/a/b/d&quot;]
-Output: [&quot;/a&quot;]
-Explanation: Folders &quot;/a/b/c&quot; and &quot;/a/b/d/&quot; will be removed because they are subfolders of &quot;/a&quot;.
+Input: folder = ["/a","/a/b/c","/a/b/d"]
+Output: ["/a"]
+Explanation: Folders "/a/b/c" and "/a/b/d/" will be removed because they are subfolders of "/a".
 
 Example 3:
-Input: folder = [&quot;/a/b/c&quot;,&quot;/a/b/ca&quot;,&quot;/a/b/d&quot;]
-Output: [&quot;/a/b/c&quot;,&quot;/a/b/ca&quot;,&quot;/a/b/d&quot;]
+Input: folder = ["/a/b/c","/a/b/ca","/a/b/d"]
+Output: ["/a/b/c","/a/b/ca","/a/b/d"]
 
  
 Constraints:

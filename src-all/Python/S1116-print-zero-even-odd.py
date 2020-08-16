@@ -20,12 +20,12 @@ Each of the threads is given a printNumber method to output an integer. Modify t
 
 Example 1:
 Input: n = 2
-Output: &quot;0102&quot;
-Explanation: There are three threads being fired asynchronously. One of them calls zero(), the other calls even(), and the last one calls odd(). &quot;0102&quot; is the correct output.
+Output: "0102"
+Explanation: There are three threads being fired asynchronously. One of them calls zero(), the other calls even(), and the last one calls odd(). "0102" is the correct output.
 
 Example 2:
 Input: n = 5
-Output: &quot;0102030405&quot;
+Output: "0102030405"
 
 
 """

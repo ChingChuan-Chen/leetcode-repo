@@ -7,19 +7,19 @@ If the substring is possible to be a palindrome string after the operations abov
 
 Return an array answer[], where answer[i] is the result of the i-th query queries[i].
 
-Note that: Each letter is counted individually for replacement so if for example s[left..right] = &quot;aaa&quot;, and k = 2, we can only replace two of the letters.  (Also, note that the initial string s is never modified by any query.)
+Note that: Each letter is counted individually for replacement so if for example s[left..right] = "aaa", and k = 2, we can only replace two of the letters.  (Also, note that the initial string s is never modified by any query.)
 
  
 Example :
 
-Input: s = &quot;abcda&quot;, queries = [[3,3,0],[1,2,0],[0,3,1],[0,3,2],[0,4,1]]
+Input: s = "abcda", queries = [[3,3,0],[1,2,0],[0,3,1],[0,3,2],[0,4,1]]
 Output: [true,false,false,true,true]
 Explanation:
-queries[0] : substring = &quot;d&quot;, is palidrome.
-queries[1] : substring = &quot;bc&quot;, is not palidrome.
-queries[2] : substring = &quot;abcd&quot;, is not palidrome after replacing only 1 character.
-queries[3] : substring = &quot;abcd&quot;, could be changed to &quot;abba&quot; which is palidrome. Also this can be changed to &quot;baab&quot; first rearrange it &quot;bacd&quot; then replace &quot;cd&quot; with &quot;ab&quot;.
-queries[4] : substring = &quot;abcda&quot;, could be changed to &quot;abcba&quot; which is palidrome.
+queries[0] : substring = "d", is palidrome.
+queries[1] : substring = "bc", is not palidrome.
+queries[2] : substring = "abcd", is not palidrome after replacing only 1 character.
+queries[3] : substring = "abcd", could be changed to "abba" which is palidrome. Also this can be changed to "baab" first rearrange it "bacd" then replace "cd" with "ab".
+queries[4] : substring = "abcda", could be changed to "abcba" which is palidrome.
 
  
 Constraints:

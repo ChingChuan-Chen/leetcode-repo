@@ -8,25 +8,25 @@ Find the 3-sequence visited by the largest number of users. If there is more tha
  
 
 Example 1:
-Input: username = [&quot;joe&quot;,&quot;joe&quot;,&quot;joe&quot;,&quot;james&quot;,&quot;james&quot;,&quot;james&quot;,&quot;james&quot;,&quot;mary&quot;,&quot;mary&quot;,&quot;mary&quot;], timestamp = [1,2,3,4,5,6,7,8,9,10], website = [&quot;home&quot;,&quot;about&quot;,&quot;career&quot;,&quot;home&quot;,&quot;cart&quot;,&quot;maps&quot;,&quot;home&quot;,&quot;home&quot;,&quot;about&quot;,&quot;career&quot;]
-Output: [&quot;home&quot;,&quot;about&quot;,&quot;career&quot;]
+Input: username = ["joe","joe","joe","james","james","james","james","mary","mary","mary"], timestamp = [1,2,3,4,5,6,7,8,9,10], website = ["home","about","career","home","cart","maps","home","home","about","career"]
+Output: ["home","about","career"]
 Explanation: 
 The tuples in this example are:
-[&quot;joe&quot;, 1, &quot;home&quot;]
-[&quot;joe&quot;, 2, &quot;about&quot;]
-[&quot;joe&quot;, 3, &quot;career&quot;]
-[&quot;james&quot;, 4, &quot;home&quot;]
-[&quot;james&quot;, 5, &quot;cart&quot;]
-[&quot;james&quot;, 6, &quot;maps&quot;]
-[&quot;james&quot;, 7, &quot;home&quot;]
-[&quot;mary&quot;, 8, &quot;home&quot;]
-[&quot;mary&quot;, 9, &quot;about&quot;]
-[&quot;mary&quot;, 10, &quot;career&quot;]
-The 3-sequence (&quot;home&quot;, &quot;about&quot;, &quot;career&quot;) was visited at least once by 2 users.
-The 3-sequence (&quot;home&quot;, &quot;cart&quot;, &quot;maps&quot;) was visited at least once by 1 user.
-The 3-sequence (&quot;home&quot;, &quot;cart&quot;, &quot;home&quot;) was visited at least once by 1 user.
-The 3-sequence (&quot;home&quot;, &quot;maps&quot;, &quot;home&quot;) was visited at least once by 1 user.
-The 3-sequence (&quot;cart&quot;, &quot;maps&quot;, &quot;home&quot;) was visited at least once by 1 user.
+["joe", 1, "home"]
+["joe", 2, "about"]
+["joe", 3, "career"]
+["james", 4, "home"]
+["james", 5, "cart"]
+["james", 6, "maps"]
+["james", 7, "home"]
+["mary", 8, "home"]
+["mary", 9, "about"]
+["mary", 10, "career"]
+The 3-sequence ("home", "about", "career") was visited at least once by 2 users.
+The 3-sequence ("home", "cart", "maps") was visited at least once by 1 user.
+The 3-sequence ("home", "cart", "home") was visited at least once by 1 user.
+The 3-sequence ("home", "maps", "home") was visited at least once by 1 user.
+The 3-sequence ("cart", "maps", "home") was visited at least once by 1 user.
 
  
 

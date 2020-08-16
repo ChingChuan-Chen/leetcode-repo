@@ -14,7 +14,7 @@ matrix = [
 Output: True
 Explanation:
 In the above grid, the diagonals are:
-&quot;[9]&quot;, &quot;[5, 5]&quot;, &quot;[1, 1, 1]&quot;, &quot;[2, 2, 2]&quot;, &quot;[3, 3]&quot;, &quot;[4]&quot;.
+"[9]", "[5, 5]", "[1, 1, 1]", "[2, 2, 2]", "[3, 3]", "[4]".
 In each diagonal all elements are the same, so the answer is True.
 
 Example 2:
@@ -25,7 +25,7 @@ matrix = [
 ]
 Output: False
 Explanation:
-The diagonal &quot;[1, 2]&quot; has different elements.
+The diagonal "[1, 2]" has different elements.
 
 Note:
 	matrix will be a 2D array of integers.

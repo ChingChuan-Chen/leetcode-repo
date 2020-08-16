@@ -7,27 +7,27 @@ Students must be placed in seats in good condition.
 
  
 Example 1:
-Input: seats = [[&quot;#&quot;,&quot;.&quot;,&quot;#&quot;,&quot;#&quot;,&quot;.&quot;,&quot;#&quot;],
-                [&quot;.&quot;,&quot;#&quot;,&quot;#&quot;,&quot;#&quot;,&quot;#&quot;,&quot;.&quot;],
-                [&quot;#&quot;,&quot;.&quot;,&quot;#&quot;,&quot;#&quot;,&quot;.&quot;,&quot;#&quot;]]
+Input: seats = [["#",".","#","#",".","#"],
+                [".","#","#","#","#","."],
+                ["#",".","#","#",".","#"]]
 Output: 4
 Explanation: Teacher can place 4 students in available seats so they don&#39;t cheat on the exam. 
 
 Example 2:
-Input: seats = [[&quot;.&quot;,&quot;#&quot;],
-                [&quot;#&quot;,&quot;#&quot;],
-                [&quot;#&quot;,&quot;.&quot;],
-                [&quot;#&quot;,&quot;#&quot;],
-                [&quot;.&quot;,&quot;#&quot;]]
+Input: seats = [[".","#"],
+                ["#","#"],
+                ["#","."],
+                ["#","#"],
+                [".","#"]]
 Output: 3
 Explanation: Place all students in available seats. 
 
 Example 3:
-Input: seats = [[&quot;#&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;#&quot;],
-                [&quot;.&quot;,&quot;#&quot;,&quot;.&quot;,&quot;#&quot;,&quot;.&quot;],
-                [&quot;.&quot;,&quot;.&quot;,&quot;#&quot;,&quot;.&quot;,&quot;.&quot;],
-                [&quot;.&quot;,&quot;#&quot;,&quot;.&quot;,&quot;#&quot;,&quot;.&quot;],
-                [&quot;#&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;#&quot;]]
+Input: seats = [["#",".",".",".","#"],
+                [".","#",".","#","."],
+                [".",".","#",".","."],
+                [".","#",".","#","."],
+                ["#",".",".",".","#"]]
 Output: 10
 Explanation: Place students in available seats in column 1, 3 and 5.
 

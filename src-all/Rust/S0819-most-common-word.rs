@@ -8,15 +8,15 @@ Words in the list of banned words are given in lowercase, and free of punctuatio
 Example:
 
 Input: 
-paragraph = &quot;Bob hit a ball, the hit BALL flew far after it was hit.&quot;
-banned = [&quot;hit&quot;]
-Output: &quot;ball&quot;
+paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."
+banned = ["hit"]
+Output: "ball"
 Explanation: 
-&quot;hit&quot; occurs 3 times, but it is a banned word.
-&quot;ball&quot; occurs twice (and no other word does), so it is the most frequent non-banned word in the paragraph. 
+"hit" occurs 3 times, but it is a banned word.
+"ball" occurs twice (and no other word does), so it is the most frequent non-banned word in the paragraph. 
 Note that words in the paragraph are not case sensitive,
-that punctuation is ignored (even if adjacent to words, such as &quot;ball,&quot;), 
-and that &quot;hit&quot; isn&#39;t the answer even though it occurs more because it is banned.
+that punctuation is ignored (even if adjacent to words, such as "ball,"), 
+and that "hit" isn&#39;t the answer even though it occurs more because it is banned.
 
  
 

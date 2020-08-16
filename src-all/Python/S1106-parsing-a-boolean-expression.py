@@ -3,27 +3,27 @@ Return the result of evaluating a given boolean expression, represented as a str
 
 An expression can either be:
 
-	&quot;t&quot;, evaluating to True;
-	&quot;f&quot;, evaluating to False;
-	&quot;!(expr)&quot;, evaluating to the logical NOT of the inner expression expr;
-	&quot;&amp;(expr1,expr2,...)&quot;, evaluating to the logical AND of 2 or more inner expressions expr1, expr2, ...;
-	&quot;|(expr1,expr2,...)&quot;, evaluating to the logical OR of 2 or more inner expressions expr1, expr2, ...
+	"t", evaluating to True;
+	"f", evaluating to False;
+	"!(expr)", evaluating to the logical NOT of the inner expression expr;
+	"&amp;(expr1,expr2,...)", evaluating to the logical AND of 2 or more inner expressions expr1, expr2, ...;
+	"|(expr1,expr2,...)", evaluating to the logical OR of 2 or more inner expressions expr1, expr2, ...
 
  
 Example 1:
-Input: expression = &quot;!(f)&quot;
+Input: expression = "!(f)"
 Output: true
 
 Example 2:
-Input: expression = &quot;|(f,t)&quot;
+Input: expression = "|(f,t)"
 Output: true
 
 Example 3:
-Input: expression = &quot;&amp;(t,f)&quot;
+Input: expression = "&amp;(t,f)"
 Output: false
 
 Example 4:
-Input: expression = &quot;|(&amp;(t,f,t),!(t))&quot;
+Input: expression = "|(&amp;(t,f,t),!(t))"
 Output: false
 
  

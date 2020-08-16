@@ -4,13 +4,13 @@ Given a string S, return the number of substrings of length K with no repeated c
  
 
 Example 1:
-Input: S = &quot;havefunonleetcode&quot;, K = 5
+Input: S = "havefunonleetcode", K = 5
 Output: 6
 Explanation: 
 There are 6 substrings they are : &#39;havef&#39;,&#39;avefu&#39;,&#39;vefun&#39;,&#39;efuno&#39;,&#39;etcod&#39;,&#39;tcode&#39;.
 
 Example 2:
-Input: S = &quot;home&quot;, K = 5
+Input: S = "home", K = 5
 Output: 0
 Explanation: 
 Notice K can be larger than the length of S. In this case is not possible to find any substring.

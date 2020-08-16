@@ -4,11 +4,11 @@ Given a binary string S (a string consisting only of &#39;0&#39; and &#39;1&#39;
  
 
 Example 1:
-Input: S = &quot;0110&quot;, N = 3
+Input: S = "0110", N = 3
 Output: true
 
 Example 2:
-Input: S = &quot;0110&quot;, N = 4
+Input: S = "0110", N = 4
 Output: false
 
  

@@ -8,7 +8,7 @@ More formally, the probability of picking index i is w[i] / sum(w).
  
 Example 1:
 Input
-[&quot;Solution&quot;,&quot;pickIndex&quot;]
+["Solution","pickIndex"]
 [[[1]],[]]
 Output
 [null,0]
@@ -19,7 +19,7 @@ solution.pickIndex(); // return 0. Since there is only one single element on the
 
 Example 2:
 Input
-[&quot;Solution&quot;,&quot;pickIndex&quot;,&quot;pickIndex&quot;,&quot;pickIndex&quot;,&quot;pickIndex&quot;,&quot;pickIndex&quot;]
+["Solution","pickIndex","pickIndex","pickIndex","pickIndex","pickIndex"]
 [[[1,3]],[],[],[],[],[]]
 Output
 [null,1,1,1,1,0]

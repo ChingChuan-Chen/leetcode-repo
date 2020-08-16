@@ -5,25 +5,25 @@ Return the power of the string.
 
  
 Example 1:
-Input: s = &quot;leetcode&quot;
+Input: s = "leetcode"
 Output: 2
-Explanation: The substring &quot;ee&quot; is of length 2 with the character &#39;e&#39; only.
+Explanation: The substring "ee" is of length 2 with the character &#39;e&#39; only.
 
 Example 2:
-Input: s = &quot;abbcccddddeeeeedcba&quot;
+Input: s = "abbcccddddeeeeedcba"
 Output: 5
-Explanation: The substring &quot;eeeee&quot; is of length 5 with the character &#39;e&#39; only.
+Explanation: The substring "eeeee" is of length 5 with the character &#39;e&#39; only.
 
 Example 3:
-Input: s = &quot;triplepillooooow&quot;
+Input: s = "triplepillooooow"
 Output: 5
 
 Example 4:
-Input: s = &quot;hooraaaaaaaaaaay&quot;
+Input: s = "hooraaaaaaaaaaay"
 Output: 11
 
 Example 5:
-Input: s = &quot;tourist&quot;
+Input: s = "tourist"
 Output: 1
 
  

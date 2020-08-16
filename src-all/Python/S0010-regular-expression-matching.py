@@ -12,36 +12,36 @@ Note:
 
 Example 1:
 Input:
-s = &quot;aa&quot;
-p = &quot;a&quot;
+s = "aa"
+p = "a"
 Output: false
-Explanation: &quot;a&quot; does not match the entire string &quot;aa&quot;.
+Explanation: "a" does not match the entire string "aa".
 
 Example 2:
 Input:
-s = &quot;aa&quot;
-p = &quot;a*&quot;
+s = "aa"
+p = "a*"
 Output: true
-Explanation: &#39;*&#39; means zero or more of the preceding element, &#39;a&#39;. Therefore, by repeating &#39;a&#39; once, it becomes &quot;aa&quot;.
+Explanation: &#39;*&#39; means zero or more of the preceding element, &#39;a&#39;. Therefore, by repeating &#39;a&#39; once, it becomes "aa".
 
 Example 3:
 Input:
-s = &quot;ab&quot;
-p = &quot;.*&quot;
+s = "ab"
+p = ".*"
 Output: true
-Explanation: &quot;.*&quot; means &quot;zero or more (*) of any character (.)&quot;.
+Explanation: ".*" means "zero or more (*) of any character (.)".
 
 Example 4:
 Input:
-s = &quot;aab&quot;
-p = &quot;c*a*b&quot;
+s = "aab"
+p = "c*a*b"
 Output: true
-Explanation: c can be repeated 0 times, a can be repeated 1 time. Therefore, it matches &quot;aab&quot;.
+Explanation: c can be repeated 0 times, a can be repeated 1 time. Therefore, it matches "aab".
 
 Example 5:
 Input:
-s = &quot;mississippi&quot;
-p = &quot;mis*is*p*.&quot;
+s = "mississippi"
+p = "mis*is*p*."
 Output: false
 
 

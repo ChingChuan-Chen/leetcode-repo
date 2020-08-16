@@ -9,15 +9,15 @@ Example:
 
 Input: 4
 Output: [
- [&quot;.Q..&quot;,  // Solution 1
-  &quot;...Q&quot;,
-  &quot;Q...&quot;,
-  &quot;..Q.&quot;],
+ [".Q..",  // Solution 1
+  "...Q",
+  "Q...",
+  "..Q."],
 
- [&quot;..Q.&quot;,  // Solution 2
-  &quot;Q...&quot;,
-  &quot;...Q&quot;,
-  &quot;.Q..&quot;]
+ ["..Q.",  // Solution 2
+  "Q...",
+  "...Q",
+  ".Q.."]
 ]
 Explanation: There exist two distinct solutions to the 4-queens puzzle as shown above.
 

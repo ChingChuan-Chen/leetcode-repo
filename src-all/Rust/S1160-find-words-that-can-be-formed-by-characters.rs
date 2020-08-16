@@ -8,16 +8,16 @@ Return the sum of lengths of all good strings in words.
  
 
 Example 1:
-Input: words = [&quot;cat&quot;,&quot;bt&quot;,&quot;hat&quot;,&quot;tree&quot;], chars = &quot;atach&quot;
+Input: words = ["cat","bt","hat","tree"], chars = "atach"
 Output: 6
 Explanation: 
-The strings that can be formed are &quot;cat&quot; and &quot;hat&quot; so the answer is 3 + 3 = 6.
+The strings that can be formed are "cat" and "hat" so the answer is 3 + 3 = 6.
 
 Example 2:
-Input: words = [&quot;hello&quot;,&quot;world&quot;,&quot;leetcode&quot;], chars = &quot;welldonehoneyr&quot;
+Input: words = ["hello","world","leetcode"], chars = "welldonehoneyr"
 Output: 10
 Explanation: 
-The strings that can be formed are &quot;hello&quot; and &quot;world&quot; so the answer is 5 + 5 = 10.
+The strings that can be formed are "hello" and "world" so the answer is 5 + 5 = 10.
 
  
 

@@ -17,7 +17,7 @@ Follow up:
 What if you are given k 1d vectors? How well can your code be extended to such cases?
 
 Clarification for the follow up question:
-The &quot;Zigzag&quot; order is not clearly defined and is ambiguous for k > 2 cases. If &quot;Zigzag&quot; does not look right to you, replace &quot;Zigzag&quot; with &quot;Cyclic&quot;. For example:
+The "Zigzag" order is not clearly defined and is ambiguous for k > 2 cases. If "Zigzag" does not look right to you, replace "Zigzag" with "Cyclic". For example:
 
 Input:
 [1,2,3]

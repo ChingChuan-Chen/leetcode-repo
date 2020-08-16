@@ -5,24 +5,24 @@ Each word would be put on only one column and that in one column there will be o
 
  
 Example 1:
-Input: s = &quot;HOW ARE YOU&quot;
-Output: [&quot;HAY&quot;,&quot;ORO&quot;,&quot;WEU&quot;]
+Input: s = "HOW ARE YOU"
+Output: ["HAY","ORO","WEU"]
 Explanation: Each word is printed vertically. 
- &quot;HAY&quot;
- &quot;ORO&quot;
- &quot;WEU&quot;
+ "HAY"
+ "ORO"
+ "WEU"
 
 Example 2:
-Input: s = &quot;TO BE OR NOT TO BE&quot;
-Output: [&quot;TBONTB&quot;,&quot;OEROOE&quot;,&quot;   T&quot;]
+Input: s = "TO BE OR NOT TO BE"
+Output: ["TBONTB","OEROOE","   T"]
 Explanation: Trailing spaces is not allowed. 
-&quot;TBONTB&quot;
-&quot;OEROOE&quot;
-&quot;   T&quot;
+"TBONTB"
+"OEROOE"
+"   T"
 
 Example 3:
-Input: s = &quot;CONTEST IS COMING&quot;
-Output: [&quot;CIC&quot;,&quot;OSO&quot;,&quot;N M&quot;,&quot;T I&quot;,&quot;E N&quot;,&quot;S G&quot;,&quot;T&quot;]
+Input: s = "CONTEST IS COMING"
+Output: ["CIC","OSO","N M","T I","E N","S G","T"]
 
  
 Constraints:

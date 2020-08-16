@@ -9,17 +9,17 @@ If there is no substring from s that can be changed to its corresponding substri
 
  
 Example 1:
-Input: s = &quot;abcd&quot;, t = &quot;bcdf&quot;, maxCost = 3
+Input: s = "abcd", t = "bcdf", maxCost = 3
 Output: 3
-Explanation: &quot;abc&quot; of s can change to &quot;bcd&quot;. That costs 3, so the maximum length is 3.
+Explanation: "abc" of s can change to "bcd". That costs 3, so the maximum length is 3.
 
 Example 2:
-Input: s = &quot;abcd&quot;, t = &quot;cdef&quot;, maxCost = 3
+Input: s = "abcd", t = "cdef", maxCost = 3
 Output: 1
 Explanation: Each character in s costs 2 to change to charactor in t, so the maximum length is 1.
 
 Example 3:
-Input: s = &quot;abcd&quot;, t = &quot;acde&quot;, maxCost = 0
+Input: s = "abcd", t = "acde", maxCost = 0
 Output: 1
 Explanation: You can&#39;t make any change, so the maximum length is 1.
 

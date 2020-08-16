@@ -5,23 +5,23 @@ It is guaranteed that the graph of paths forms a line without any loop, therefor
 
  
 Example 1:
-Input: paths = [[&quot;London&quot;,&quot;New York&quot;],[&quot;New York&quot;,&quot;Lima&quot;],[&quot;Lima&quot;,&quot;Sao Paulo&quot;]]
-Output: &quot;Sao Paulo&quot; 
-Explanation: Starting at &quot;London&quot; city you will reach &quot;Sao Paulo&quot; city which is the destination city. Your trip consist of: &quot;London&quot; -> &quot;New York&quot; -> &quot;Lima&quot; -> &quot;Sao Paulo&quot;.
+Input: paths = [["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]]
+Output: "Sao Paulo" 
+Explanation: Starting at "London" city you will reach "Sao Paulo" city which is the destination city. Your trip consist of: "London" -> "New York" -> "Lima" -> "Sao Paulo".
 
 Example 2:
-Input: paths = [[&quot;B&quot;,&quot;C&quot;],[&quot;D&quot;,&quot;B&quot;],[&quot;C&quot;,&quot;A&quot;]]
-Output: &quot;A&quot;
+Input: paths = [["B","C"],["D","B"],["C","A"]]
+Output: "A"
 Explanation: All possible trips are: 
-&quot;D&quot; -> &quot;B&quot; -> &quot;C&quot; -> &quot;A&quot;. 
-&quot;B&quot; -> &quot;C&quot; -> &quot;A&quot;. 
-&quot;C&quot; -> &quot;A&quot;. 
-&quot;A&quot;. 
-Clearly the destination city is &quot;A&quot;.
+"D" -> "B" -> "C" -> "A". 
+"B" -> "C" -> "A". 
+"C" -> "A". 
+"A". 
+Clearly the destination city is "A".
 
 Example 3:
-Input: paths = [[&quot;A&quot;,&quot;Z&quot;]]
-Output: &quot;Z&quot;
+Input: paths = [["A","Z"]]
+Output: "Z"
 
  
 Constraints:

@@ -1,5 +1,5 @@
 """
-Given a string S of digits, such as S = &quot;123456579&quot;, we can split it into a Fibonacci-like sequence [123, 456, 579].
+Given a string S of digits, such as S = "123456579", we can split it into a Fibonacci-like sequence [123, 456, 579].
 
 Formally, a Fibonacci-like sequence is a list F of non-negative integers such that:
 
@@ -12,25 +12,25 @@ Also, note that when splitting the string into pieces, each piece must not have 
 Return any Fibonacci-like sequence split from S, or return [] if it cannot be done.
 
 Example 1:
-Input: &quot;123456579&quot;
+Input: "123456579"
 Output: [123,456,579]
 
 Example 2:
-Input: &quot;11235813&quot;
+Input: "11235813"
 Output: [1,1,2,3,5,8,13]
 
 Example 3:
-Input: &quot;112358130&quot;
+Input: "112358130"
 Output: []
 Explanation: The task is impossible.
 
 Example 4:
-Input: &quot;0123&quot;
+Input: "0123"
 Output: []
-Explanation: Leading zeroes are not allowed, so &quot;01&quot;, &quot;2&quot;, &quot;3&quot; is not valid.
+Explanation: Leading zeroes are not allowed, so "01", "2", "3" is not valid.
 
 Example 5:
-Input: &quot;1101111&quot;
+Input: "1101111"
 Output: [110, 1, 111]
 Explanation: The output [11, 0, 11, 11] would also be accepted.
 

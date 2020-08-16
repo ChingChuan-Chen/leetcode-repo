@@ -8,12 +8,12 @@ You may assume all the characters consist of printable ascii characters.
  
 
 Example 1:
-Input: [&quot;h&quot;,&quot;e&quot;,&quot;l&quot;,&quot;l&quot;,&quot;o&quot;]
-Output: [&quot;o&quot;,&quot;l&quot;,&quot;l&quot;,&quot;e&quot;,&quot;h&quot;]
+Input: ["h","e","l","l","o"]
+Output: ["o","l","l","e","h"]
 
 Example 2:
-Input: [&quot;H&quot;,&quot;a&quot;,&quot;n&quot;,&quot;n&quot;,&quot;a&quot;,&quot;h&quot;]
-Output: [&quot;h&quot;,&quot;a&quot;,&quot;n&quot;,&quot;n&quot;,&quot;a&quot;,&quot;H&quot;]
+Input: ["H","a","n","n","a","h"]
+Output: ["h","a","n","n","a","H"]
 
 
 */

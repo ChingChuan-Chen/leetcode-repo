@@ -27,17 +27,17 @@ Find whether its abbreviation is unique in the dictionary. A word&#39;s abbrevia
  
 Example 1:
 Input
-[&quot;ValidWordAbbr&quot;,&quot;isUnique&quot;,&quot;isUnique&quot;,&quot;isUnique&quot;,&quot;isUnique&quot;]
-[[[&quot;deer&quot;,&quot;door&quot;,&quot;cake&quot;,&quot;card&quot;]],[&quot;dear&quot;],[&quot;cart&quot;],[&quot;cane&quot;],[&quot;make&quot;]]
+["ValidWordAbbr","isUnique","isUnique","isUnique","isUnique"]
+[[["deer","door","cake","card"]],["dear"],["cart"],["cane"],["make"]]
 Output
 [null,false,true,false,true]
 
 Explanation
-ValidWordAbbr validWordAbbr = new ValidWordAbbr([&quot;deer&quot;, &quot;door&quot;, &quot;cake&quot;, &quot;card&quot;]);
-validWordAbbr.isUnique(&quot;dear&quot;); // return False
-validWordAbbr.isUnique(&quot;cart&quot;); // return True
-validWordAbbr.isUnique(&quot;cane&quot;); // return False
-validWordAbbr.isUnique(&quot;make&quot;); // return True
+ValidWordAbbr validWordAbbr = new ValidWordAbbr(["deer", "door", "cake", "card"]);
+validWordAbbr.isUnique("dear"); // return False
+validWordAbbr.isUnique("cart"); // return True
+validWordAbbr.isUnique("cane"); // return False
+validWordAbbr.isUnique("make"); // return True
 
  
 Constraints:

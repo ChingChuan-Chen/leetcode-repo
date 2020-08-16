@@ -25,32 +25,32 @@ Below are two examples explaining the functionality of the problem, for custom t
 Example 1:
 Input:
 urls = [
-  &quot;http://news.yahoo.com&quot;,
-  &quot;http://news.yahoo.com/news&quot;,
-  &quot;http://news.yahoo.com/news/topics/&quot;,
-  &quot;http://news.google.com&quot;,
-  &quot;http://news.yahoo.com/us&quot;
+  "http://news.yahoo.com",
+  "http://news.yahoo.com/news",
+  "http://news.yahoo.com/news/topics/",
+  "http://news.google.com",
+  "http://news.yahoo.com/us"
 ]
 edges = [[2,0],[2,1],[3,2],[3,1],[0,4]]
-startUrl = &quot;http://news.yahoo.com/news/topics/&quot;
+startUrl = "http://news.yahoo.com/news/topics/"
 Output: [
-  &quot;http://news.yahoo.com&quot;,
-  &quot;http://news.yahoo.com/news&quot;,
-  &quot;http://news.yahoo.com/news/topics/&quot;,
-  &quot;http://news.yahoo.com/us&quot;
+  "http://news.yahoo.com",
+  "http://news.yahoo.com/news",
+  "http://news.yahoo.com/news/topics/",
+  "http://news.yahoo.com/us"
 ]
 
 Example 2:
 Input: 
 urls = [
-  &quot;http://news.yahoo.com&quot;,
-  &quot;http://news.yahoo.com/news&quot;,
-  &quot;http://news.yahoo.com/news/topics/&quot;,
-  &quot;http://news.google.com&quot;
+  "http://news.yahoo.com",
+  "http://news.yahoo.com/news",
+  "http://news.yahoo.com/news/topics/",
+  "http://news.google.com"
 ]
 edges = [[0,2],[2,1],[3,2],[3,1],[3,0]]
-startUrl = &quot;http://news.google.com&quot;
-Output: [&quot;http://news.google.com&quot;]
+startUrl = "http://news.google.com"
+Output: ["http://news.google.com"]
 Explanation: The startUrl links to all other pages that do not share the same hostname.
 
  

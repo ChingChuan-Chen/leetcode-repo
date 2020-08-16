@@ -11,26 +11,26 @@ A prefix of a string S is any leading contiguous substring of S.
 
  
 Example 1:
-Input: sentence = &quot;i love eating burger&quot;, searchWord = &quot;burg&quot;
+Input: sentence = "i love eating burger", searchWord = "burg"
 Output: 4
-Explanation: &quot;burg&quot; is prefix of &quot;burger&quot; which is the 4th word in the sentence.
+Explanation: "burg" is prefix of "burger" which is the 4th word in the sentence.
 
 Example 2:
-Input: sentence = &quot;this problem is an easy problem&quot;, searchWord = &quot;pro&quot;
+Input: sentence = "this problem is an easy problem", searchWord = "pro"
 Output: 2
-Explanation: &quot;pro&quot; is prefix of &quot;problem&quot; which is the 2nd and the 6th word in the sentence, but we return 2 as it&#39;s the minimal index.
+Explanation: "pro" is prefix of "problem" which is the 2nd and the 6th word in the sentence, but we return 2 as it&#39;s the minimal index.
 
 Example 3:
-Input: sentence = &quot;i am tired&quot;, searchWord = &quot;you&quot;
+Input: sentence = "i am tired", searchWord = "you"
 Output: -1
-Explanation: &quot;you&quot; is not a prefix of any word in the sentence.
+Explanation: "you" is not a prefix of any word in the sentence.
 
 Example 4:
-Input: sentence = &quot;i use triple pillow&quot;, searchWord = &quot;pill&quot;
+Input: sentence = "i use triple pillow", searchWord = "pill"
 Output: 4
 
 Example 5:
-Input: sentence = &quot;hello from the other side&quot;, searchWord = &quot;they&quot;
+Input: sentence = "hello from the other side", searchWord = "they"
 Output: -1
 
  

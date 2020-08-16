@@ -3,12 +3,12 @@ Given an array of strings, group anagrams together.
 
 Example:
 
-Input: [&quot;eat&quot;, &quot;tea&quot;, &quot;tan&quot;, &quot;ate&quot;, &quot;nat&quot;, &quot;bat&quot;],
+Input: ["eat", "tea", "tan", "ate", "nat", "bat"],
 Output:
 [
-  [&quot;ate&quot;,&quot;eat&quot;,&quot;tea&quot;],
-  [&quot;nat&quot;,&quot;tan&quot;],
-  [&quot;bat&quot;]
+  ["ate","eat","tea"],
+  ["nat","tan"],
+  ["bat"]
 ]
 
 Note:

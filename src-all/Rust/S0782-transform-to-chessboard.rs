@@ -1,7 +1,7 @@
 /*
 An N x N board contains only 0s and 1s. In each move, you can swap any 2 rows with each other, or any 2 columns with each other.
 
-What is the minimum number of moves to transform the board into a &quot;chessboard&quot; - a board where no 0s and no 1s are 4-directionally adjacent? If the task is impossible, return -1.
+What is the minimum number of moves to transform the board into a "chessboard" - a board where no 0s and no 1s are 4-directionally adjacent? If the task is impossible, return -1.
 
 Examples:
 Input: board = [[0,1,1,0],[0,1,1,0],[1,0,0,1],[1,0,0,1]]

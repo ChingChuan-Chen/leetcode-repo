@@ -5,20 +5,20 @@ Return a list of all possible strings we could create. You can return the output
 
  
 Example 1:
-Input: S = &quot;a1b2&quot;
-Output: [&quot;a1b2&quot;,&quot;a1B2&quot;,&quot;A1b2&quot;,&quot;A1B2&quot;]
+Input: S = "a1b2"
+Output: ["a1b2","a1B2","A1b2","A1B2"]
 
 Example 2:
-Input: S = &quot;3z4&quot;
-Output: [&quot;3z4&quot;,&quot;3Z4&quot;]
+Input: S = "3z4"
+Output: ["3z4","3Z4"]
 
 Example 3:
-Input: S = &quot;12345&quot;
-Output: [&quot;12345&quot;]
+Input: S = "12345"
+Output: ["12345"]
 
 Example 4:
-Input: S = &quot;0&quot;
-Output: [&quot;0&quot;]
+Input: S = "0"
+Output: ["0"]
 
  
 Constraints:

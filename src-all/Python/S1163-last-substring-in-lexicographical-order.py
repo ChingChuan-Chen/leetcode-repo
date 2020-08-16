@@ -4,13 +4,13 @@ Given a string s, return the last substring of s in lexicographical order.
  
 
 Example 1:
-Input: &quot;abab&quot;
-Output: &quot;bab&quot;
-Explanation: The substrings are [&quot;a&quot;, &quot;ab&quot;, &quot;aba&quot;, &quot;abab&quot;, &quot;b&quot;, &quot;ba&quot;, &quot;bab&quot;]. The lexicographically maximum substring is &quot;bab&quot;.
+Input: "abab"
+Output: "bab"
+Explanation: The substrings are ["a", "ab", "aba", "abab", "b", "ba", "bab"]. The lexicographically maximum substring is "bab".
 
 Example 2:
-Input: &quot;leetcode&quot;
-Output: &quot;tcode&quot;
+Input: "leetcode"
+Output: "tcode"
 
  
 

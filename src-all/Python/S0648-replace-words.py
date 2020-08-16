@@ -7,8 +7,8 @@ You need to output the sentence after the replacement.
 
  
 Example 1:
-Input: dict = [&quot;cat&quot;,&quot;bat&quot;,&quot;rat&quot;], sentence = &quot;the cattle was rattled by the battery&quot;
-Output: &quot;the cat was rat by the bat&quot;
+Input: dict = ["cat","bat","rat"], sentence = "the cattle was rattled by the battery"
+Output: "the cat was rat by the bat"
 
  
 Constraints:

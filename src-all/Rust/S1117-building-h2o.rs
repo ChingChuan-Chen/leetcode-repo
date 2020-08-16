@@ -13,14 +13,14 @@ Write synchronization code for oxygen and hydrogen molecules that enforces these
  
 
 Example 1:
-Input: &quot;HOH&quot;
-Output: &quot;HHO&quot;
-Explanation: &quot;HOH&quot; and &quot;OHH&quot; are also valid answers.
+Input: "HOH"
+Output: "HHO"
+Explanation: "HOH" and "OHH" are also valid answers.
 
 Example 2:
-Input: &quot;OOHHHH&quot;
-Output: &quot;HHOHHO&quot;
-Explanation: &quot;HOHHHO&quot;, &quot;OHHHHO&quot;, &quot;HHOHOH&quot;, &quot;HOHHOH&quot;, &quot;OHHHOH&quot;, &quot;HHOOHH&quot;, &quot;HOHOHH&quot; and &quot;OHHOHH&quot; are also valid answers.
+Input: "OOHHHH"
+Output: "HHOHHO"
+Explanation: "HOHHHO", "OHHHHO", "HHOHOH", "HOHHOH", "OHHHOH", "HHOOHH", "HOHOHH" and "OHHOHH" are also valid answers.
 
  
 Constraints:

@@ -3,22 +3,22 @@ Given a word, you need to judge whether the usage of capitals in it is right or 
 
 We define the usage of capitals in a word to be right when one of the following cases holds:
 
-	All letters in this word are capitals, like &quot;USA&quot;.
-	All letters in this word are not capitals, like &quot;leetcode&quot;.
-	Only the first letter in this word is capital, like &quot;Google&quot;.
+	All letters in this word are capitals, like "USA".
+	All letters in this word are not capitals, like "leetcode".
+	Only the first letter in this word is capital, like "Google".
 
 Otherwise, we define that this word doesn&#39;t use capitals in a right way.
 
  
 
 Example 1:
-Input: &quot;USA&quot;
+Input: "USA"
 Output: True
 
  
 
 Example 2:
-Input: &quot;FlaG&quot;
+Input: "FlaG"
 Output: False
 
  

@@ -1,5 +1,5 @@
 /*
-A valid parentheses string is either empty (&quot;&quot;), &quot;(&quot; + A + &quot;)&quot;, or A + B, where A and B are valid parentheses strings, and + represents string concatenation.  For example, &quot;&quot;, &quot;()&quot;, &quot;(())()&quot;, and &quot;(()(()))&quot; are all valid parentheses strings.
+A valid parentheses string is either empty (""), "(" + A + ")", or A + B, where A and B are valid parentheses strings, and + represents string concatenation.  For example, "", "()", "(())()", and "(()(()))" are all valid parentheses strings.
 
 A valid parentheses string S is primitive if it is nonempty, and there does not exist a way to split it into S = A+B, with A and B nonempty valid parentheses strings.
 
@@ -10,31 +10,31 @@ Return S after removing the outermost parentheses of every primitive string in t
  
 
 Example 1:
-Input: &quot;(()())(())&quot;
-Output: &quot;()()()&quot;
+Input: "(()())(())"
+Output: "()()()"
 Explanation: 
-The input string is &quot;(()())(())&quot;, with primitive decomposition &quot;(()())&quot; + &quot;(())&quot;.
-After removing outer parentheses of each part, this is &quot;()()&quot; + &quot;()&quot; = &quot;()()()&quot;.
+The input string is "(()())(())", with primitive decomposition "(()())" + "(())".
+After removing outer parentheses of each part, this is "()()" + "()" = "()()()".
 
 Example 2:
-Input: &quot;(()())(())(()(()))&quot;
-Output: &quot;()()()()(())&quot;
+Input: "(()())(())(()(()))"
+Output: "()()()()(())"
 Explanation: 
-The input string is &quot;(()())(())(()(()))&quot;, with primitive decomposition &quot;(()())&quot; + &quot;(())&quot; + &quot;(()(()))&quot;.
-After removing outer parentheses of each part, this is &quot;()()&quot; + &quot;()&quot; + &quot;()(())&quot; = &quot;()()()()(())&quot;.
+The input string is "(()())(())(()(()))", with primitive decomposition "(()())" + "(())" + "(()(()))".
+After removing outer parentheses of each part, this is "()()" + "()" + "()(())" = "()()()()(())".
 
 Example 3:
-Input: &quot;()()&quot;
-Output: &quot;&quot;
+Input: "()()"
+Output: ""
 Explanation: 
-The input string is &quot;()()&quot;, with primitive decomposition &quot;()&quot; + &quot;()&quot;.
-After removing outer parentheses of each part, this is &quot;&quot; + &quot;&quot; = &quot;&quot;.
+The input string is "()()", with primitive decomposition "()" + "()".
+After removing outer parentheses of each part, this is "" + "" = "".
 
  
 
 Note:
 	S.length <= 10000
-	S[i] is &quot;(&quot; or &quot;)&quot;
+	S[i] is "(" or ")"
 	S is a valid parentheses string
 
  

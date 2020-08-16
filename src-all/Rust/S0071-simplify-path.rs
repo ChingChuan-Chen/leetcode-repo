@@ -8,31 +8,31 @@ Note that the returned canonical path must always begin with a slash /, and ther
  
 
 Example 1:
-Input: &quot;/home/&quot;
-Output: &quot;/home&quot;
+Input: "/home/"
+Output: "/home"
 Explanation: Note that there is no trailing slash after the last directory name.
 
 Example 2:
-Input: &quot;/../&quot;
-Output: &quot;/&quot;
+Input: "/../"
+Output: "/"
 Explanation: Going one level up from the root directory is a no-op, as the root level is the highest level you can go.
 
 Example 3:
-Input: &quot;/home//foo/&quot;
-Output: &quot;/home/foo&quot;
+Input: "/home//foo/"
+Output: "/home/foo"
 Explanation: In the canonical path, multiple consecutive slashes are replaced by a single one.
 
 Example 4:
-Input: &quot;/a/./b/../../c/&quot;
-Output: &quot;/c&quot;
+Input: "/a/./b/../../c/"
+Output: "/c"
 
 Example 5:
-Input: &quot;/a/../../b/../c//.//&quot;
-Output: &quot;/c&quot;
+Input: "/a/../../b/../c//.//"
+Output: "/c"
 
 Example 6:
-Input: &quot;/a//b////c/d//././/..&quot;
-Output: &quot;/a/b/c&quot;
+Input: "/a//b////c/d//././/.."
+Output: "/a/b/c"
 
 
 */

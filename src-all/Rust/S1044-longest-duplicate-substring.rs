@@ -1,17 +1,17 @@
 /*
 Given a string S, consider all duplicated substrings: (contiguous) substrings of S that occur 2 or more times.  (The occurrences may overlap.)
 
-Return any duplicated substring that has the longest possible length.  (If S does not have a duplicated substring, the answer is &quot;&quot;.)
+Return any duplicated substring that has the longest possible length.  (If S does not have a duplicated substring, the answer is "".)
 
  
 
 Example 1:
-Input: &quot;banana&quot;
-Output: &quot;ana&quot;
+Input: "banana"
+Output: "ana"
 
 Example 2:
-Input: &quot;abcd&quot;
-Output: &quot;&quot;
+Input: "abcd"
+Output: ""
 
  
 

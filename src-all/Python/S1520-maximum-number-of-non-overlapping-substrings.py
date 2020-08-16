@@ -10,23 +10,23 @@ Notice that you can return the substrings in any order.
 
  
 Example 1:
-Input: s = &quot;adefaddaccc&quot;
-Output: [&quot;e&quot;,&quot;f&quot;,&quot;ccc&quot;]
+Input: s = "adefaddaccc"
+Output: ["e","f","ccc"]
 Explanation: The following are all the possible substrings that meet the conditions:
 [
-  &quot;adefaddaccc&quot;
-  &quot;adefadda&quot;,
-  &quot;ef&quot;,
-  &quot;e&quot;,
-  &quot;f&quot;,
-  &quot;ccc&quot;,
+  "adefaddaccc"
+  "adefadda",
+  "ef",
+  "e",
+  "f",
+  "ccc",
 ]
-If we choose the first string, we cannot choose anything else and we&#39;d get only 1. If we choose &quot;adefadda&quot;, we are left with &quot;ccc&quot; which is the only one that doesn&#39;t overlap, thus obtaining 2 substrings. Notice also, that it&#39;s not optimal to choose &quot;ef&quot; since it can be split into two. Therefore, the optimal way is to choose [&quot;e&quot;,&quot;f&quot;,&quot;ccc&quot;] which gives us 3 substrings. No other solution of the same number of substrings exist.
+If we choose the first string, we cannot choose anything else and we&#39;d get only 1. If we choose "adefadda", we are left with "ccc" which is the only one that doesn&#39;t overlap, thus obtaining 2 substrings. Notice also, that it&#39;s not optimal to choose "ef" since it can be split into two. Therefore, the optimal way is to choose ["e","f","ccc"] which gives us 3 substrings. No other solution of the same number of substrings exist.
 
 Example 2:
-Input: s = &quot;abbaccd&quot;
-Output: [&quot;d&quot;,&quot;bb&quot;,&quot;cc&quot;]
-Explanation: Notice that while the set of substrings [&quot;d&quot;,&quot;abba&quot;,&quot;cc&quot;] also has length 3, it&#39;s considered incorrect since it has larger total length.
+Input: s = "abbaccd"
+Output: ["d","bb","cc"]
+Explanation: Notice that while the set of substrings ["d","abba","cc"] also has length 3, it&#39;s considered incorrect since it has larger total length.
 
  
 Constraints:

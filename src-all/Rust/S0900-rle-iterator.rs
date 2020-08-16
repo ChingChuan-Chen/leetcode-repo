@@ -5,12 +5,12 @@ The iterator is initialized by RLEIterator(int[] A), where A is a run-length enc
 
 The iterator supports one function: next(int n), which exhausts the next n elements (n >= 1) and returns the last element exhausted in this way.  If there is no element left to exhaust, next returns -1 instead.
 
-For example, we start with A = [3,8,0,9,2,5], which is a run-length encoding of the sequence [8,8,8,5,5].  This is because the sequence can be read as &quot;three eights, zero nines, two fives&quot;.
+For example, we start with A = [3,8,0,9,2,5], which is a run-length encoding of the sequence [8,8,8,5,5].  This is because the sequence can be read as "three eights, zero nines, two fives".
 
  
 
 Example 1:
-Input: [&quot;RLEIterator&quot;,&quot;next&quot;,&quot;next&quot;,&quot;next&quot;,&quot;next&quot;], [[[3,8,0,9,2,5]],[2],[1],[1],[2]]
+Input: ["RLEIterator","next","next","next","next"], [[[3,8,0,9,2,5]],[2],[1],[1],[2]]
 Output: [null,8,8,5,-1]
 Explanation: 
 RLEIterator is initialized with RLEIterator([3,8,0,9,2,5]).

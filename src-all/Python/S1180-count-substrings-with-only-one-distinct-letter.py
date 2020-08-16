@@ -3,17 +3,17 @@ Given a string S, return the number of substrings that have only one distinct le
 
  
 Example 1:
-Input: S = &quot;aaaba&quot;
+Input: S = "aaaba"
 Output: 8
-Explanation: The substrings with one distinct letter are &quot;aaa&quot;, &quot;aa&quot;, &quot;a&quot;, &quot;b&quot;.
-&quot;aaa&quot; occurs 1 time.
-&quot;aa&quot; occurs 2 times.
-&quot;a&quot; occurs 4 times.
-&quot;b&quot; occurs 1 time.
+Explanation: The substrings with one distinct letter are "aaa", "aa", "a", "b".
+"aaa" occurs 1 time.
+"aa" occurs 2 times.
+"a" occurs 4 times.
+"b" occurs 1 time.
 So the answer is 1 + 2 + 4 + 1 = 8.
 
 Example 2:
-Input: S = &quot;aaaaaaaaaa&quot;
+Input: S = "aaaaaaaaaa"
 Output: 55
 
  

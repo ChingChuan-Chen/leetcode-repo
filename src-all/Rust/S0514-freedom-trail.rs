@@ -1,5 +1,5 @@
 /*
-In the video game Fallout 4, the quest &quot;Road to Freedom&quot; requires players to reach a metal dial called the &quot;Freedom Trail Ring&quot;, and use the dial to spell a specific keyword in order to open the door.
+In the video game Fallout 4, the quest "Road to Freedom" requires players to reach a metal dial called the "Freedom Trail Ring", and use the dial to spell a specific keyword in order to open the door.
 
 Given a string ring, which represents the code engraved on the outer ring and another string key, which represents the keyword needs to be spelled. You need to find the minimum number of steps in order to spell all the characters in the keyword.
 
@@ -14,11 +14,11 @@ Example:
 
  
 
-Input: ring = &quot;godding&quot;, key = &quot;gd&quot;
+Input: ring = "godding", key = "gd"
 Output: 4
 Explanation:
 For the first key character &#39;g&#39;, since it is already in place, we just need 1 step to spell this character. 
-For the second key character &#39;d&#39;, we need to rotate the ring &quot;godding&quot; anticlockwise by two steps to make it become &quot;ddinggo&quot;.
+For the second key character &#39;d&#39;, we need to rotate the ring "godding" anticlockwise by two steps to make it become "ddinggo".
 Also, we need 1 more step for spelling.
 So the final output is 4.
 

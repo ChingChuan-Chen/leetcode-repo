@@ -15,30 +15,30 @@ Return the result string after sorting s with this algorithm.
 
  
 Example 1:
-Input: s = &quot;aaaabbbbcccc&quot;
-Output: &quot;abccbaabccba&quot;
-Explanation: After steps 1, 2 and 3 of the first iteration, result = &quot;abc&quot;
-After steps 4, 5 and 6 of the first iteration, result = &quot;abccba&quot;
-First iteration is done. Now s = &quot;aabbcc&quot; and we go back to step 1
-After steps 1, 2 and 3 of the second iteration, result = &quot;abccbaabc&quot;
-After steps 4, 5 and 6 of the second iteration, result = &quot;abccbaabccba&quot;
+Input: s = "aaaabbbbcccc"
+Output: "abccbaabccba"
+Explanation: After steps 1, 2 and 3 of the first iteration, result = "abc"
+After steps 4, 5 and 6 of the first iteration, result = "abccba"
+First iteration is done. Now s = "aabbcc" and we go back to step 1
+After steps 1, 2 and 3 of the second iteration, result = "abccbaabc"
+After steps 4, 5 and 6 of the second iteration, result = "abccbaabccba"
 
 Example 2:
-Input: s = &quot;rat&quot;
-Output: &quot;art&quot;
-Explanation: The word &quot;rat&quot; becomes &quot;art&quot; after re-ordering it with the mentioned algorithm.
+Input: s = "rat"
+Output: "art"
+Explanation: The word "rat" becomes "art" after re-ordering it with the mentioned algorithm.
 
 Example 3:
-Input: s = &quot;leetcode&quot;
-Output: &quot;cdelotee&quot;
+Input: s = "leetcode"
+Output: "cdelotee"
 
 Example 4:
-Input: s = &quot;ggggggg&quot;
-Output: &quot;ggggggg&quot;
+Input: s = "ggggggg"
+Output: "ggggggg"
 
 Example 5:
-Input: s = &quot;spo&quot;
-Output: &quot;ops&quot;
+Input: s = "spo"
+Output: "ops"
 
  
 Constraints:

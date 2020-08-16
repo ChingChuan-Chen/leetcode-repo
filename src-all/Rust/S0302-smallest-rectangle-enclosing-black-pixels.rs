@@ -5,9 +5,9 @@ Example:
 
 Input:
 [
-  &quot;0010&quot;,
-  &quot;0110&quot;,
-  &quot;0100&quot;
+  "0010",
+  "0110",
+  "0100"
 ]
 and x = 0, y = 2
 

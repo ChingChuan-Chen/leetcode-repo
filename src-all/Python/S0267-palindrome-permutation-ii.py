@@ -2,11 +2,11 @@
 Given a string s, return all the palindromic permutations (without duplicates) of it. Return an empty list if no palindromic permutation could be form.
 
 Example 1:
-Input: &quot;aabb&quot;
-Output: [&quot;abba&quot;, &quot;baab&quot;]
+Input: "aabb"
+Output: ["abba", "baab"]
 
 Example 2:
-Input: &quot;abc&quot;
+Input: "abc"
 Output: []
 
 """

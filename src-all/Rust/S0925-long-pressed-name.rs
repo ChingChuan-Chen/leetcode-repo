@@ -5,21 +5,21 @@ You examine the typed characters of the keyboard.  Return True if it is possible
 
  
 Example 1:
-Input: name = &quot;alex&quot;, typed = &quot;aaleex&quot;
+Input: name = "alex", typed = "aaleex"
 Output: true
 Explanation: &#39;a&#39; and &#39;e&#39; in &#39;alex&#39; were long pressed.
 
 Example 2:
-Input: name = &quot;saeed&quot;, typed = &quot;ssaaedd&quot;
+Input: name = "saeed", typed = "ssaaedd"
 Output: false
 Explanation: &#39;e&#39; must have been pressed twice, but it wasn&#39;t in the typed output.
 
 Example 3:
-Input: name = &quot;leelee&quot;, typed = &quot;lleeelee&quot;
+Input: name = "leelee", typed = "lleeelee"
 Output: true
 
 Example 4:
-Input: name = &quot;laiden&quot;, typed = &quot;laiden&quot;
+Input: name = "laiden", typed = "laiden"
 Output: true
 Explanation: It&#39;s not necessary to long press any character.
 

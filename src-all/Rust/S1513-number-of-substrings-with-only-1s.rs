@@ -7,25 +7,25 @@ Since the answer may be too large, return it modulo 10^9 + 7.
 
  
 Example 1:
-Input: s = &quot;0110111&quot;
+Input: s = "0110111"
 Output: 9
 Explanation: There are 9 substring in total with only 1&#39;s characters.
-&quot;1&quot; -> 5 times.
-&quot;11&quot; -> 3 times.
-&quot;111&quot; -> 1 time.
+"1" -> 5 times.
+"11" -> 3 times.
+"111" -> 1 time.
 
 Example 2:
-Input: s = &quot;101&quot;
+Input: s = "101"
 Output: 2
-Explanation: Substring &quot;1&quot; is shown 2 times in s.
+Explanation: Substring "1" is shown 2 times in s.
 
 Example 3:
-Input: s = &quot;111111&quot;
+Input: s = "111111"
 Output: 21
 Explanation: Each substring contains only 1&#39;s characters.
 
 Example 4:
-Input: s = &quot;000&quot;
+Input: s = "000"
 Output: 0
 
  

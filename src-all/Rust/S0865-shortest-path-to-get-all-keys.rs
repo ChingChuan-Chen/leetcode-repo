@@ -1,5 +1,5 @@
 /*
-We are given a 2-dimensional grid. &quot;.&quot; is an empty cell, &quot;#&quot; is a wall, &quot;@&quot; is the starting point, (&quot;a&quot;, &quot;b&quot;, ...) are keys, and (&quot;A&quot;, &quot;B&quot;, ...) are locks.
+We are given a 2-dimensional grid. "." is an empty cell, "#" is a wall, "@" is the starting point, ("a", "b", ...) are keys, and ("A", "B", ...) are locks.
 
 We start at the starting point, and one move consists of walking one space in one of the 4 cardinal directions.  We cannot walk outside the grid, or walk into a wall.  If we walk over a key, we pick it up.  We can&#39;t walk over a lock unless we have the corresponding key.
 
@@ -10,11 +10,11 @@ Return the lowest number of moves to acquire all keys.  If it&#39;s impossible, 
  
 
 Example 1:
-Input: [&quot;@.a.#&quot;,&quot;###.#&quot;,&quot;b.A.B&quot;]
+Input: ["@.a.#","###.#","b.A.B"]
 Output: 8
 
 Example 2:
-Input: [&quot;@..aA&quot;,&quot;..B#.&quot;,&quot;....b&quot;]
+Input: ["@..aA","..B#.","....b"]
 Output: 6
 
  

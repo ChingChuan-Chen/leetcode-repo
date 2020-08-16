@@ -9,21 +9,21 @@ It is guaranteed that the answer is unique.
 
  
 Example 1:
-Input: s = &quot;abcd&quot;, k = 2
-Output: &quot;abcd&quot;
+Input: s = "abcd", k = 2
+Output: "abcd"
 Explanation: There&#39;s nothing to delete.
 
 Example 2:
-Input: s = &quot;deeedbbcccbdaa&quot;, k = 3
-Output: &quot;aa&quot;
+Input: s = "deeedbbcccbdaa", k = 3
+Output: "aa"
 Explanation: 
-First delete &quot;eee&quot; and &quot;ccc&quot;, get &quot;ddbbbdaa&quot;
-Then delete &quot;bbb&quot;, get &quot;dddaa&quot;
-Finally delete &quot;ddd&quot;, get &quot;aa&quot;
+First delete "eee" and "ccc", get "ddbbbdaa"
+Then delete "bbb", get "dddaa"
+Finally delete "ddd", get "aa"
 
 Example 3:
-Input: s = &quot;pbbcggttciiippooaais&quot;, k = 2
-Output: &quot;ps&quot;
+Input: s = "pbbcggttciiippooaais", k = 2
+Output: "ps"
 
  
 Constraints:

@@ -26,7 +26,7 @@ Input: [1,2,3,4,5,6,7]
 Output: [[4],[2],[1,5,6],[3],[7]]
 Explanation: 
 The node with value 5 and the node with value 6 have the same position according to the given scheme.
-However, in the report &quot;[1,5,6]&quot;, the node value of 5 comes first since 5 is smaller than 6.
+However, in the report "[1,5,6]", the node value of 5 comes first since 5 is smaller than 6.
 
  
 

@@ -1,26 +1,26 @@
 /*
-Given a string S, return the &quot;reversed&quot; string where all characters that are not a letter stay in the same place, and all letters reverse their positions.
+Given a string S, return the "reversed" string where all characters that are not a letter stay in the same place, and all letters reverse their positions.
 
  
 
 Example 1:
-Input: &quot;ab-cd&quot;
-Output: &quot;dc-ba&quot;
+Input: "ab-cd"
+Output: "dc-ba"
 
 Example 2:
-Input: &quot;a-bC-dEf-ghIj&quot;
-Output: &quot;j-Ih-gfE-dCba&quot;
+Input: "a-bC-dEf-ghIj"
+Output: "j-Ih-gfE-dCba"
 
 Example 3:
-Input: &quot;Test1ng-Leet=code-Q!&quot;
-Output: &quot;Qedo1ct-eeLg=ntse-T!&quot;
+Input: "Test1ng-Leet=code-Q!"
+Output: "Qedo1ct-eeLg=ntse-T!"
 
  
 
 Note:
 	S.length <= 100
 	33 <= S[i].ASCIIcode <= 122 
-	S doesn&#39;t contain \ or &quot;
+	S doesn&#39;t contain \ or "
 
 
 */

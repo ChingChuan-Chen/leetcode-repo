@@ -6,13 +6,13 @@ We may assume that no string in A is substring of another string in A.
  
 
 Example 1:
-Input: [&quot;alex&quot;,&quot;loves&quot;,&quot;leetcode&quot;]
-Output: &quot;alexlovesleetcode&quot;
-Explanation: All permutations of &quot;alex&quot;,&quot;loves&quot;,&quot;leetcode&quot; would also be accepted.
+Input: ["alex","loves","leetcode"]
+Output: "alexlovesleetcode"
+Explanation: All permutations of "alex","loves","leetcode" would also be accepted.
 
 Example 2:
-Input: [&quot;catg&quot;,&quot;ctaagt&quot;,&quot;gcta&quot;,&quot;ttca&quot;,&quot;atgcatc&quot;]
-Output: &quot;gctaagttcatgcatc&quot;
+Input: ["catg","ctaagt","gcta","ttca","atgcatc"]
+Output: "gctaagttcatgcatc"
 
  
 

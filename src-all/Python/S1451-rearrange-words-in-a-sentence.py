@@ -10,24 +10,24 @@ Return the new text following the format shown above.
 
  
 Example 1:
-Input: text = &quot;Leetcode is cool&quot;
-Output: &quot;Is cool leetcode&quot;
-Explanation: There are 3 words, &quot;Leetcode&quot; of length 8, &quot;is&quot; of length 2 and &quot;cool&quot; of length 4.
+Input: text = "Leetcode is cool"
+Output: "Is cool leetcode"
+Explanation: There are 3 words, "Leetcode" of length 8, "is" of length 2 and "cool" of length 4.
 Output is ordered by length and the new first word starts with capital letter.
 
 Example 2:
-Input: text = &quot;Keep calm and code on&quot;
-Output: &quot;On and keep calm code&quot;
+Input: text = "Keep calm and code on"
+Output: "On and keep calm code"
 Explanation: Output is ordered as follows:
-&quot;On&quot; 2 letters.
-&quot;and&quot; 3 letters.
-&quot;keep&quot; 4 letters in case of tie order by position in original text.
-&quot;calm&quot; 4 letters.
-&quot;code&quot; 4 letters.
+"On" 2 letters.
+"and" 3 letters.
+"keep" 4 letters in case of tie order by position in original text.
+"calm" 4 letters.
+"code" 4 letters.
 
 Example 3:
-Input: text = &quot;To be or not to be&quot;
-Output: &quot;To be or to be not&quot;
+Input: text = "To be or not to be"
+Output: "To be or to be not"
 
  
 Constraints:

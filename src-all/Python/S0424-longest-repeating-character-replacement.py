@@ -10,7 +10,7 @@ Both the string&#39;s length and k will not exceed 104.
 
 Example 1:
 Input:
-s = &quot;ABAB&quot;, k = 2
+s = "ABAB", k = 2
 
 Output:
 4
@@ -22,14 +22,14 @@ Replace the two &#39;A&#39;s with two &#39;B&#39;s or vice versa.
 
 Example 2:
 Input:
-s = &quot;AABABBA&quot;, k = 1
+s = "AABABBA", k = 1
 
 Output:
 4
 
 Explanation:
-Replace the one &#39;A&#39; in the middle with &#39;B&#39; and form &quot;AABBBBA&quot;.
-The substring &quot;BBBB&quot; has the longest repeating letters, which is 4.
+Replace the one &#39;A&#39; in the middle with &#39;B&#39; and form "AABBBBA".
+The substring "BBBB" has the longest repeating letters, which is 4.
 
  
 
