@@ -55,7 +55,7 @@ The full list please check [README-all-list.md](./README-all-list.md).
 | Design | 0151| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Rust](./Rust/S0151-reverse-words-in-a-string.rs)  [Python](./Python/S0151-reverse-words-in-a-string.py) | _O(n)_ | _O(1)_ | Medium         || 
 | Math | 0412| [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Rust](./Rust/S0412-fizz-buzz.rs) [Python](./Python/S0412-fizz-buzz.py)  | _O(n)_ |  _O(1)_ | Easy         ||| 
 | Math | 0204| [Count Primes](https://leetcode.com/problems/count-primes/)  | [Rust](./Rust/S0204-count-primes.rs) [Python](./Python/S0204-count-primes.py) | _O(n)_        | _O(n)_          | Easy           || 
-| Math | 0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [Rust](./Rust/S0326-power-of-three.rs) [Python](./Python/SN0326-power-of-three.py) | _O(1)_ | _O(1)_ | Easy ||| 
+| Math | 0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | [Rust](./Rust/S0326-power-of-three.rs) [Python](./Python/S0326-power-of-three.py) | _O(1)_ | _O(1)_ | Easy ||| 
 | Math | 0013| [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Rust](./Rust/S0013-roman-to-integer.rs) [Python](./Python/S0013-roman-to-integer.py) | _O(n)_ | _O(1)_          | Easy           || 
 | Others | 0191  |[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [Rust](./Rust/S0191-number-of-1-bits.rs) [Python](./Python/S0191-number-of-1-bits.py) | _O(1)_ | _O(1)_          | Easy           ||| 
 | Others | 0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [Rust](./Rust/S0461-hamming-distance.rs) [Python](./Python/S0461-hamming-distance.py) | _O(1)_ | _O(1)_ | Easy || 
