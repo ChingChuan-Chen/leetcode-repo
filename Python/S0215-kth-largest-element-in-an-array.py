@@ -16,10 +16,30 @@ You may assume k is always valid, 1 <= k <= array's length.
 from typing import List
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
-        
-        pass
+        left, right = 0, len(nums)-1
+        while True:
+            pivot = nums[left]
+            l = left+1
+            r = right
+            while l <= r:
+                if nums[l] < pivot < nums[r]:
+                    nums[l], nums[r] = nums[r], nums[l]
+                    l += 1
+                    r -= 1
+                if nums[l] >= pivot:
+                    l += 1
+                if nums[r] <= pivot:
+                    r -= 1
+            nums[left], nums[r] = nums[r], nums[left]
 
+            if r == k-1:
+                return nums[r]
+            if r > k-1:
+                right = r - 1
+            else:
+                left = r + 1
 
 if __name__ == '__main__':
-    assert Solution().findKthLargest(0) == 0
+    assert Solution().findKthLargest([3, 2, 1, 5, 6, 4], 2) == 5
+    assert Solution().findKthLargest([3, 2, 3, 1, 2, 4, 5, 5, 6], 4) == 4
 
