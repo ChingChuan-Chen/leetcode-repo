@@ -37,32 +37,44 @@ Output:
 []
 
 """
+from collections import Counter
 from typing import List
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:
+        if Counter(s).keys() > Counter("".join(wordDict)).keys():
+            return []
+
         wordDictSet = set(wordDict)
-        n = len(s)
+        dp = [[]] * (len(s) + 1)
+        dp[0] = [[0]]
+
+        for j in range(1, len(s) + 1):
+            stops = []
+            for i in range(0, j):
+                if s[i:j] in wordDictSet:
+                    stops.append([i, j])
+            dp[j] = stops
 
         res = []
-        def dfs(idx: int, result: List[str]):
-            if idx == n:
-                res.append(" ".join(result))
+        def dfs(path, dp_index):
+            if dp_index == 0:
+                res.append(" ".join(path))
                 return
-            for j in range(idx, n+1):
-                if s[idx:j] in wordDictSet:
-                    result.append(s[idx:j])
-                    dfs(j, result)
-                    result.pop()
-        dfs(0, [])
+            for i, j in dp[dp_index]:
+                dfs([s[i:j]] + path, i)
+        dfs([], len(s))
         return res
-
 
 if __name__ == '__main__':
     assert Solution().wordBreak("catsanddog", ["cat", "cats", "and", "sand", "dog"]) == \
            ["cat sand dog", "cats and dog"]
+    assert Solution().wordBreak("aaaaaa", ["aa", "aaa", "aaaa", "aaaaa"]) == \
+           ['aa aaaa', 'aaa aaa', 'aaaa aa', 'aa aa aa']
+    assert Solution().wordBreak("aaaaaaa", ["aa", "aaa", "aaaa", "aaaaa"]) == \
+           ['aa aaaaa', 'aaa aaaa', 'aaaa aaa', 'aa aa aaa', 'aaaaa aa', 'aa aaa aa', 'aaa aa aa']
     assert Solution().wordBreak("pineapplepenapple",
                                 ["apple", "pen", "applepen", "pine", "pineapple"]) == \
-           ["pine apple pen apple", "pine applepen apple", "pineapple pen apple"]
+           ["pine applepen apple", "pineapple pen apple", "pine apple pen apple"]
     assert Solution().wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"]) == []
 
     string = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
