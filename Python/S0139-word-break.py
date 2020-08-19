@@ -28,11 +28,11 @@ class Solution:
         n = len(s)
         dp = [False] * (n + 1)
         dp[0] = True
-        for i in range(0, n+1):
-            for j in range(0, i):
-                # split s[:i] into s[:j] and s[j:i]
-                if dp[j] and s[j:i] in wordDictSet:
-                    dp[i] = True
+        for j in range(0, n+1):
+            for i in range(0, j):
+                # split s[:j] into s[:i] and s[i:j]
+                if dp[i] and s[i:j] in wordDictSet:
+                    dp[j] = True
         return dp[n]
 
 
