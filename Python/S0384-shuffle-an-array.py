@@ -16,28 +16,32 @@ solution.reset();
 // Returns the random shuffling of array [1,2,3].
 solution.shuffle();
 """
+import random
 from typing import List
 class Solution:
 
     def __init__(self, nums: List[int]):
-        pass
+        self.nums = nums
         
 
     def reset(self) -> List[int]:
         """
         Resets the array to its original configuration and return it.
         """
-        pass
+        return self.nums
 
     def shuffle(self) -> List[int]:
         """
         Returns a random shuffling of the array.
         """
-        pass
+        self.array = self.nums.copy()
+        for i in range(len(self.array)):
+            swap_idx = random.randint(0, len(self.array)-1)
+            self.array[i], self.array[swap_idx] = self.array[swap_idx], self.array[i]
+        return self.array
 
-
-# param_2 = obj.shuffle()
 
 if __name__ == '__main__':
-    assert Solution().shuffle(0) == 0
-
+    obj = Solution([1, 2, 3])
+    assert obj.reset() == [1, 2, 3]
+    obj.shuffle()

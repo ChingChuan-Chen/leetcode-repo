@@ -33,6 +33,7 @@ class Solution:
             p -= 1
         nums1[:p2 + 1] = nums2[:p2 + 1]
 
+
 if __name__ == '__main__':
     nums1 = [1, 2, 3, 0, 0, 0]
     Solution().merge(nums1, 3, [2, 5, 6], 3)
