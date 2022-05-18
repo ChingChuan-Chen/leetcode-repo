@@ -5,15 +5,15 @@ library(httr)
 readme_md_file <- "README-all-list.md"
 if (readme_md_file == "README.md") {
   md <- readLines(readme_md_file) %>>%
-    str_extract_all("\\(((https|\\./Python|\\./Rust)[^)]+)\\)", simplify = TRUE)
+    str_extract_all("\\(((https|\\./Python|\\./C++|\\./Rust)[^)]+)\\)", simplify = TRUE)
 } else if (readme_md_file == "README-all-list.md") {
   md <- readLines(readme_md_file) %>>%
-    str_extract_all("\\(((https|\\./src-all/Python|\\./src-all/Rust)[^)]+)\\)", simplify = TRUE)
+    str_extract_all("\\(((https|\\./src-all/Python|\\./src-all/C++|\\./src-all/Rust)[^)]+)\\)", simplify = TRUE)
 } else {
   stop("no such readme file!")
 }
 
-md <- md[md[,1] != "" & md[,3] != "", 1:3]
+md <- md[md[,1] != "" & md[,3] != "" & md[,4] != "", 1:4]
 
 agent_name <- "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0"
 question_data_url <- "https://leetcode.com/graphql"
@@ -102,6 +102,39 @@ get_question <- function(title) {
   )
 }
 
+cpp_header <- '#include <cassert>
+#include <iostream>'
+
+cpp_main <- 'int main() {
+  Solution sol;
+  assert(sol.%s0) == 0);
+  std::cout << "Pass test cases!" << std::endl;
+}'
+
+listnode_cpp <- 'struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};'
+
+tree_cpp <- 'struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+};'
+
+point_cpp <- 'struct Point {
+    int x;
+    int y;
+    Point() : x(0), y(0) {}
+    Point(int a, int b) : x(a), y(b) {}
+};'
+
 rs_main <- 'fn main() {
   assert_eq!(0, Solution::%s0));
   println!("Pass test cases!");
@@ -178,7 +211,7 @@ pub fn to_tree(vec: Vec<Option<i32>>) -> Option<Rc<RefCell<TreeNode>>> {
     head
 }"
 
-pointe_rs <- '
+point_rs <- '
 #[derive(Debug, PartialEq, Eq)]
 pub struct Point {
     pub x: i32,
@@ -236,17 +269,12 @@ class Point(object):
 
 for (i in 1L:nrow(md)) {
   rsfile <- str_sub(md[i,2], 2L, -2L)
-  if (!file.exists(rsfile)) {
-    write("", rsfile)
-  }
   pyfile <- str_sub(md[i,3], 2L, -2L)
-  if (!file.exists(pyfile)) {
-    write("", pyfile)
-  }
-  if ((file.size(rsfile) > 2) && (file.size(pyfile) > 2)) {
+  cppfile <- str_sub(md[i,4], 2L, -2L)
+  if (file.exists(rsfile) && file.exists(pyfile) && file.exists(cppfile)) {
     next
   }
-  
+
   question_title <- str_extract(md[i, 1], "/([^/]+)/\\)$") %>>% str_sub(2L, -3L)
   response <- get_question(question_title) 
   question_desc <- content(response)$data$question$content %>>% 
@@ -264,8 +292,18 @@ for (i in 1L:nrow(md)) {
     next
   }
   code_snippets <- do.call(rbind, content(response)$data$question$codeSnippets)
+  
+  if (!file.exists(rsfile)) {
+    write("", rsfile)
+  }
+  if (!file.exists(pyfile)) {
+    write("", pyfile)
+  }
+  if (!file.exists(cppfile)) {
+    write("", cppfile)
+  }
 
-  if (file.size(rsfile) == 2) {
+  if (file.size(rsfile) <= 2) {
     write("/*", rsfile)
     write(question_desc, rsfile, append=TRUE)
     write("*/", rsfile, append=TRUE)
@@ -290,7 +328,7 @@ for (i in 1L:nrow(md)) {
     }
   }
   
-  if (file.size(pyfile) == 2) {
+  if (file.size(pyfile) <= 2) {
     write('"""', pyfile)
     write(question_desc, pyfile, append=TRUE)
     write('"""', pyfile, append=TRUE)
@@ -315,6 +353,37 @@ for (i in 1L:nrow(md)) {
       write(sprintf(py_main, main_name), pyfile, append=TRUE)
     }
   }
+  
+  if (file.size(cppfile) <= 2) {
+    write('/*', cppfile)
+    write(question_desc, cppfile, append=TRUE)
+    write('*/', cppfile, append=TRUE)
+    if (any(code_snippets[,1]=="C++")) {
+      code <- code_snippets[code_snippets[,1]=="C++", 3L]$code %>>%
+        str_replace_all("#([^\n]+)\n", "")
+      need_header <- str_detect(code, "Point|ListNode|TreeNode")
+      if (need_header) {
+        if (str_detect(code, "ListNode"))
+          write(listnode_py, cppfile, append=TRUE)
+        if (str_detect(code, "TreeNode"))
+          write(tree_py, cppfile, append=TRUE)
+        if (str_detect(code, "Point"))
+          write(point_py, cppfile, append=TRUE)
+      }
+      write(cpp_header, cppfile, append=TRUE)
+      write("", cppfile, append = TRUE)
+      write(code, cppfile, append=TRUE)
+      write("", cppfile, append = TRUE)
+      main_name <- str_extract(code, "\\w+\\(")
+      write(sprintf(cpp_main, main_name), cppfile, append=TRUE)
+    }
+  }
   Sys.sleep(1)
+}
+
+for (f in list.files(".", recursive = TRUE, full.names = TRUE)) {
+  if (file.size(f) <= 2) {
+    file.remove(f)
+  }
 }
 
