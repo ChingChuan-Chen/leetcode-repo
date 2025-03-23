@@ -11,17 +11,23 @@ Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 Output: 7 -> 0 -> 8
 Explanation: 342 + 465 = 807.
 """
+
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
 
+
 from typing import List
+
+
 def from_list(vals: List[int]) -> ListNode:
     current = None
     for x in vals[::-1]:
         current = ListNode(x, current)
     return current
+
 
 def to_list(list_node: ListNode) -> List[int]:
     vals = []
@@ -29,6 +35,7 @@ def to_list(list_node: ListNode) -> List[int]:
         vals.append(list_node.val)
         list_node = list_node.next
     return vals
+
 
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
@@ -47,9 +54,9 @@ class Solution:
             l2 = l2.next if l2 else None
         return dummy_head.next
 
+
 if __name__ == '__main__':
     assert to_list(Solution().addTwoNumbers(from_list([2, 4, 3]), from_list([5, 6, 4]))) == [7, 0, 8]
     assert to_list(Solution().addTwoNumbers(from_list([3, 4]), from_list([4, 6]))) == [7, 0, 1]
     assert to_list(Solution().addTwoNumbers(from_list([9, 9, 9, 9]), from_list([9, 9, 9, 9, 9, 9]))) == [8, 9, 9, 9, 0, 0, 1]
     assert to_list(Solution().addTwoNumbers(from_list([0]), from_list([0]))) == [0]
-

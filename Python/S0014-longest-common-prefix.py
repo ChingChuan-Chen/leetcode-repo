@@ -17,6 +17,8 @@ All given inputs are in lowercase letters a-z.
 
 """
 from typing import List
+
+
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         if len(strs) == 0:
@@ -50,10 +52,11 @@ class Solution:
                     break
         return lcp[:i]
 
+
 if __name__ == '__main__':
     assert Solution().longestCommonPrefix(["flower", "flow", "flight"]) == "fl"
     assert Solution().longestCommonPrefix(["flower", "flowery", "flow"]) == "flow"
     assert Solution().longestCommonPrefix(["dog", "racecar", "car"]) == ""
     assert Solution().longestCommonPrefix(["carerr", "car"]) == "car"
+    assert Solution().longestCommonPrefix(["carerr", "car", "example"]) == ""
     assert Solution().longestCommonPrefix([]) == ""
-

@@ -21,13 +21,15 @@ Follow up:
 Could you do it without using any loop / recursion?
 """
 import math
+
+
 class Solution:
     def isPowerOfThree(self, n: int) -> bool:
         if n <= 0:
             return False
         x = math.log(n) / math.log(3)
         epsilon = 1e-10
-        return (x+epsilon) % 1 <= 2*epsilon
+        return (x + epsilon) % 1 <= 2 * epsilon
 
 
 if __name__ == '__main__':

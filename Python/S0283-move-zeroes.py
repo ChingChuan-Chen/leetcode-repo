@@ -8,10 +8,12 @@ Example:
 
 Note:
  You must do this in-place without making a copy of the array.
- Minimize the total number of operations. 
+ Minimize the total number of operations.
 """
 
 from typing import List
+
+
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         j = 0
@@ -19,6 +21,7 @@ class Solution:
             if nums[i] > 0 or nums[i] < 0:
                 nums[i], nums[j] = nums[j], nums[i]
                 j += 1
+
 
 if __name__ == '__main__':
     nums = [0, 1, 0, 3, 12]

@@ -10,7 +10,7 @@ Example 1:
  Input: [1,2,3]
  Output: [1,2,4]
  Explanation: The array represents the integer 123.
- 
+
 Example 2:
  Input: [4,3,2,1]
  Output: [4,3,2,2]
@@ -18,21 +18,26 @@ Example 2:
 """
 
 from typing import List
+
+
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         carry = True
-        for i in range(len(digits)-1, -1, -1):
+        for i in range(len(digits) - 1, -1, -1):
             if carry:
                 digits[i] += 1
                 carry = False
+
             if digits[i] > 9:
                 digits[i] -= 10
                 carry = True
             else:
                 break
+
         if carry:
             digits.insert(0, 1)
         return digits
+
 
 if __name__ == '__main__':
     assert Solution().plusOne([1, 2, 3]) == [1, 2, 4]

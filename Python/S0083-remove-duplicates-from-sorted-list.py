@@ -11,17 +11,23 @@ Example 2:
 """
 
 # Definition for singly-linked list.
+
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
 
+
 from typing import List
+
+
 def from_list(vals: List[int]) -> ListNode:
     current = None
     for x in vals[::-1]:
         current = ListNode(x, current)
     return current
+
 
 def to_list(list_node: ListNode) -> List[int]:
     vals = []
@@ -29,6 +35,7 @@ def to_list(list_node: ListNode) -> List[int]:
         vals.append(list_node.val)
         list_node = list_node.next
     return vals
+
 
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
@@ -45,6 +52,7 @@ class Solution:
                 next_node = cur.next
         cur.next = None
         return head
+
 
 if __name__ == '__main__':
     assert to_list(Solution().deleteDuplicates(from_list([1, 1, 2]))) == [1, 2]

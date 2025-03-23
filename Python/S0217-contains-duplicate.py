@@ -1,5 +1,5 @@
 """
-Given an array of integers, find if the array contains any duplicates. 
+Given an array of integers, find if the array contains any duplicates.
 
 Your function should return true if any value appears at least twice in the array,
 and it should return false if every element is distinct.
@@ -18,6 +18,8 @@ Example 3:
 """
 
 from typing import List
+
+
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         nums_set = set()
@@ -27,6 +29,7 @@ class Solution:
             else:
                 nums_set.add(num)
         return False
+
 
 if __name__ == '__main__':
     assert Solution().containsDuplicate([1, 2, 3, 1]) == True

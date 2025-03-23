@@ -14,17 +14,22 @@ Could you do it in O(n) time and O(1) space?
 
 """
 
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
 
+
 from typing import List
+
+
 def from_list(vals: List[int]) -> ListNode:
     current = None
     for x in vals[::-1]:
         current = ListNode(x, current)
     return current
+
 
 def to_list(list_node: ListNode) -> List[int]:
     vals = []
@@ -33,12 +38,11 @@ def to_list(list_node: ListNode) -> List[int]:
         list_node = list_node.next
     return vals
 
+
 class Solution:
     def isPalindrome(self, head: ListNode) -> bool:
-        
         pass
 
 
 if __name__ == '__main__':
     assert Solution().isPalindrome(0) == 0
-

@@ -7,7 +7,6 @@ if two adjacent houses were broken into on the same night.
 Given a list of non-negative integers representing the amount of money of each house,
 determine the maximum amount of money you can rob tonight without alerting the police.
 
- 
 Example 1:
 Input: nums = [1,2,3,1]
 Output: 4
@@ -25,6 +24,8 @@ Constraints:
 	0 <= nums[i] <= 400
 """
 from typing import List
+
+
 class Solution:
     def rob(self, nums: List[int]) -> int:
         if len(nums) <= 1:
@@ -35,10 +36,10 @@ class Solution:
         dp[1] = max(nums[0], nums[1])
 
         for i in range(2, len(nums)):
-            dp[i] = max(dp[i-1], dp[i-2]+nums[i])
-        return dp[len(nums)-1]
+            dp[i] = max(dp[i - 1], dp[i - 2] + nums[i])
+        return dp[len(nums) - 1]
 
 
 if __name__ == '__main__':
-    assert Solution().rob([1,2,3,1]) == 4
+    assert Solution().rob([1, 2, 3, 1]) == 4
     assert Solution().rob([2, 7, 9, 3, 1]) == 12

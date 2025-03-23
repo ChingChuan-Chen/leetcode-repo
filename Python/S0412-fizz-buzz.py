@@ -26,19 +26,21 @@ Return:
 ]
 """
 from typing import List
+
+
 class Solution:
     def fizzBuzz(self, n: int) -> List[str]:
         output = [""] * n
         for i, s in enumerate(output):
             not_3, not_5 = True, True
-            if (i+1) % 3 == 0:
+            if (i + 1) % 3 == 0:
                 output[i] += "Fizz"
                 not_3 = False
-            if (i+1) % 5 == 0:
+            if (i + 1) % 5 == 0:
                 output[i] += "Buzz"
                 not_5 = False
             if not_3 and not_5:
-                output[i] = str(i+1)
+                output[i] = str(i + 1)
         return output
 
 
@@ -60,4 +62,3 @@ if __name__ == '__main__':
         "14",
         "FizzBuzz"
     ]
-

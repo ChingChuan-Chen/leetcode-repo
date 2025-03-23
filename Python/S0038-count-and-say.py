@@ -29,25 +29,28 @@ Explanation: For n = 3 the term was "21" in which we have two groups "2" and "1"
 "2" can be read as "12" which means frequency = 1 and value = 2,
 the same way "1" is read as "11", so the answer is the concatenation of "12" and "11" which is "1211".
 """
+
+
 class Solution:
     def countAndSay(self, n: int) -> str:
         out = "1"
         if n == 1:
             return out
-        for i in range(2, n+1):
+        for _ in range(2, n + 1):
             cur = out[0]
             count = 0
             pre = out
             out = ""
-            for j in range(len(pre)):
-                if pre[j] == cur:
+            for _, p in enumerate(pre):
+                if p == cur:
                     count += 1
                 else:
                     out += f"{count}{cur}"
                     count = 1
-                    cur = pre[j]
+                    cur = p
             out += f"{count}{cur}"
         return out
+
 
 if __name__ == '__main__':
     assert Solution().countAndSay(1) == "1"
@@ -56,3 +59,5 @@ if __name__ == '__main__':
     assert Solution().countAndSay(4) == "1211"
     assert Solution().countAndSay(5) == "111221"
     assert Solution().countAndSay(6) == "312211"
+    assert Solution().countAndSay(7) == "13112221"
+    assert Solution().countAndSay(8) == "1113213211"

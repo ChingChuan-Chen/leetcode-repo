@@ -20,15 +20,16 @@ Explanation: There are three ways to climb to the top.
 
 Constraints:
 	1 <= n <= 45
-
 """
+
+
 class Solution:
     def climbStairs(self, n: int) -> int:
         arr = [1, 2]
         if n >= 3:
             for i in range(2, n):
-                arr.append(arr[i-2] + arr[i-1])
-        return arr[n-1]
+                arr.append(arr[i - 2] + arr[i - 1])
+        return arr[n - 1]
 
 
 if __name__ == '__main__':
@@ -38,3 +39,5 @@ if __name__ == '__main__':
     assert Solution().climbStairs(4) == 5
     assert Solution().climbStairs(5) == 8
     assert Solution().climbStairs(6) == 13
+    assert Solution().climbStairs(7) == 21
+    assert Solution().climbStairs(8) == 34

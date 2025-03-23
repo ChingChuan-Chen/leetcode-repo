@@ -23,14 +23,16 @@ Note:
 Follow up:
 For C programmers, try to solve it in-place in O(1) extra space.
 """
+
+
 class Solution:
     def reverseWords(self, s: str) -> str:
         out_str = ""
         start_idx = -1
-        for i in range(0, len(s)):
-            if s[i] != " " and start_idx == -1:
+        for i, c in enumerate(s):
+            if c != " " and start_idx == -1:
                 start_idx = i
-            elif s[i] == " " and start_idx >= 0:
+            elif c == " " and start_idx >= 0:
                 out_str = s[start_idx:i] + " " + out_str
                 start_idx = -1
         # for the last word
@@ -39,7 +41,7 @@ class Solution:
         # for the last single word
         if s[-1] != " " and start_idx == -1:
             out_str = s[-1] + " " + out_str
-        return out_str[:len(out_str)-1]
+        return out_str[:len(out_str) - 1]
 
 
 if __name__ == '__main__':

@@ -5,11 +5,11 @@ However, there is a non-negative integer n that represents the cooldown period b
 
 You need to return the least number of units of times that the CPU will take to finish all the given tasks.
 
- 
+
 Example 1:
 Input: tasks = ["A","A","A","B","B","B"], n = 2
 Output: 8
-Explanation: 
+Explanation:
 A -> B -> idle -> A -> B -> idle -> A -> B
 There is at least 2 units of time between any two same tasks.
 
@@ -26,11 +26,11 @@ And so on.
 Example 3:
 Input: tasks = ["A","A","A","A","A","A","B","C","D","E","F","G"], n = 2
 Output: 16
-Explanation: 
+Explanation:
 One possible solution is
 A -> B -> C -> A -> D -> E -> A -> F -> G -> A -> idle -> idle -> A -> idle -> idle -> A
 
- 
+
 Constraints:
 	The number of tasks is in the range [1, 10000].
 	The integer n is in the range [0, 100].
@@ -38,12 +38,13 @@ Constraints:
 
 """
 from typing import List
+
+
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
-        
+
         pass
 
 
 if __name__ == '__main__':
     assert Solution().leastInterval(0) == 0
-

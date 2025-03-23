@@ -20,6 +20,7 @@ call isBadVersion(4) -> true
 Then 4 is the first bad version.
 """
 
+
 def isBadVersion(version):
     if version >= 12:
         raise Exception("Must be less than 6")

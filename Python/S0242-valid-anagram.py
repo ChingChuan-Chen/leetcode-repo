@@ -14,8 +14,9 @@ You may assume the string contains only lowercase alphabets.
 
 Follow up:
 What if the inputs contain unicode characters? How would you adapt your solution to such case?
-
 """
+
+
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
@@ -30,10 +31,12 @@ class Solution:
                 return False
         return True
 
+
 if __name__ == '__main__':
     assert Solution().isAnagram("anagram", "nagaram") == True
     assert Solution().isAnagram("rat", "car") == False
+    assert Solution().isAnagram("rat", "tar") == True
     assert Solution().isAnagram("rat", "") == False
     assert Solution().isAnagram("", "car") == False
-    assert Solution().isAnagram("a", "ab") == False
+    assert Solution().isAnagram("ba", "ab") == True
     assert Solution().isAnagram("ab", "a") == False
